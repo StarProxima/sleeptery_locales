@@ -1,4 +1,4 @@
-test: Тест $name
+test: Тест (Remote) $name
 
 today: сегодня
 yesterday: вчера
