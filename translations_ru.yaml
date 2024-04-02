@@ -1,0 +1,96 @@
+test: Тест $name
+
+today: сегодня
+yesterday: вчера
+tomorrow: завтра
+
+pillowsReason:
+  sleep: Вознаграждение за ночь
+  challenge: Челлендж
+  referral: Вознаграждение за реферала
+  ticketsExchange: Обмен подушек на билеты
+  quiz: Вознаграждение за совет
+  expiration: Сгорание подушек
+  regularTournament: Турнир
+  diary: Дневник сна
+  unknown: Неизвестно
+
+
+fixValidationErrors(param=errorsCount):
+  one: Исправьте $errorsCount ошибку
+  two: Исправьте $errorsCount ошибки
+  few: Исправьте $errorsCount ошибки
+  many: Исправьте $errorsCount ошибок
+  other: Исправьте $errorsCount ошибок
+
+sleepScoreType:
+  none: Подушки не начислены
+  enough: Будет не просто, но ты держись...
+  nice: Приемлемо поспали
+  good: Сегодня прям хорошо
+  great: Супер ночка, просто вау!!!
+
+shared:
+  nights:
+    zero: $n ночей
+    one: $n ночь
+    two: $n ночи
+    few: $n ночи
+    many: $n ночей
+    other: $n ночей
+
+sleepContinuity:
+  numNightsInRow: '@:shared.nights подряд'
+
+sleepStatistics:
+  nightsWithTracker: '@:shared.nights с трекером'
+
+article:
+  quiz:
+    attemptsAreOver: Попытки закончились, приходите завтра
+    remainingAttempts:
+      zero: У вас $n попыток
+      one: У вас $n попытка
+      two: У вас $n попытки
+      few: У вас $n попытки
+      many: У вас $n попыток
+      other: У вас $n попыток
+  
+raffle:
+  ticketsPrice:
+    zero: $n подушек
+    one: $n подушка
+    two: $n подушки
+    few: $n подушки
+    many: $n подушек
+    other: $n подушек
+  ticketsCount:
+    zero: $n билетов
+    one: $n билет
+    two: $n билета
+    few: $n билета
+    many: $n билетов
+    other: $n билетов
+  days:
+    zero: $n дней
+    one: $n день
+    two: $n дня
+    few: $n дня
+    many: $n дней
+    other: $n дней
+  ticketsComplete:
+    zero: Вам начислено $n билетов
+    one: Вам начислен $n билет
+    two: Вам начислено $n билета
+    few: Вам начислено $n билета
+    many: Вам начислено $n билетов
+    other: Вам начислено $n билетов
+
+diary:
+  daysInRow:
+    zero: $n дней подряд
+    one: $n день подряд
+    two: $n дня подряд
+    few: $n дня подряд
+    many: $n дней подряд
+    other: $n дней подряд
