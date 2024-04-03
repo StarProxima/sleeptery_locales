@@ -1,4 +1,4 @@
-test: Remote Test $name
+test: Test $name
 
 today: сегодня
 yesterday: вчера
