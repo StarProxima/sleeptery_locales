@@ -1,4 +1,4 @@
-test: Test $name
+test: Test New $name
 
 today: сегодня
 yesterday: вчера
