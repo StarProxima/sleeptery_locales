@@ -94,6 +94,17 @@ diary:
     few: $n дня подряд
     many: $n дней подряд
     other: $n дней подряд
+  homeRating(interface=DiaryHomeRating):
+    - title: Сегодня ляг пораньше
+      button: Дотяну как-нибудь
+    - title: Ну ты держись там
+      button: Буду стараться
+    - title: Не все так плохо
+      button: Справимся
+    - title: Хороший будет день
+      button: Не сомневаюсь
+    - title: Время свернуть горы
+      button: Это точно
 
 onboarding:
   skip: Пропустить
