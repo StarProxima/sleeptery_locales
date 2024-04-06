@@ -4,7 +4,7 @@ today: сегодня
 yesterday: вчера
 tomorrow: завтра
 
-pillowsReason:
+pillowsReason(context=Reasons):
   sleep: Вознаграждение за ночь
   challenge: Челлендж
   referral: Вознаграждение за реферала
@@ -13,7 +13,7 @@ pillowsReason:
   expiration: Сгорание подушек
   regularTournament: Турнир
   diary: Дневник сна
-  unknown: Неизвестно
+  $unknown: Неизвестно
 
 
 fixValidationErrors(param=errorsCount):
@@ -23,12 +23,19 @@ fixValidationErrors(param=errorsCount):
   many: Исправьте $errorsCount ошибок
   other: Исправьте $errorsCount ошибок
 
-sleepScoreType:
-  none: Подушки не начислены
-  enough: Будет не просто, но ты держись...
-  nice: Приемлемо поспали
-  good: Сегодня прям хорошо
-  great: Супер ночка, просто вау!!!
+sleepScoreType(map):
+  0: Подушки не начислены
+  9: Кажется, кто-то перепутал ночь с днем
+  19: Ну, хоть глаза закрыли...
+  29: Повернись на другой бок и попробуй снова
+  39: Ещё не время для бодрствования
+  49: Не самая лучшая ночь, но и не худшая
+  59: Будет не просто, но ты держись...
+  69: Приемлемо поспали
+  79: Неплохо, но можешь лучше
+  89: Сегодня прям хорошо
+  99: Почти идеально, отдохнул на славу
+  100: Супер ночка, просто вау!!!
 
 shared:
   nights:
