@@ -48,6 +48,8 @@ shared:
 
 sleepContinuity:
   numNightsInRow: '@:shared.nights подряд'
+  qualitativeTime: $n качественного сна
+  sleepTime: Всего $n часов во сне
 
 sleepStatistics:
   nightsWithTracker: '@:shared.nights с трекером'
@@ -134,6 +136,227 @@ bottomSheets:
     sleepItem: Показывать, когда тебе лучше всего засыпать, чтобы высыпаться
     visualItem: Показывать, когда тебе лучше всего засыпать, чтобы высыпаться
     buttonText: Дать доступ к данным о сну
+
+  beta:
+    title: Beta-версия
+    subtitle: Всем привет. Это версия beta, здесь еще могут появляться ошибки и будет очень здорово если вы нам будете сообщать о них)\n\nХоть это и Beta - призы в розыгрышах реальные, но о них расскажем чуть позже…
+    buttonText: Понятно
+
+  deleteDevice:
+    title: Вы действительно хотите\nудалить устройство?
+    buttonText: Удалить
+    secondaryButtonText: Оставить устройство
+
+  pillowsForActivity:
+    title: Подушки за активности
+    subtitle: "Эти подушки не сгорают и навсегда остаются с вами. Они начисляются за все активности, кроме сна: читайте совет дня, приглашайте друзей, участвуйте в челленджах.\n\nПодушки за сон и за активности суммируются."
+    buttonText: Понятно
+
+  pillowsForSleep:
+    title: Подушки за сон
+    subtitle: Когда вы спите с трекером, вам начисляются подушки. Потратьте их, как можно скорее, потому что они сгоряют каждый понедельник в 15:00
+    buttonText: Понятно
+
+  completeQuiz:
+    title: Вы получаете
+    subtitle: Читайте советы каждый день и получайте подушки
+    buttonText: Вернуться в библиотеку
+
+  rafflePrize:
+    subtitle: Подробнее на сайте производителя
+    buttonText: Понятно
+
+  exchangePillowsForTickets:
+    title: Обменять подушки на билеты
+    subtitle: 1 билет
+    pillowsItem: Спишется
+    buttonText: Обменять
+    secondaryButtonText: "Выбрать максимум:"
+
+  exchangePillowsComplete:
+    title: Обмен выполнен!
+    buttonText: Круто!
+
+  howGetPrize:
+    title: Как получить подарок
+    subtitle: Если ваш билет выиграл, мы свяжемся с вами в течении 3-х дней
+    buttonText: Буду ждать
+
+  sleepRating:
+    title: Как поспали?
+
+  dayRating:
+    title: Как прошел день?
+
+  happyRating:
+    title: Счастливым был день?
+
+  ratingAfterTime:
+    title: Оценить можно после 21:00
+    buttonText: Хорошо, вернусь позже
+
+  fillHabits:
+    title: Ритуалы и привычки
+    subtitle: Что из этого вы делали сегодня
+    buttonText: Готово
+    secondaryButtonText: Ничего из этого не делал
+
+  completeFillDiary:
+    subtitle: Заполняйте дневник каждый день и получайте подушки (максимум 10)
+    buttonText: Забрать подушки
+
+  qualitativeSleep:
+    title: Качественный сон
+    subtitle: Качественный сон заполняется автоматически. Это данные от трекера, поэтому не забывай использовать его  каждую ночь.
+    buttonText: Понятно
+
+  nightContinuity:
+    bestNight: Лучшая ночь
+    subtitle(context=NightType):
+      frozen: Не было данных, но это первая такая ночь на этой неделе, поэтому сработала заморозка
+      noPillows: Не было данных, а заморозка уже использована, поэтому эта ночь не засчитывается
+      nextStage: ""
+      bestNight: ""
+      today: ""
+      todayBestNight: ""
+      otherDay: ""
+      noData: ""
+    nightDescription(context=NightType):
+      frozen: Заморозка
+      noPillows: Пропуск
+      nextStage: ""
+      bestNight: ""
+      today: ""
+      todayBestNight: ""
+      otherDay: ""
+      noData: ""
+    buttonText(context=NightType):
+      frozen: Как работает заморозка
+      noPillows: Почему так?
+      nextStage: Подробнее
+      bestNight: Подробнее
+      today: Подробнее
+      todayBestNight: Подробнее
+      otherDay: Подробнее
+      noData: Подробнее
+
+  sleepVisualization:
+    title: Визуализация сна
+    subtitle: "Отслеживайте динамику вашего сна, наблюдайте повторяющиеся закономерности и делайте выводы.\n\nКаждый кружок на графике – это день, цвет кружка – качество вашего сна в этот день. Так же есть несколько обозначений:"
+    next: Следующий этап
+    bestNight: Лучшая ночь (за все время)
+    today: Сегодняшний день
+    frozen:
+      - Заморозка (нет данных)
+      - Доступна один раз в неделю
+    noData: Пропуск дня (нет данных)
+    buttonText: Понятно
+
+  connectionSamsung:
+    title: В Health Connect дайте\nдоступ приложениям
+    subtitle: Samsung Health и Sleeptery
+    buttonText: Перейти в Healt Connect
+
+  connectionXiaomi:
+    title: Подключите Google в приложении ZeppLife
+    subtitle:  В разделе «Добавить аккаунты»
+    buttonText: Перейти в ZeppLife
+
+  deleteAccount:
+    title: Вы действительно хотите\nудалить аккаунт?
+    buttonText: Удалить
+    secondaryButtonText: Не удалять аккаунт
+
+  addHabit:
+    title: Добавить свой вариант
+    subtitle: Придумайте простое название своему действию
+    buttonText: Добавить
+    hint: например, Баня
+
+  noSleepData:
+    main:
+      title: Вы спали сегодня с вашим девайсом?
+      subtitle: Мы не получили данные по вашему сну, давайте разберемся из-за чего
+      buttonText: Да, спал
+      secondaryButtonText: Нет, не спал
+    hasSleepDataInExternalApp:
+      title(context=Providers):
+        samsung: Данные по сну отображаются в Samsung Health?
+        apple: Данные по сну отображаются в Apple Health?
+        oura: Данные по сну отображаются в приложении OURA?
+        garmin: Данные по сну отображаются в приложении Garmin?
+        google: Данные по сну отображаются в Zepp Life?
+        realtime: ""
+        freestylelibresdk: ""
+        $unknown: ""
+      buttonText: Да
+      secondaryButtonText: Нет
+    hasSleepDataInSleeptery:
+      title: До этого данные о сне отображались в Sleeptery?
+      buttonText: Отображались
+      secondaryButtonText: Нет
+    waitMinutes:
+      title: Подождите 2-3 минуты для передачи данных в Sleeptery
+      buttonText: Окей, понял
+      secondaryButtonText: Не помогает
+    hasSleepteryAccessToExternalApp:
+      title(context=Providers):
+        samsung: У Sleeptery есть доступ к данным твоего сна в Health Connect?
+        apple: У Sleeptery есть доступ к данным твоего сна в Apple Health?
+        google: У Sleeptery есть доступ к данным твоего сна в Zepp Life?
+        oura: ""
+        garmin: ""
+        realtime: ""
+        freestylelibresdk: ""
+        $unknown: ""
+      buttonText: Да, доступ есть
+      secondaryButtonText: Включил
+    support:
+      title: Ну что же...
+      subtitle: Остается только написать нам в поддержку, мы разберемся
+      buttonText: Написать
+    notification:
+      title: Можем напоминать тебе про трекер перед отходом ко сну
+      buttonText: Да, хочу
+      secondaryButtonText: Нет, спасибо
+    removeDevice:
+      title(context=Providers):
+        oura: Откройте приложение OURA, данные придут через 2-3 минуты
+        garmin: Откройте приложение Garmin, данные придут через 2-3 минуты
+        samsung: Сними трекер на 1-2 минуты, обычно этого достаточно
+        apple: Сними трекер на 1-2 минуты, обычно этого достаточно
+        google: Сними трекер на 1-2 минуты, обычно этого достаточно
+        realtime: ""
+        freestylelibresdk: ""
+        $unknown: ""
+      buttonText(context=Providers):
+        oura: Окей
+        garmin: Окей
+        samsung: Ок, подожду
+        apple: Ок, подожду
+        google: Ок, подожду
+        realtime: ""
+        freestylelibresdk: ""
+        $unknown: ""
+      secondaryButtonText: Не хочу ждать
+    deviceStatus:
+      title: Статус твоего устройства «Активное устройство»?
+      buttonText: Да, именно
+      secondaryButtonText: Нет, другой
+    complete:
+      title(context=Providers):
+        oura: Пока нет данных с устройства, мы не начислим подушки
+        garmin: Пока нет данных с устройства, мы не начислим подушки
+        samsung: Рано или поздно мы получим данные и начислим подушки
+        apple: Рано или поздно мы получим данные и начислим подушки
+        google: Рано или поздно мы получим данные и начислим подушки
+        realtime: ""
+        freestylelibresdk: ""
+        $unknown: ""
+      buttonText: Принято
+
+
+
 
 onboarding:
   skip: Пропустить
