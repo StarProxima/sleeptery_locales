@@ -367,7 +367,21 @@ deviceInstructions:
       secondaryButtonText: Отменить
 
 
-
+profileEdit:
+  appBar: Редактировать профиль
+  labels:
+    - Ваше имя
+    - Никнейм
+    - Электронная почта
+  hints:
+    - Укажите имя
+    - Укажите никнейм
+  toasts:
+    title: Сейчас недоступно
+    email: Чтобы изменить почту, обратитесь в техподдержку
+    nickname: Чтобы изменить никнейм, обратитесь в техподдержку
+  buttonText: Сохранить изменения
+  secondaryButtonText: Удалить аккаунт
 
 
 
