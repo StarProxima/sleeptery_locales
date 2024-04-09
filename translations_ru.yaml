@@ -280,7 +280,7 @@ deviceInstructions:
         freestylelibresdk: ""
         $unknown: ""
       subtitle(context=Providers):
-        samsung: Samsung Health собирает данные с трекера, а Healt Connect передает их в Sleeptery
+        samsung: Samsung Health собирает данные с трекера, а Health Connect передает их в Sleeptery
         apple: Приложение «Здоровье» собирает данные с трекера и передает их в Sleeptery
         oura: Приложение Oura собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
         garmin: Garmin Connect собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
@@ -505,7 +505,7 @@ bottomSheets:
   connectionSamsung:
     title: В Health Connect дайте\nдоступ приложениям
     subtitle: Samsung Health и Sleeptery
-    buttonText: Перейти в Healt Connect
+    buttonText: Перейти в Health Connect
 
   connectionXiaomi:
     title: Подключите Google в приложении ZeppLife
