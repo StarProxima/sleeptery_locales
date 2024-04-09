@@ -143,6 +143,38 @@ shared:
     many: $n дней
     other: $n дней
 
+authReg:
+  email:
+    title: Чтобы начать, введите Email
+    hint: Введите ваш Email
+    buttonText: Продолжить
+    footer: Нажимая на кнопку, вы подтверждаю свое согласие на обработку персональных данных
+  pincode:
+    title: Введите код авторизации
+    subtitle: Отправили вам на почту
+    hint: _
+    buttonText: Войти
+    secondaryButtonText:
+      text: Отправить повторно
+      time: Отправить повторно через $n сек
+  nickname:
+    title: Придумайте никнейм
+    hint: и введите его здесь
+    buttonText: Сохранить
+  referral:
+    title: У вас есть код от друга?
+    subtitle: Если вас пригласил друг, вы можете попросить у него код-приглашение и указать его ниже
+    hint: Введите код-приглашение
+    buttonText: Активировать
+    secondaryButtonText: Пропустить
+
+permission:
+  title: Напоминания помогут вам держать режим сна
+  subtitle: А также получать подушки, выигрывать призы и многое другое
+  buttonText: Разрешить
+  secondaryButtonText: Пропустить
+
+
 sleepContinuity:
   numNightsInRow: '@:shared.nights подряд'
   qualitativeTime: $n качественного сна
