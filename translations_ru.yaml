@@ -152,6 +152,35 @@ sleepContinuity:
 
 sleepStatistics:
   nightsWithTracker: '@:shared.nights с трекером'
+  appBar: Статистика сна
+  tabs:
+    - Дни
+    - Недели
+    - Месяцы
+  dailyIndicators:
+    day: Показатели за день
+    other: Средние дневные показатели
+
+  performances:
+    - Быстрый сон
+    - Глубокий сон
+    - Бодрствование
+    - Легкий сон
+    - Отход ко сну
+    - Пробуждение
+    - Длительность сна
+    - Качественный сон
+
+  noData(context=PeriodType):
+    none: ""
+    day: За этот день не было данных
+    week: За эту неделю не было данных
+    month: За этот месяц не было данных
+
+  whyNoData: Почему так?
+  noDataToday: Нет данных за этот день
+  error: Ошибка
+
 
 library:
   toAllArticles: Ко всем статьям
