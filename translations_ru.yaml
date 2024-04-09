@@ -302,7 +302,7 @@ deviceInstructions:
         $unknown: ""
       subtitle: После установки приложения, подключите ваш трекер
       buttonText(context=Providers):
-        samsung: Установить Samsung Healt
+        samsung: Установить Samsung Health
         apple: Установить Здоровье
         oura: Установить Oura
         garmin: Установить Garmin Connect
