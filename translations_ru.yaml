@@ -135,11 +135,20 @@ shared:
     few: $n ночи
     many: $n ночей
     other: $n ночей
+  days:
+    zero: $n дней
+    one: $n день
+    two: $n дня
+    few: $n дня
+    many: $n дней
+    other: $n дней
 
 sleepContinuity:
   numNightsInRow: '@:shared.nights подряд'
   qualitativeTime: $n качественного сна
   sleepTime: Всего $n часов во сне
+  nextStage: Следующий этап
+
 
 sleepStatistics:
   nightsWithTracker: '@:shared.nights с трекером'
@@ -170,13 +179,6 @@ raffle:
     few: $n билета
     many: $n билетов
     other: $n билетов
-  days:
-    zero: $n дней
-    one: $n день
-    two: $n дня
-    few: $n дня
-    many: $n дней
-    other: $n дней
   ticketsComplete:
     zero: Вам начислено $n билетов
     one: Вам начислен $n билет
