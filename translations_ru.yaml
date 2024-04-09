@@ -149,6 +149,51 @@ sleepContinuity:
   sleepTime: Всего $n часов во сне
   nextStage: Следующий этап
 
+pillows:
+  screen:
+    balance:
+      appBar:
+        title: Мои подушки
+        history: История
+      ofThem: из них
+      activity:
+        forActivity: за активности
+        stayAlways: останутся у вас\nнавсегда
+      sleep:
+        forSleep: за сон
+        fire: сгорят $dateName в $time
+      subtitle: Обменивая подушки на билеты можно выиграть призы
+      buttonText: Обменять подушки
+      secondaryButton: Правила начисления подушек
+    calculatingRules:
+      appBarText: Правила начисления и сгорания подушек
+      headerText: Начисление подушек
+      explanations(interface=PillowsExplanations):
+        - header: За фазу «Легкий сон»
+          description: 1 час – 6 подушек
+        - header: За фазу «Быстрый сон» и «Глубокий сон»
+          description: 1 час – 20 подушек
+        - header: За правильный ответ на вопрос из теста «Статьи дня» в «Библиотеке сна»
+          description: 10 подушек
+        - header: За ежедневное заполнение дневника дается
+          description: от 2 до 10 подушек
+        - header: За приглашенного друга
+          description: 3% от его подушек, обмененных на билеты
+      pillowCombustion:
+        title: Сгорание подушек
+        variants:
+          - Как нельзя отоспаться за весь недосып, так и у нас нельзя бесконечно накапливать подушки за свой сон
+          - Каждый понедельник, если ты не обменял их на участие в розыгрышах, подушки за сон будут сгорать
+          - Подушки за активности будут с тобой навсегда, ведь полученный опыт в отличие от сна нельзя потерять)
+    history:
+      appBarText: История начислений и списаний подушек
+      noHistoryText: Здесь будет отображаться\nваша история операций
+      typeOperation:
+        - начисление
+        - списание
+
+
+
 
 sleepStatistics:
   nightsWithTracker: '@:shared.nights с трекером'
