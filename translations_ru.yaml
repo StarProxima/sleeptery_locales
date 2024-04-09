@@ -165,6 +165,57 @@ article:
       other: У вас $n попыток
   
 raffle:
+  screen:
+    main:
+      title: Розыгрыши
+      rafflesRules: Правила проведения розыгрыша
+      goingNow: Проходят сейчас
+      myRaffles: Мои розыгрыши
+    goingNow:
+      noRaffles: Пока розыгрыши не проводятся
+    myRaffles:
+      pastRaffles: Прошедшие розыгрыши
+      endAt: Завершился $n
+      noRaffles:
+        title: Вы еще не участвуете ни в одном розыгрыше
+        subtitle: Чтобы участвовать, перейдите на интересующий вас розыгрыш и обменяйте подушки на билеты
+        buttonText: Ко всем розыгрышам
+    myTickets:
+      appBar: Мои билеты
+      noTickets: Нет билетов
+    winnersTickets:
+      appBar: Розыгрыши
+      youTicketWin: Ваш билет выиграл
+      howGetPrize: Как получить подарок
+    detail:
+      timeLabel:
+        lessThanDayToExchangeTickets: Успейте обменять билеты $n
+        lessThanDayToAnnouncementRaffle: Трансляция через $n
+        moreThanDayToExchangeTickets: через $n
+      buttonText:
+        - Перейти к трансляции
+        - Билеты уже не получить. Успевайте обменять подушки на билеты за 24 часа до начала розыгрыша.
+        - Недостаточно подушек для обмена
+        - Участвовать в розыгрыше
+        - Обменять подушки на билеты
+      ticketPrice: 1 билет = $n
+      ticketsCardText: В этом розыгрыше у вас
+      learnMore: Подробнее
+
+  raffleRightNow: Розыгрыш прямо сейчас!
+  timeLabel:
+    lessThanDayToExchangeTickets: Успейте получить билеты $n
+    lessThanDayToAnnouncementRaffle: Трансляция через $n
+    moreThanDayToExchangeTickets: через $n
+  myTicket: Мой билет
+  tileButtons:
+    goingOnRightNow:
+      text: Смотреть
+    addTickets:
+      text: Добавить
+      secondText: Участвовать
+    learnMore:
+      text: Подробнее
   ticketsPrice:
     zero: $n подушек
     one: $n подушка
@@ -186,6 +237,7 @@ raffle:
     few: Вам начислено $n билета
     many: Вам начислено $n билетов
     other: Вам начислено $n билетов
+  youHaveTickets: У вас $n
 
 diary:
   appbar:
