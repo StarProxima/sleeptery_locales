@@ -153,16 +153,41 @@ sleepContinuity:
 sleepStatistics:
   nightsWithTracker: '@:shared.nights с трекером'
 
-article:
-  quiz:
-    attemptsAreOver: Попытки закончились, приходите завтра
-    remainingAttempts:
-      zero: У вас $n попыток
-      one: У вас $n попытка
-      two: У вас $n попытки
-      few: У вас $n попытки
-      many: У вас $n попыток
-      other: У вас $n попыток
+library:
+  toAllArticles: Ко всем статьям
+  screen:
+    library:
+      appBarText: Библиотека сна
+      all: Все
+    article:
+      amountPillows:
+        zero: $n подушек
+        one: $n подушку
+        two: $n подушки
+        few: $n подушки
+        many: $n подушек
+        other: $n подушек
+      buttonText:
+        startTest: Пройди тест и получи $n
+        leanMore: Узнай больше и получи $n
+      learnMore: Узнать больше
+      quiz:
+        attemptsAreOver: Попытки закончились, приходите завтра
+        remainingAttempts:
+          zero: У вас $n попыток
+          one: У вас $n попытка
+          two: У вас $n попытки
+          few: У вас $n попытки
+          many: У вас $n попыток
+          other: У вас $n попыток
+        nextTime: В следующий раз будьте внимательнее. Получать подушки можно каждый день
+        testEnd: Тест завершён
+        takePillows: Забрать подушки
+        winAnotherTime: Выиграю в другой раз
+        answers:
+          - Правильный ответ
+          - Неправильный!
+          - Неправильно!
   
 raffle:
   screen:
