@@ -186,6 +186,33 @@ raffle:
     other: Вам начислено $n билетов
 
 diary:
+  appbar:
+    title: Дневник сна
+  screens:
+    main:
+      ratings:
+        sleep: оценка сна
+        day: оценка дня
+        qualitativeSleep: качественный сон
+        emptyQualitativeSleep: "-"
+        habits:
+          title: Ритуалы и привычки за день
+          buttonText: Настроить дневник
+        habitsMock:
+          - Горячая ванна/душ
+          - Алкоголь
+          - Баня
+    selectHabits:
+      title: "Выберите ритуалы и привычки, которые вы совершаете регулярно в течении дня:"
+      buttonText: Продолжить
+      addVariant: Добавить свой вариант
+    clock:
+      title: В какое время вы хотите засыпать и просыпаться?
+      subtitle: Укажите время, а мы будем напоминать вам про отход ко сну и будить по утрам
+      goingToBed: Отход ко сну
+      wakingUp: Подъём
+      buttonText: Завершить настройку
+
   daysInRow:
     zero: $n дней подряд
     one: $n день подряд
@@ -198,18 +225,31 @@ diary:
     1:
       title: Сегодня ляг пораньше
       button: Дотяну как-нибудь
-    2: 
+    2:
       title: Ну ты держись там
       button: Буду стараться
-    3: 
+    3:
       title: Не все так плохо
       button: Справимся
-    4: 
+    4:
       title: Хороший будет день
       button: Не сомневаюсь
-    5: 
+    5:
       title: Время свернуть горы
       button: Это точно
+
+  diaryRatingStages:
+    title: Дневник сна
+    buttonText:
+      - Подробнее про дневника сна
+      - Заполнить
+    questions:
+      sleep: Как поспали?
+      day: Как прошел день?
+      happy: Счастливым был день?
+    evaluateHappyCard:
+      no: Нет
+      yes: Да
 
 bottomSheets:
   notification:
