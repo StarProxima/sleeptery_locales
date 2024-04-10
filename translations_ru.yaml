@@ -143,6 +143,48 @@ shared:
     many: $n дней
     other: $n дней
 
+home:
+  cards:
+    dailyAdvice:
+      articleName: Статья «$n»
+      subtitle: Прочитайте и получите подушки
+    sleepStats(interface=HomeSleepStats):
+      connectionProblems:
+        title: С подключением трекера возникли сложности
+        subtitle: Удалите трекер и добавьте заново
+        buttonText: Перейти в «Мои устройства»
+      noData:
+        title: Нет данных,\nну как же так
+        buttonText: Почему так?
+      pending:
+        title: Трекер подключен, но...
+        subtitle: Данные о сне мы пока не получили
+        buttonText: Попробовать ещё раз
+        secondaryButtonText: Почему так?
+      shouldConnectDevice:
+        title: Начните свой путь к идеальному сну
+        buttonText: Подключить трекер
+        secondaryButtonText: Зачем подключать трекер?
+      temporaryWaitingNewData:
+        title: Получаем данные с трекера...
+        subtitle: Обычно занимает до 5 минут
+      temporaryWaitingOldData:
+        title: Пока подключаем твой трекер
+        subtitle: Обычно занимает до 5 минут
+      waitingNewData:
+        title: Уже завтра вы получите подушки за сон
+        subtitle: Сегодня, перед отходом ко сну, не забудьте надеть трекер
+  stats:
+    qualitative: Качественный сон
+    duration: Длительность сна
+  deviceLastSync:
+    waitingData: Ожидание данных...
+    lastSyncAt: Последняя синхронизация $dateStr в $timeStr
+    sync: Синхронизация...
+
+
+
+
 authReg:
   email:
     title: Чтобы начать, введите Email
@@ -174,12 +216,54 @@ permission:
   buttonText: Разрешить
   secondaryButtonText: Пропустить
 
-
 sleepContinuity:
   numNightsInRow: '@:shared.nights подряд'
   qualitativeTime: $n качественного сна
   sleepTime: Всего $n часов во сне
   nextStage: Следующий этап
+  noNights: "?"
+
+referrals:
+  appBar: Пригласить друзей
+  subtitle: "Отправляйте друзьям: вам кэшбек 3% подушками за каждый купленный другом билет."
+  buttonText: Скопировать промокод
+  reward: Ваше вознаграждение
+  friendTickets: Билеты друга
+
+sideBar:
+  setName: Укажите имя
+  news: Новости
+  invite: Пригласить друзей
+  settings: Настройки
+  premium: sleeptery Premium
+  faq: FAQ
+  acquaintance: Знакомство
+  connect: Связаться с нами
+  exit: Выйти
+  beta: Beta-версия
+
+devices:
+  cards:
+    noActiveDevice: У вас нет активного устройства
+    status(context=DeviceStatus):
+      active: Активное устройство
+      longTimeNoData: Долгое время без данных
+      pendingFirstConnection: Ожидание данных
+      longPendingFirstConnection: Длительное ожидание данных
+      $unknown: Неизвестный статус
+    pendingData: Ожидание данных
+    lastSyncAt:
+      today: Последняя синхронизация в $n
+      other: Последняя синхронизация $n
+    addDevice: Подключите трекер
+  screen:
+    devices:
+      appBar: Мои устройства
+      editing:
+        ready: Готово
+        change: Изм.
+      buttonText: Подключить новый трекер
+
 
 pillows:
   screen:
