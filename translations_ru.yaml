@@ -182,9 +182,6 @@ home:
     lastSyncAt: Последняя синхронизация $dateStr в $timeStr
     sync: Синхронизация...
 
-
-
-
 authReg:
   email:
     title: Чтобы начать, введите Email
@@ -264,7 +261,6 @@ devices:
         change: Изм.
       buttonText: Подключить новый трекер
 
-
 pillows:
   screen:
     balance:
@@ -308,9 +304,6 @@ pillows:
         - начисление
         - списание
 
-
-
-
 sleepStatistics:
   nightsWithTracker: '@:shared.nights с трекером'
   appBar: Статистика сна
@@ -341,7 +334,6 @@ sleepStatistics:
   whyNoData: Почему так?
   noDataToday: Нет данных за этот день
   error: Ошибка
-
 
 library:
   toAllArticles: Ко всем статьям
@@ -652,8 +644,6 @@ profileEdit:
   buttonText: Сохранить изменения
   secondaryButtonText: Удалить аккаунт
 
-
-
 bottomSheets:
   notification:
     title: Включите уведомления
@@ -887,9 +877,6 @@ bottomSheets:
         freestylelibresdk: ""
         $unknown: ""
       buttonText: Принято
-
-
-
 
 onboarding:
   skip: Пропустить
