@@ -462,7 +462,7 @@ diary:
         emptyQualitativeSleep: "-"
         habits:
           title: Ритуалы и привычки за день
-          buttonText: Настроить дневник
+          buttonText: Добавить
         # Тут мок, хз, и так норм, могут поменяться названия в любой момент
         habitsMock(map):
           1: Горячая ванна/душ
