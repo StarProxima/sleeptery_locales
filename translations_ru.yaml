@@ -58,7 +58,7 @@ home:
     dailyAdvice:
       articleName: Статья «$n»
       subtitle: Прочитайте и получите подушки
-    sleepStats(interface=HomeSleepStats):
+    sleepStats:
       connectionProblems:
         title: С подключением трекера возникли сложности
         subtitle: Удалите трекер и добавьте заново
@@ -76,7 +76,7 @@ home:
         buttonText: Подключить трекер
         secondaryButtonText: Зачем подключать трекер?
       temporaryWaitingNewData:
-        title: Получаем данные с трекера...
+        title: Получаем данные с $appName...
         subtitle: Обычно занимает до 5 минут
       temporaryWaitingOldData:
         title: Пока подключаем твой трекер
