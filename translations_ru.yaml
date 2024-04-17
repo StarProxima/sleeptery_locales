@@ -264,6 +264,8 @@ library:
     library:
       appBarText: Библиотека сна
       all: Все
+      adviceCard:
+        title: Прочитай и получи
     article:
       buttonText:
         startTest: Пройди тест и получи $n
