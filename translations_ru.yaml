@@ -253,18 +253,18 @@ sleepStatistics:
 
 library:
   toAllArticles: Ко всем статьям
+  amountPillows:
+    zero: $n подушек
+    one: $n подушку
+    two: $n подушки
+    few: $n подушки
+    many: $n подушек
+    other: $n подушек
   screen:
     library:
       appBarText: Библиотека сна
       all: Все
     article:
-      amountPillows:
-        zero: $n подушек
-        one: $n подушку
-        two: $n подушки
-        few: $n подушки
-        many: $n подушек
-        other: $n подушек
       buttonText:
         startTest: Пройди тест и получи $n
         leanMore: Узнай больше и получи $n
