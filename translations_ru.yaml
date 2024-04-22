@@ -477,7 +477,7 @@ deviceInstructions:
   needConnectDevice:
     lastMoment: Последний момент
     subtitle: Чтобы что-то улучшать, для начала это нужно научиться контролировать
-    title: Важно подключить трекер для сна и мы поможем анализировать твой сон
+    title: Важно подключить трекер для сна, и мы поможем анализировать твой сон
     buttonText: Подключить трекер
   shared:
     preview(interface=DeviceInstructionStage):
