@@ -474,6 +474,11 @@ deviceInstructions:
     2: Шаг 2
     3: Шаг 3
   ready: Готово
+  needConnectDevice:
+    lastMoment: Последний момент
+    subtitle: Чтобы что-то улучшать, для начала это нужно научиться контролировать
+    title: Важно подключить трекер для сна и мы поможем анализировать твой сон
+    buttonText: Подключить трекер
   shared:
     preview(interface=DeviceInstructionStage):
       title(context=Providers):
