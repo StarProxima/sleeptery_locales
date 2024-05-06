@@ -4,6 +4,12 @@ today: сегодня
 yesterday: вчера
 tomorrow: завтра
 
+bottomNavBar:
+  sleep: Сон
+  library: Библиотека
+  diary: Дневник
+  raffles: Розыгрыши
+
 pillowsReason(context=Reasons):
   sleep: Вознаграждение за ночь
   challenge: Челлендж
@@ -124,6 +130,9 @@ authReg:
     hint: Введите ваш Email
     buttonText: Продолжить
     footer: Нажимая на кнопку, вы подтверждаете свое согласие на обработку персональных данных
+    toast:
+      title: Ошибка
+      text: Пин-код уже был отправлен на данный email
   pincode:
     title: Введите код авторизации
     subtitle: Отправили вам на почту
@@ -142,6 +151,10 @@ authReg:
     hint: Введите код-приглашение
     buttonText: Активировать
     secondaryButtonText: Пропустить
+  toasts:
+    userRegistered:
+      title: Успешная регистрация
+      text: Пользователь $nickname успешно создан!
 
 permission:
   title: Напоминания помогут вам держать режим сна
@@ -162,6 +175,12 @@ referrals:
   buttonText: Скопировать промокод
   reward: Ваше вознаграждение
   friendTickets: Билеты друга
+  toasts:
+    failedGetReferralCode:
+      title: Ошибка
+      text: Не удалось получить реферальный код
+    codeCopied:
+      title: Промокод скопирован
 
 sideBar:
   setName: Укажите имя
@@ -322,9 +341,11 @@ raffle:
       myRaffles: Мои розыгрыши
     goingNow:
       noRaffles: Пока розыгрыши не проводятся
+      rightNow: Розыгрыш прямо сейчас!
     myRaffles:
       pastRaffles: Прошедшие розыгрыши
       endAt: Завершился $n
+      winners: Победители
       noRaffles:
         title: Вы еще не участвуете ни в одном розыгрыше
         subtitle: Чтобы участвовать, перейдите на интересующий вас розыгрыш и обменяйте подушки на билеты
@@ -462,6 +483,71 @@ deviceInstructions:
     title: Какая у вас модель устройства?
     subtitle: Нам нужно знать модель вашего трекера, чтобы начать процесс подключения
     buttonText: У меня нет трекера
+    toasts:
+      providerExist:
+        title: Невозможно добавить трекер
+        text: Нельзя иметь более одного устройства одинаковой модели
+      cantAddApple:
+        title: Невозможно добавить трекер
+        text: Для добавления трекера Apple Watch необходимо использовать устройство на iOS
+      cantAddSamsung:
+        title: Невозможно добавить трекер
+        text: Для добавления трекера Samsung необходимо использовать устройство на Android
+
+  toasts:
+    shared:
+      cantInstall: Не удалось установить приложение. Повторите позже
+      cantCreateDevice:
+        title: Не удалось создать девайс
+        text(context=Providers):
+          samsung: Проверьте, что вы согласились выдать разрешения в Health Connect
+          apple: Проверьте, что вы согласились выдать разрешения в Apple Health
+          oura: ""
+          garmin: ""
+          google: ""
+          realtime: ""
+          freestylelibresdk: ""
+          $unknown: ""
+      appNotInstalled:
+        title(context=Providers):
+          samsung: Health Connect не установлен
+          apple: Apple Health не установлен
+          oura: Oura не установлено
+          garmin: Garmin Connect не установлен
+          google: ZeppLife не установлен
+          realtime: ""
+          freestylelibresdk: ""
+          $unknown: ""
+        text(context=Providers):
+          samsung: Приложение Health Connect не установлено. Пожалуйста, установите Health Connect на своё устройство
+          apple: Приложение Apple Health не установлено. Пожалуйста, установите Apple Health на своё устройство
+          oura: Приложение Oura не установлено. Пожалуйста, установите Oura на своё устройство
+          garmin: Приложение Garmin Connect не установлено. Пожалуйста, установите Garmin Connect на своё устройство
+          google: Приложение ZeppLife не установлено. Пожалуйста, установите ZeppLife на своё устройство
+          realtime: ""
+          freestylelibresdk: ""
+          $unknown: ""
+      failedToOpenAuthLink:
+        title: Не удалось открыть ссылку авторизации
+        text: Попробуйте ещё раз
+      failedAuthInTerra:
+        title: Попробуйте ещё раз
+        text: Авторизуйтесь в Terra
+    samsung:
+      samsungHealthNotInstalled:
+        title: Не удалось обнаружить Samsung Health
+        text: Пожалуйста, установите Samsung Health на своё устройство
+      noAccess:
+        title: Не удалось получить доступ
+        text: Попробуйте выдать разрешения в Health Connect ещё раз
+      cantOpenHealthConnect:
+        title: Не удалось открыть Health Connect
+        text: Проверьте, что Health Connect установлен
+    xiaomi:
+      failedOpenZeppLife:
+        title: Не удалось открыть ZeppLife
+        text: Проверьте, что ZeppLife установлен
+
   whyConnectDevice:
     appBar: Зачем подключать трекер?
     explanations:
@@ -588,9 +674,21 @@ profileEdit:
     name: Укажите имя
     nickname: Укажите никнейм
   toasts:
-    title: Сейчас недоступно
-    email: Чтобы изменить почту, обратитесь в техподдержку
-    nickname: Чтобы изменить никнейм, обратитесь в техподдержку
+    noAccess:
+      title: Сейчас недоступно
+      email: Чтобы изменить почту, обратитесь в техподдержку
+      nickname: Чтобы изменить никнейм, обратитесь в техподдержку
+    dataSaved:
+      title: Профиль
+      text: Данные успешно сохранены!
+    errorWhileSaveData:
+      title: Ошибка
+      text: Произошла ошибка при сохранении данных. Попробуйте позже
+    accountDeleted:
+      title: Аккаунт удален
+    errorWhileAccountDeleted:
+      title: Ошибка
+      text: Произошла ошибка. Повторите позже
   buttonText: Сохранить изменения
   secondaryButtonText: Удалить аккаунт
 
@@ -836,6 +934,7 @@ bottomSheets:
         freestylelibresdk: ""
         $unknown: ""
       buttonText: Принято
+
 
 onboarding:
   skip: Пропустить
