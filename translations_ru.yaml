@@ -499,34 +499,24 @@ deviceInstructions:
       cantInstall: Не удалось установить приложение. Повторите позже
       cantCreateDevice:
         title: Не удалось создать девайс
-        text(context=Providers):
+        text:
           samsung: Проверьте, что вы согласились выдать разрешения в Health Connect
           apple: Проверьте, что вы согласились выдать разрешения в Apple Health
-          oura: ""
-          garmin: ""
-          google: ""
-          realtime: ""
-          freestylelibresdk: ""
-          $unknown: ""
       appNotInstalled:
-        title(context=Providers):
+        title:
           samsung: Health Connect не установлен
           apple: Apple Health не установлен
           oura: Oura не установлено
           garmin: Garmin Connect не установлен
-          google: ZeppLife не установлен
-          realtime: ""
-          freestylelibresdk: ""
-          $unknown: ""
-        text(context=Providers):
+          zeppLife: ZeppLife не установлен
+          miFit: MiFit не установлен
+        text:
           samsung: Приложение Health Connect не установлено. Пожалуйста, установите Health Connect на своё устройство
           apple: Приложение Apple Health не установлено. Пожалуйста, установите Apple Health на своё устройство
           oura: Приложение Oura не установлено. Пожалуйста, установите Oura на своё устройство
           garmin: Приложение Garmin Connect не установлено. Пожалуйста, установите Garmin Connect на своё устройство
-          google: Приложение ZeppLife не установлено. Пожалуйста, установите ZeppLife на своё устройство
-          realtime: ""
-          freestylelibresdk: ""
-          $unknown: ""
+          zeppLife: Приложение ZeppLife не установлено. Пожалуйста, установите ZeppLife на своё устройство
+          miFit: Приложение MiFit не установлено. Пожалуйста, установите MiFit на своё устройство
       failedToOpenAuthLink:
         title: Не удалось открыть ссылку авторизации
         text: Попробуйте ещё раз
@@ -567,56 +557,46 @@ deviceInstructions:
     buttonText: Подключить трекер
   shared:
     preview(interface=DeviceInstructionStage):
-      title(context=Providers):
+      title:
         samsung: Для работы с Galaxy Watch надо 2 приложения
         apple: Для работы с Apple Watch надо приложение «Здоровье»
         oura: Для работы с устройством надо приложение Oura и авторизация в сервисе Terra
         garmin: Для работы с устройством нужен Garmin Connect и авторизация в сервисе Terra
-        google: Для работы с устройством надо приложение ZeppLife и авторизация в Google Fit
-        realtime: ""
-        freestylelibresdk: ""
-        $unknown: ""
-      subtitle(context=Providers):
+        zeppLife: Для работы с устройством надо приложение ZeppLife и авторизация в Google Fit
+        miFit: Для работы с устройством надо приложение Mi Fit и авторизация в Google Fit
+      subtitle:
         samsung: Samsung Health собирает данные с трекера, а Health Connect передает их в Sleeptery
         apple: Приложение «Здоровье» собирает данные с трекера и передает их в Sleeptery
         oura: Приложение Oura собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
         garmin: Garmin Connect собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
-        google: Приложение ZeppLife собирает данные с трекера, а GoogleFit облачно передает данные в Sleeptery
-        realtime: ""
-        freestylelibresdk: ""
-        $unknown: ""
+        zeppLife: Приложение ZeppLife собирает данные с трекера, а Google Fit облачно передает данные в Sleeptery
+        miFit: Приложение Mi Fit собирает данные с трекера, а Google Fit облачно передает данные в Sleeptery
       buttonText: Приступить к настройке
       secondaryButtonText: Пропустить настройку
     downloadExternalApp(interface=DeviceInstructionStage):
-      title(context=Providers):
+      title:
         samsung: Установите Samsung Health
         apple: Установите приложение Здоровье
         oura: Установите приложение Oura
         garmin: Установите Garmin Connect
-        google: Установите приложение ZeppLife
-        realtime: ""
-        freestylelibresdk: ""
-        $unknown: ""
+        zeppLife: Установите приложение ZeppLife
+        miFit: Установите приложение Mi Fit
       subtitle: После установки приложения, подключите ваш трекер
-      buttonText(context=Providers):
+      buttonText:
         samsung: Установить Samsung Health
         apple: Установить Здоровье
         oura: Установить Oura
         garmin: Установить Garmin Connect
-        google: Установить ZeppLife
-        realtime: ""
-        freestylelibresdk: ""
-        $unknown: ""
+        zeppLife: Установить ZeppLife
+        miFit: Установить Mi Fit
     externalAppDownloaded(interface=DeviceInstructionStage):
-      title(context=Providers):
+      title:
         samsung: Samsung Health установлен
         apple: Приложение Здоровье установлено
         oura: Приложение Oura установлено
         garmin: Garmin Connect установлен
-        google: Приложение ZeppLife установлено
-        realtime: ""
-        freestylelibresdk: ""
-        $unknown: ""
+        zeppLife: Приложение ZeppLife установлено
+        miFit: Приложение Mi Fit установлено
       subtitle: Переходите к следующему шагу,\nосталось чуть-чуть
       buttonText: К следующему шагу
     completed(interface=DeviceInstructionStage):
@@ -658,9 +638,13 @@ deviceInstructions:
       title: Подключите Google в приложении ZeppLife
       subtitle:  В разделе «Добавить аккаунты»
       buttonText: Подключить
+    connectGoogleInMiFit(interface=DeviceInstructionStage):
+      title: Авторизируйтесь в Google Fit в приложении Mi Fit
+      subtitle: В профиле, в разделе «Сторонние данные» выберите Google Fit и пройдите авторизацию
+      buttonText: Подключить
     logInGoogle(interface=DeviceInstructionStage):
       title: Авторизируйтесь в сервисе Google
-      buttonText: К следующему шагу
+      buttonText: Авторизироваться в Google
       secondaryButtonText: Отменить
 
 
