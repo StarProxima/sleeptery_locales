@@ -9,6 +9,7 @@ bottomNavBar:
   library: Библиотека
   diary: Дневник
   raffles: Розыгрыши
+  tournaments: Турниры
 
 pillowsReason(context=Reasons):
   sleep: Вознаграждение за ночь
@@ -58,6 +59,13 @@ shared:
     few: $n дня
     many: $n дней
     other: $n дней
+  pillows:
+    zero: $pillows подушек
+    one: $pillows подушку
+    two: $pillows подушки
+    few: $pillows подушки
+    many: $pillows подушек
+    other: $pillows подушек
 
 storytelling:
   screen:
@@ -675,6 +683,28 @@ profileEdit:
       text: Произошла ошибка. Повторите позже
   buttonText: Сохранить изменения
   secondaryButtonText: Удалить аккаунт
+
+tournaments:
+  winners:
+    zero: $n победителей получит
+    one: $n победитель получит
+    two: $n победителя получат
+    few: $n победителя получат
+    many: $n победителей получат
+    other: $n победителей получат
+  screens:
+    tournamentScreen:
+      tournament: Общий турнир
+      resultsIn:
+        zero: 'Результаты @:today'
+        one: 'Результаты @:tomorrow'
+        two: 'Результаты через @:shared.days'
+        few: 'Результаты через @:shared.days'
+        many: 'Результаты через @:shared.days'
+        other: 'Результаты через @:shared.days'
+      resultsDescription: '@:tournaments.winners @:shared.pillows\nи перейдут в следующую лигу'
+      promotionZone: Зона повышения
+      demotionZone: Зона понижения
 
 bottomSheets:
   qualitativeTime:
