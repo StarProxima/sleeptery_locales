@@ -707,6 +707,16 @@ tournaments:
       demotionZone: Зона понижения
 
 bottomSheets:
+  selectXiaomiDevice:
+    title: Какое приложение для трекера вы используете?
+    subtitle: Как правило зависит от модели устройства
+    miFit:
+      title: Mi Fit
+      subtitle: Mi Band 6 и более новые
+    zeppLife:
+      title: ZeppLife
+      subtitle: Все, до Mi Band 7 включительно
+
   qualitativeTime:
     title: Качественный сон
     subtitle: Качественный сон заполняется автоматически. Это данные от трекера, поэтому не забывай использовать его каждую ночь.
