@@ -705,8 +705,20 @@ tournaments:
       resultsDescription: '\nи перейдут в следующую лигу'
       promotionZone: Зона повышения
       demotionZone: Зона понижения
+      noPillows:
+        title: Получите подушки, чтобы войти в недельный рейтинг
+        items:
+          first: Спите с трекером каждую ночь
+          second: Каждый день читайте новую статью
+          third: Участвуйте в челленджах
+          fourth: Приглашайте\nдрузей
 
 bottomSheets:
+  needDeviceForTournament:
+    title: Для участия в турнире необходимо подключить трекер
+    buttonText: Подключить трекер
+    secondaryButtonText: Вернуться на главный экран
+
   selectXiaomiDevice:
     title: Какое приложение для трекера вы используете?
     subtitle: Как правило зависит от модели устройства
