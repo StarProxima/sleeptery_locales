@@ -702,7 +702,7 @@ tournaments:
         few: 'Результаты через @:shared.days'
         many: 'Результаты через @:shared.days'
         other: 'Результаты через @:shared.days'
-      resultsDescription: '@:tournaments.winners @:shared.pillows \nи перейдут в следующую лигу'
+      resultsDescription: '\nи перейдут в следующую лигу'
       promotionZone: Зона повышения
       demotionZone: Зона понижения
 
