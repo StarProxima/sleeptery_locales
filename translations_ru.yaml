@@ -402,12 +402,12 @@ raffle:
     many: $n подушек
     other: $n подушек
   ticketsCount:
-    zero: $n билетов
-    one: $n билет
-    two: $n билета
-    few: $n билета
-    many: $n билетов
-    other: $n билетов
+    zero: билетов
+    one: билет
+    two: билета
+    few: билета
+    many: билетов
+    other: билетов
   ticketsComplete:
     zero: Вам начислено $n билетов
     one: Вам начислен $n билет
