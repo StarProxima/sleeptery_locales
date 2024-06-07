@@ -402,6 +402,13 @@ raffle:
     many: $n подушек
     other: $n подушек
   ticketsCount:
+    zero: $n билетов
+    one: $n билет
+    two: $n билета
+    few: $n билета
+    many: $n билетов
+    other: $n билетов
+  tickets:
     zero: билетов
     one: билет
     two: билета
@@ -409,12 +416,12 @@ raffle:
     many: билетов
     other: билетов
   ticketsComplete:
-    zero: Вам начислено $n билетов
-    one: Вам начислен $n билет
-    two: Вам начислено $n билета
-    few: Вам начислено $n билета
-    many: Вам начислено $n билетов
-    other: Вам начислено $n билетов
+    zero: 'Тебе начислено $n @:raffle.tickets'
+    one: 'Тебе начислен $n @:raffle.tickets'
+    two: 'Тебе начислено $n @:raffle.tickets'
+    few: 'Тебе начислено $n @:raffle.tickets'
+    many: 'Тебе начислено $n @:raffle.tickets'
+    other: 'Тебе начислено $n @:raffle.tickets'
   youHaveTickets: У вас $n
 
 diary:
