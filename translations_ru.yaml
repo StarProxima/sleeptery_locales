@@ -415,14 +415,15 @@ raffle:
     few: билета
     many: билетов
     other: билетов
+  # @: не использовать, т.е. удалённое получение переводов не поддерживает удаление структуры
   ticketsComplete:
-    zero: 'Тебе начислено $n @:raffle.tickets'
-    one: 'Тебе начислен $n @:raffle.tickets'
-    two: 'Тебе начислено $n @:raffle.tickets'
-    few: 'Тебе начислено $n @:raffle.tickets'
-    many: 'Тебе начислено $n @:raffle.tickets'
-    other: 'Тебе начислено $n @:raffle.tickets'
-  youHaveTickets: У вас $n
+    zero: 'Тебе начислено $n билетов'
+    one: 'Тебе начислен $n билетов'
+    two: 'Тебе начислено $n билетов'
+    few: 'Тебе начислено $n билетов'
+    many: 'Тебе начислено $n билетов'
+    other: 'Тебе начислено $n билетов'
+  youHaveTickets: У вас
 
 diary:
   appbar:
