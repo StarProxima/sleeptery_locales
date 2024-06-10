@@ -362,9 +362,13 @@ raffle:
       appBar: Мои билеты
       noTickets: Нет билетов
     winnersTickets:
-      appBar: Розыгрыши
-      youTicketWin: Ваш билет выиграл
-      howGetPrize: Как получить подарок
+      appBar: Победители
+      youTicketWin: Твой билет выиграл!
+      winTicket: Выигрышный билет
+      howGetPrize: Как получить приз
+      stream: Запись трансляции
+      yoursTickets: Твои билеты
+      youNotWin: Благодарим тебя за участие в розыгрыше. К сожалению, ты не выиграл, но в следующий раз точно повезет.
     detail:
       timeLabel:
         lessThanDayToExchangeTickets: Успейте обменять билеты $n
@@ -798,7 +802,7 @@ bottomSheets:
     buttonText: Круто!
 
   howGetPrize:
-    title: Как получить подарок
+    title: Как получить приз
     subtitle: Если ваш билет выиграл, мы свяжемся с вами в течении 3-х дней
     buttonText: Буду ждать
 
