@@ -724,6 +724,9 @@ tournaments:
           second: Каждый день читайте новую статью
           third: Участвуйте в челленджах
           fourth: Приглашайте\nдрузей
+      errorNoActiveTournament:
+        title: Нет активных турниров!
+        text: Попробуйте позже
 
 bottomSheets:
   needDeviceForTournament:
