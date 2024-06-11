@@ -169,6 +169,20 @@ permission:
   subtitle: А также получать подушки, выигрывать призы и многое другое
   buttonText: Разрешить
   secondaryButtonText: Пропустить
+  screen:
+    notificationsSettings:
+      appBarTitle: Уведомления
+      title: 'Мы знаем, что уведомления могут надоесть. Выбери, что для тебя важно, а мы напомним:'
+      settings:
+        diary: Заполнить дневник
+        dayAdvice: О новых статьях и советах дня
+        raffles: Про розыгрыши
+        tournaments: Про турниры
+        pillows: О начислении и сгорании подушек
+        reminderTime: Время напоминания
+      buttonText: Включить уведомления
+
+
 
 sleepContinuity:
   numNightsInRow: '@:shared.nights подряд'
@@ -754,7 +768,8 @@ bottomSheets:
     subtitle: Сон важен и мы точно это знаем. Чтобы делать его лучше, включи Push-уведомления
     sleepItem: Мы напомним про отход ко сну, чтобы ты не засиживался
     pillowsItem: Уведомим, когда подушки вот-вот сгорят, чтобы ты не забыл их обменять на билеты
-    buttonText: Включить уведомления
+    buttonText: Включить все уведомления
+    secondaryButtonText: Настроить
 
   sleepPermissions:
     title: Нет прав на чтение сна
