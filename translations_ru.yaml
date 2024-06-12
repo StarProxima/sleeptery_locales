@@ -11,6 +11,15 @@ bottomNavBar:
   raffles: Розыгрыши
   tournaments: Турниры
 
+apiErrorWidget:
+  title(context=Bool):
+    yes: 'Ничего не загрузилось'
+    no: 'Что-то пошло не так'
+  subtitle(context=Bool):
+    yes: 'Проверьте интернет и обновите страницу. Или вернитесь позже'
+    no: 'Обновите страницу или вернитесь позже'
+  update: 'Обновить'
+
 pillowsReason(context=Reasons):
   sleep: Вознаграждение за ночь
   challenge: Челлендж
@@ -21,6 +30,8 @@ pillowsReason(context=Reasons):
   regularTournament: Турнир
   diary: Дневник сна
   $unknown: Неизвестно
+
+defaultError: Ошибка
 
 
 fixValidationErrors(param=errorsCount):
@@ -744,16 +755,15 @@ tournaments:
       resultsDescription: '\nи перейдут в следующую лигу'
       promotionZone: Зона повышения
       demotionZone: Зона понижения
-      noPillows:
-        title: Получите подушки, чтобы войти в недельный рейтинг
+      errors:
         items:
           first: Спите с трекером каждую ночь
           second: Каждый день читайте новую статью
           third: Участвуйте в челленджах
           fourth: Приглашайте\nдрузей
-      errorNoActiveTournament:
-        title: Нет активных турниров!
-        text: Попробуйте позже
+        noPillows: Получите подушки, чтобы войти в недельный рейтинг
+        noActiveTournament: Предыдущий турнир закончился. Совсем скоро начнется новый
+        noDevice: Подключите девайс, чтобы принять участие в турнире
 
 bottomSheets:
   needDeviceForTournament:
