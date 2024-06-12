@@ -378,11 +378,24 @@ raffle:
     winnersTickets:
       appBar: Победители
       youTicketWin: Твой билет выиграл!
+      youTicketsWin2:
+        zero: ''
+        one: Твой билет выиграл!
+        other: Твои билеты выиграли!
       winTicket: Выигрышный билет
+      winTicket2:
+        zero: ''
+        one: Выигрышный билет
+        other: Выигрышные билеты
       howGetPrize: Как получить приз
       stream: Запись трансляции
       yoursTickets: Твои билеты
+      yoursTickets2:
+        zero: ''
+        one: Твой билет
+        other: Твои билеты
       youNotWin: Благодарим тебя за участие в розыгрыше. К сожалению, ты не выиграл, но в следующий раз точно повезет.
+      youHasNotTickets: Прими участие в розыгрыше, обменяв подушки на билеты, и попробуй выиграть приз!
     detail:
       timeLabel:
         lessThanDayToExchangeTickets: Успейте обменять билеты $n
