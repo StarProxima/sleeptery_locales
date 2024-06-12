@@ -388,20 +388,17 @@ raffle:
       noTickets: Нет билетов
     winnersTickets:
       appBar: Победители
-      youTicketWin: Твой билет выиграл!
-      youTicketsWin2:
+      youTicketWin:
         zero: ''
         one: Твой билет выиграл!
         other: Твои билеты выиграли!
-      winTicket: Выигрышный билет
-      winTicket2:
+      winTicket:
         zero: ''
         one: Выигрышный билет
         other: Выигрышные билеты
       howGetPrize: Как получить приз
       stream: Запись трансляции
-      yoursTickets: Твои билеты
-      yoursTickets2:
+      yoursTickets:
         zero: ''
         one: Твой билет
         other: Твои билеты
