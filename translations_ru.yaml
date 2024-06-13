@@ -226,6 +226,7 @@ sideBar:
   connect: Связаться с нами
   exit: Выйти
   beta: Beta-версия
+  notifications: Уведомления
 
 devices:
   cards:
