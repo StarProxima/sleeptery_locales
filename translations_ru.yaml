@@ -399,6 +399,7 @@ raffle:
         zero: ''
         one: Выигрышный билет
         other: Выигрышные билеты
+      isUserWinTicket: Выигрышный билет
       howGetPrize: Как получить приз
       stream: Запись трансляции
       yoursTickets:
