@@ -785,6 +785,11 @@ tournaments:
         noDevice: Подключите девайс, чтобы принять участие в турнире
 
 bottomSheets:
+  setTimeToNotification:
+    title: Время напоминания
+    subtitle: Заполнение дневника
+    buttonText: Сохранить
+
   tournamentNextLeague:
     title: Добро пожаловать, очень-очень вас ждали
     cardText: Бонус за переход в следующую лигу
