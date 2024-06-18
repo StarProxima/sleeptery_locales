@@ -59,23 +59,17 @@ shared:
   nights:
     zero: $n ночей
     one: $n ночь
-    two: $n ночи
     few: $n ночи
-    many: $n ночей
     other: $n ночей
   days:
     zero: $n дней
     one: $n день
-    two: $n дня
     few: $n дня
-    many: $n дней
     other: $n дней
   pillows(param=pillows):
     zero: $pillows подушек
     one: $pillows подушку
-    two: $pillows подушки
     few: $pillows подушки
-    many: $pillows подушек
     other: $pillows подушек
 
 storytelling:
@@ -336,9 +330,7 @@ library:
   amountPillows:
     zero: $n подушек
     one: $n подушку
-    two: $n подушки
     few: $n подушки
-    many: $n подушек
     other: $n подушек
   screen:
     library:
@@ -356,9 +348,7 @@ library:
         remainingAttempts:
           zero: У вас $n попыток
           one: У вас $n попытка
-          two: У вас $n попытки
           few: У вас $n попытки
-          many: У вас $n попыток
           other: У вас $n попыток
         nextTime: В следующий раз будьте внимательнее. Получать подушки можно каждый день
         testEnd: Тест завершён
@@ -440,31 +430,23 @@ raffle:
   ticketsPrice:
     zero: $n подушек
     one: $n подушка
-    two: $n подушки
     few: $n подушки
-    many: $n подушек
     other: $n подушек
   ticketsCount:
     zero: $n билетов
     one: $n билет
-    two: $n билета
     few: $n билета
-    many: $n билетов
     other: $n билетов
   tickets:
     zero: билетов
     one: билет
-    two: билета
     few: билета
-    many: билетов
     other: билетов
   # @: не использовать, т.е. удалённое получение переводов не поддерживает новые поля
   ticketsComplete:
     zero: 'Тебе начислено $n билетов'
     one: 'Тебе начислен $n билет'
-    two: 'Тебе начислено $n билета'
     few: 'Тебе начислено $n билета'
-    many: 'Тебе начислено $n билетов'
     other: 'Тебе начислено $n билетов'
   youHaveTickets: У вас $n
 
@@ -500,9 +482,7 @@ diary:
   daysInRow:
     zero: $n дней подряд
     one: $n день подряд
-    two: $n дня подряд
     few: $n дня подряд
-    many: $n дней подряд
     other: $n дней подряд
 
   # Тоже оставил, как раз под оценку норм
@@ -768,7 +748,7 @@ tournaments:
   screens:
     tournamentScreen:
       tournament: Общий турнир
-      resultsIn: 'Результаты через $n'
+      resultsAfter: 'Результаты через $time'
       promotionZone: Зона повышения
       demotionZone: Зона понижения
       errors:
