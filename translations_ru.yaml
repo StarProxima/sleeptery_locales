@@ -458,7 +458,7 @@ raffle:
     few: билета
     many: билетов
     other: билетов
-  # @: не использовать, т.е. удалённое получение переводов не поддерживает удаление структуры
+  # @: не использовать, т.е. удалённое получение переводов не поддерживает новые поля
   ticketsComplete:
     zero: 'Тебе начислено $n билетов'
     one: 'Тебе начислен $n билет'
@@ -741,13 +741,18 @@ tournaments:
     second: Каждый день читайте новую статью
     third: Участвуйте в челленджах
     fourth: Приглашайте\nдрузей
-  winners(param=winners):
-    zero: $winners победителей получит
-    one: $winners победитель получит
-    two: $winners победителя получат
-    few: $winners победителя получат
-    many: $winners победителей получат
-    other: $winners победителей получат
+  winnersAwards(param=winners):
+    zero: ''
+    one: $winners победитель получит @:shared.pillows
+    few: $winners победителя получат по $pillowsList и @:shared.pillows соответственно
+    other: $winners победителей получат по $pillowsList и @:shared.pillows соответственно
+  winnersAndparticipantsAwardsLink:
+    '. А '
+  participantsAwards(param=participants):
+    zero: ''
+    one: $participants участник получит @:shared.pillows и пройдёт в следующую лигу
+    few: $participants участника получат по @:shared.pillows и пройдут в следующую лигу
+    other: $participants участников получат по @:shared.pillows и пройдут в следующую лигу
   leagues:
     defaultName: Лига $n
     defaultNameAccusativeCase: Лигу $n
@@ -763,23 +768,10 @@ tournaments:
   screens:
     tournamentScreen:
       tournament: Общий турнир
-      resultsIn:
-        zero: 'Результаты @:today'
-        one: 'Результаты @:tomorrow'
-        two: 'Результаты через @:shared.days'
-        few: 'Результаты через @:shared.days'
-        many: 'Результаты через @:shared.days'
-        other: 'Результаты через @:shared.days'
-      resultsDescription: '\nи перейдут в следующую лигу'
+      resultsIn: 'Результаты через $n'
       promotionZone: Зона повышения
       demotionZone: Зона понижения
-      # Пока оставил, чтобы ничего вдруг не сломалось
       errors:
-        items:
-          first: Спите с трекером каждую ночь
-          second: Каждый день читайте новую статью
-          third: Участвуйте в челленджах
-          fourth: Приглашайте\nдрузей
         noPillows: Получите подушки, чтобы войти в недельный рейтинг
         noActiveTournament: Предыдущий турнир закончился. Совсем скоро начнется новый
         noDevice: Подключите девайс, чтобы принять участие в турнире
