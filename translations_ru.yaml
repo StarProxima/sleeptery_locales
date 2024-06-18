@@ -247,6 +247,9 @@ devices:
       buttonText: Подключить новый трекер
 
 pillows:
+  tooltip:
+    title: 'Твои @:shared.pillows скоро сгорят. Нажми на баланс, чтобы узнать подробности. \nУспей обменять подушки на билеты в розыгрышах'
+    buttonText: К розыгрышам!
   screen:
     balance:
       appBar:
