@@ -25,11 +25,11 @@ pillowsReason(context=Reasons):
   challenge: Челлендж
   referral: Вознаграждение за реферала
   ticketsExchange: Обмен подушек на билеты
-  quiz: Вознаграждение за совет
+  quiz: Вознаграждение за статью
   expiration: Сгорание подушек
   regularTournament: Турнир
   diary: Дневник сна
-  $unknown: Неизвестно
+  $unknown: Пополнение
 
 defaultError: Ошибка
 
