@@ -25,7 +25,7 @@ pillowsReason(context=Reasons):
   challenge: Челлендж
   referral: Вознаграждение за реферала
   ticketsExchange: Обмен подушек на билеты
-  quiz: Вознаграждение за статью
+  quiz: Прочитанная статья
   expiration: Сгорание подушек
   regularTournament: Турнир
   diary: Дневник сна
