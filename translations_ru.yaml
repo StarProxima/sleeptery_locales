@@ -255,6 +255,7 @@ pillows:
       appBar:
         title: Мои подушки
         history: История
+        rules: Правила
       ofThem: из них
       activity:
         forActivity: за активности
@@ -265,6 +266,7 @@ pillows:
       subtitle: Обменивая подушки на билеты можно выиграть призы
       buttonText: Обменять подушки
       secondaryButton: Правила начисления подушек
+      recentPillowsHistory: Последние операции
     calculatingRules:
       appBarText: Правила начисления и сгорания подушек
       headerText: Начисление подушек
