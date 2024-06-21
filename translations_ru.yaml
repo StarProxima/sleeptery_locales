@@ -417,6 +417,7 @@ raffle:
       ticketPrice: 1 билет = $n
       ticketsCardText: В этом розыгрыше у вас
       learnMore: Подробнее
+      mainPrize: Главный приз
 
   raffleRightNow: Розыгрыш прямо сейчас!
   timeLabel:
@@ -424,6 +425,7 @@ raffle:
     lessThanDayToAnnouncementRaffle: Трансляция через $n
     moreThanDayToExchangeTickets: через $n
   myTicket: Мой билет
+  ticketDate: От $date
   tileButtons:
     goingOnRightNow:
       text: Смотреть
@@ -846,7 +848,7 @@ bottomSheets:
     buttonText: Вернуться в библиотеку
 
   rafflePrize:
-    subtitle: Подробнее на сайте производителя
+    subtitle: Подробнее на сайте
     buttonText: Понятно
 
   exchangePillowsForTickets:
