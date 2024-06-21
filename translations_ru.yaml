@@ -186,7 +186,7 @@ permission:
         pillows: О начислении и сгорании подушек
         reminderTime: Время напоминания
       buttonText:
-        turnOn: Включить уведомления
+        turnOn: Сохранить
         ready: Готово
       turnOnPushNotifications: Включите Push-уведомления в настройках своего телефона
       notSelectedNotifications: Совсем без уведомлений плохо, так можно пропустить важные события и сбить режим
