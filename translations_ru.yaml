@@ -456,7 +456,6 @@ raffle:
     few: 'Тебе начислено $n билета'
     other: 'Тебе начислено $n билетов'
   youHaveTickets: У вас $n
-  ticketDate: От $date
 
 diary:
   appbar:
