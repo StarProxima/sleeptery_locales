@@ -460,6 +460,7 @@ raffle:
 diary:
   appbar:
     title: Дневник сна
+    titleReg: Режим сна
   screens:
     main:
       ratings:
@@ -480,11 +481,12 @@ diary:
       buttonText: Продолжить
       addVariant: Добавить свой вариант
     clock:
-      title: В какое время вы хотите засыпать и просыпаться?
+      title: Настройте режим сна
       subtitle: Укажите время, а мы будем напоминать вам про отход ко сну и будить по утрам
       goingToBed: Отход ко сну
       wakingUp: Подъём
       buttonText: Завершить настройку
+      buttonTextReg: Сохранить и продолжить
 
   daysInRow:
     zero: $n дней подряд
@@ -601,6 +603,7 @@ deviceInstructions:
     subtitle: Чтобы что-то улучшать, для начала это нужно научиться контролировать
     title: Важно подключить трекер для сна, и мы поможем анализировать твой сон
     buttonText: Подключить трекер
+    secondaryButtonText: У меня нет трекера
   shared:
     preview(interface=DeviceInstructionStage):
       title:
