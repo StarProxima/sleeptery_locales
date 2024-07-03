@@ -414,6 +414,7 @@ raffle:
         notEnoughPillows: Недостаточно подушек для обмена
         participateRaffle: Участвовать в розыгрыше
         exchangePillows: Обменять подушки на билеты
+        noBroadcast: Трансляции не будет, розыгрыш пройдет автоматически. Совсем скоро будут известны результаты
       ticketPrice: 1 билет = $n
       ticketsCardText: В этом розыгрыше у вас
       learnMore: Подробнее
@@ -456,6 +457,11 @@ raffle:
     few: 'Тебе начислено $n билета'
     other: 'Тебе начислено $n билетов'
   youHaveTickets: У вас $n
+  raffleNameByPillows:
+    zero: $pillows Подушек
+    one: $pillows Подушка
+    few: $pillows Подушки
+    other: $pillows Подушек
 
 diary:
   appbar:
