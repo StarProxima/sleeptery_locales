@@ -978,7 +978,7 @@ bottomSheets:
       buttonText: Да, спал
       secondaryButtonText: Нет, не спал
     hasSleepDataInExternalApp:
-      title(context=Providers):
+      title(context=AllSleepSources):
         samsung: Данные по сну отображаются в Samsung Health?
         apple: Данные по сну отображаются в Apple Health?
         oura: Данные по сну отображаются в приложении OURA?
@@ -986,6 +986,9 @@ bottomSheets:
         google: Данные по сну отображаются в Zepp Life?
         realtime: ""
         freestylelibresdk: ""
+        appleHealth: ""
+        googleFit: ""
+        googleHealthConnect: ""
         $unknown: ""
       buttonText: Да
       secondaryButtonText: Нет
@@ -998,7 +1001,7 @@ bottomSheets:
       buttonText: Окей, понял
       secondaryButtonText: Не помогает
     hasSleepteryAccessToExternalApp:
-      title(context=Providers):
+      title(context=AllSleepSources):
         samsung: У Sleeptery есть доступ к данным твоего сна в Health Connect?
         apple: У Sleeptery есть доступ к данным твоего сна в Apple Health?
         google: У Sleeptery есть доступ к данным твоего сна в Zepp Life?
@@ -1006,6 +1009,9 @@ bottomSheets:
         garmin: ""
         realtime: ""
         freestylelibresdk: ""
+        appleHealth: ""
+        googleFit: ""
+        googleHealthConnect: ""
         $unknown: ""
       buttonText: Да, доступ есть
       secondaryButtonText: Включил
@@ -1018,7 +1024,7 @@ bottomSheets:
       buttonText: Да, хочу
       secondaryButtonText: Нет, спасибо
     removeDevice:
-      title(context=Providers):
+      title(context=AllSleepSources):
         oura: Откройте приложение OURA, данные придут через 2-3 минуты
         garmin: Откройте приложение Garmin, данные придут через 2-3 минуты
         samsung: Сними трекер на 1-2 минуты, обычно этого достаточно
@@ -1026,8 +1032,11 @@ bottomSheets:
         google: Сними трекер на 1-2 минуты, обычно этого достаточно
         realtime: ""
         freestylelibresdk: ""
+        appleHealth: ""
+        googleFit: ""
+        googleHealthConnect: ""
         $unknown: ""
-      buttonText(context=Providers):
+      buttonText(context=AllSleepSources):
         oura: Окей
         garmin: Окей
         samsung: Ок, подожду
@@ -1035,6 +1044,9 @@ bottomSheets:
         google: Ок, подожду
         realtime: ""
         freestylelibresdk: ""
+        appleHealth: ""
+        googleFit: ""
+        googleHealthConnect: ""
         $unknown: ""
       secondaryButtonText: Не хочу ждать
     deviceStatus:
@@ -1042,7 +1054,7 @@ bottomSheets:
       buttonText: Да, именно
       secondaryButtonText: Нет, другой
     complete:
-      title(context=Providers):
+      title(context=AllSleepSources):
         oura: Пока нет данных с устройства, мы не начислим подушки
         garmin: Пока нет данных с устройства, мы не начислим подушки
         samsung: Рано или поздно мы получим данные и начислим подушки
@@ -1050,6 +1062,9 @@ bottomSheets:
         google: Рано или поздно мы получим данные и начислим подушки
         realtime: ""
         freestylelibresdk: ""
+        appleHealth: ""
+        googleFit: ""
+        googleHealthConnect: ""
         $unknown: ""
       buttonText: Принято
 
