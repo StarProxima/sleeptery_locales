@@ -174,8 +174,14 @@ sleepingMode:
       asleep: отход ко сну
       wakingUp: пробуждение
 
-
-
+activities:
+  list:
+    title: Получи еще больше подушек
+    buttonText:
+      more: Ещё
+      less: Свернуть
+    card:
+      buttonText: Забрать
 
 authReg:
   email:
