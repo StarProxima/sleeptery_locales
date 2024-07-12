@@ -103,6 +103,15 @@ home:
       articleName: Статья «$n»
       subtitle: Прочитайте и получите подушки
     sleepStats:
+      gauge:
+        sleep: за сон
+        activity: активности
+      data:
+        addActivity: Добавь активности
+        buttonText: Продолжить
+        stats:
+          duration: длительность
+          more: '\nПодробнее'
       connectionProblems:
         title: С подключением трекера возникли сложности
         subtitle: Удалите трекер и добавьте заново
@@ -116,8 +125,11 @@ home:
         buttonText: Попробовать ещё раз
         secondaryButtonText: Почему так?
       shouldConnectDevice:
+        # Оставил старые на всякий пожарный случай
         title: Начните свой путь к идеальному сну
-        buttonText: Подключить трекер
+        title1: Получи подушки за активности
+        title2: Активности хорошо, но...
+        buttonText: Больше подушек с трекером
         secondaryButtonText: Зачем подключать трекер?
       temporaryWaitingNewData:
         title: Ждём данные от $appName...
@@ -136,6 +148,34 @@ home:
     waitingData: Ожидание данных...
     lastSyncAt: Последняя синхронизация $dateStr в $timeStr
     sync: Синхронизация...
+
+sleepingMode:
+  title: Режим сна
+  container:
+    column:
+      title:
+        noMode: Режим сна
+        wakingUp: Встал по режиму +$n
+        asleep: Лег по режиму +$n
+        all: Всё по режиму +$n
+      subtitle:
+        isComplete: Идеальное попадание в режим сна
+        onlyWakingUp: 'А еще просыпайся по режиму ±30м, и получай еще больше подушек'
+        onlyAsleep: 'А еще ложись по режиму ±30м, и получай еще больше подушек'
+        nothing: 'Сегодня без подушек\nВставай и ложись по режиму ±30м'
+      description:
+        asleepOnMode(param=$modeAsleepTime): Отход ко сну (по режиму $modeAsleepTime)
+        wakingUpOnMode(param=$modeWakingUpTime): Пробуждение (по режиму $modeWakingUpTime)
+        completedMode: Соблюдение режима
+      buttonText:
+        zero: Понятно
+        other: Забрать подушки
+    row:
+      asleep: отход ко сну
+      wakingUp: пробуждение
+
+
+
 
 authReg:
   email:
