@@ -539,6 +539,11 @@ diary:
       wakingUp: Подъём
       buttonText: Завершить настройку
       buttonTextReg: Сохранить и продолжить
+      description:
+        notEnough: Маловато
+        good: Идеально
+        tooMuch: Перебор
+      notAInterval: Выбери промежуток!
 
   daysInRow:
     zero: $n дней подряд
