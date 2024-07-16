@@ -266,6 +266,7 @@ sideBar:
   faq: FAQ
   acquaintance: Знакомство
   connect: Связаться с нами
+  setUpPattern: Настроить режим сна
   exit: Выйти
   beta: Beta-версия
   notifications: Уведомления
@@ -512,7 +513,10 @@ raffle:
 diary:
   appbar:
     title: Дневник сна
-    titleReg: Режим сна
+    clockTitle(context=DiaryAlarmSettingsScreenType):
+      diary: Дневник сна
+      registration: Режим сна
+      settings: ''
   screens:
     main:
       ratings:
@@ -537,8 +541,10 @@ diary:
       subtitle: Укажите время, а мы будем напоминать вам про отход ко сну и будить по утрам
       goingToBed: Отход ко сну
       wakingUp: Подъём
-      buttonText: Завершить настройку
-      buttonTextReg: Сохранить и продолжить
+      buttonText(context=DiaryAlarmSettingsScreenType):
+        diary: Завершить настройку
+        registration: Сохранить и продолжить
+        settings: Сохранить
       description:
         notEnough: Маловато
         good: Идеально
