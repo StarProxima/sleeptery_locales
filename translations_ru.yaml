@@ -317,6 +317,7 @@ pillows:
     calculatingRules:
       appBarText: Правила начисления и сгорания подушек
       headerText: Начисление подушек
+      buttonText: Всё понятно
       explanations(interface=PillowsExplanations):
         lightSleep:
           header: За фазу «Легкий сон»
