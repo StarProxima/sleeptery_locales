@@ -182,6 +182,28 @@ activities:
       less: Свернуть
     card:
       buttonText: Забрать
+      title(context=ActivitiesNames):
+        connectTracker: 'Подключи трекер'
+        enableNotifications: 'Включи уведомления'
+        setupNotifications: 'Настрой уведомления'
+        readArticle: 'Прочитай совет дня'
+        setupDiary: 'Настрой дневник'
+        fillDiary: 'Заполни дневник сна'
+        readPillowsRules: 'Начисление подушек'
+        familiarizeWithSections: ''
+        inviteFriend: 'Приглашай друзей'
+        $unknown: ''
+      subtitle(context=ActivitiesNames):
+        connectTracker: 'для мониторинга сна'
+        enableNotifications: 'для соблюдения режима'
+        setupNotifications: 'Полностью под себя'
+        readArticle: ''
+        setupDiary: 'и внеси свои ритуалы'
+        fillDiary: 'Как влияет день на сон'
+        readPillowsRules: 'Познакомься с правилами'
+        familiarizeWithSections: ''
+        inviteFriend: 'для улучшения их сна'
+        $unknown: ''
 
 authReg:
   email:
@@ -831,6 +853,22 @@ tournaments:
         noDevice: Подключите девайс, чтобы принять участие в турнире
 
 bottomSheets:
+  capture:
+    title: Ты получаешь
+    buttonText: Круто!
+    subtitle(context=ActivitiesNames):
+      connectTracker: 'Твой девайс успешно подключен, ты на верном пути'
+      enableNotifications: 'Уведомления включены, они помогут тебе держать режим сна, и, конечно, получать еще больше подушек'
+      setupNotifications: 'Ты настроил уведомления!'
+      readArticle: ''
+      setupDiary: 'Дневник настроен, теперь важно заполнять его каждый день'
+      fillDiary: ''
+      readPillowsRules: 'Теперь ты знаешь, что надо делать, чтобы получать больше подушек'
+      familiarizeWithSections: ''
+      inviteFriend: ''
+      $unknown: ''
+    subtitleInviteFriend: $friendName подключил девайс и начал свой путь по улучшению сна
+
   setTimeToNotification:
     title: Время напоминания
     subtitle: Заполнение дневника
