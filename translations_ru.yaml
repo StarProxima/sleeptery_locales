@@ -182,6 +182,19 @@ activities:
       less: Свернуть
     card:
       buttonText: Забрать
+      titleSections(context=MobileAppSections):
+        raffles: 'Розыгрыши'
+        tournaments: 'Турниры'
+        diary: 'Дневник сна'
+        valueLibrary: 'Библиотека'
+        $unknown: ''
+      subtitleSections(context=MobileAppSections):
+        raffles: 'Познакомься с разделом'
+        tournaments: 'Познакомься с разделом'
+        diary: 'Познакомься с разделом'
+        valueLibrary: 'Познакомься с разделом'
+        $unknown: ''
+      subtitleLibrary: '«$header»'
       title(context=ActivitiesNames):
         connectTracker: 'Подключи трекер'
         enableNotifications: 'Включи уведомления'
@@ -856,6 +869,12 @@ bottomSheets:
   capture:
     title: Ты получаешь
     buttonText: Круто!
+    subtitleFamiliarize(context=MobileAppSections):
+      raffles: 'Теперь ты знаешь, что есть в Розыгрышах. Покупай билеты, выигрывай полезные призы'
+      tournaments: 'Теперь ты знаешь, что есть в Турнирах. Поборись за первое место в своей лиге'
+      diary: 'Теперь ты знаешь, что есть в Дневнике сна. Заполняй его каждый день'
+      valueLibrary: 'Теперь ты знаешь, что есть в Библиотеке. Читай совет дня каждый день'
+      $unknown: ''
     subtitle(context=ActivitiesNames):
       connectTracker: 'Твой девайс успешно подключен, ты на верном пути'
       enableNotifications: 'Уведомления включены, они помогут тебе держать режим сна, и, конечно, получать еще больше подушек'
