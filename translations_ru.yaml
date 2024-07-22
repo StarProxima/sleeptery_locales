@@ -506,6 +506,13 @@ raffle:
       ticketsCardText: В этом розыгрыше у вас
       learnMore: Подробнее
       mainPrize: Главный приз
+      periodInMinutes:
+        zero: ''
+        one: $n минуту
+        few: $n минуты
+        other: $n минут
+      period: Проводится раз в
+
 
   raffleRightNow: Розыгрыш прямо сейчас!
   timeLabel:
