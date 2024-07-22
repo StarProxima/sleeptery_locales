@@ -490,18 +490,18 @@ raffle:
       youHasNotTickets: Прими участие в розыгрыше, обменяв подушки на билеты, и попробуй выиграть приз!
     detail:
       timeLabel:
-        lessThanDayToExchangeTickets: Успейте обменять билеты $n
+        lessThanDayToExchangeTickets: Успей обменять билеты $n
         lessThanDayToAnnouncementRaffle: Трансляция через $n
         lessThanDayToAnnouncementPillowsRaffle: Розыгрыш через $n
         moreThanDayToExchangeTickets: через $n
-        newPillowsRaffleStartsAt: 'Новый розыгрыш начнется\n через $n'
+        newPillowsRaffleStartsAt: Розыгрыш окончен!
       buttonText:
         goToStream: Перейти к трансляции
         cantGetTickets: Билеты уже не получить. Успевайте обменять подушки на билеты за 24 часа до начала розыгрыша.
         notEnoughPillows: Недостаточно подушек для обмена
         participateRaffle: Участвовать в розыгрыше
         exchangePillows: Обменять подушки на билеты
-        pillowsRaffleEnded: Трансляции не будет, розыгрыш пройдет автоматически. Совсем скоро начнется новый розыгрыш
+        pillowsRaffleEnded: Трансляции не будет, розыгрыш прошел автоматически
       ticketPrice: 1 билет = $n
       ticketsCardText: В этом розыгрыше у вас
       learnMore: Подробнее
@@ -509,11 +509,11 @@ raffle:
 
   raffleRightNow: Розыгрыш прямо сейчас!
   timeLabel:
-    lessThanDayToExchangeTickets: Успейте получить билеты $n
+    lessThanDayToExchangeTickets: Успей получить билеты $n
     lessThanDayToAnnouncementRaffle: Трансляция через $n
     lessThanDayToAnnouncementPillowsRaffle: Розыгрыш через $n
     moreThanDayToExchangeTickets: через $n
-    newPillowsRaffleStartsAt: 'Новый розыгрыш начнется\n через $n'
+    pillowsRaffleGoingNow: Розыгрыш окончен!
   myTicket: Мой билет
   ticketDate: От $date
   tileButtons:
