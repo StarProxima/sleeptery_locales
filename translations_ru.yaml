@@ -29,6 +29,7 @@ pillowsReason(context=Reasons):
   expiration: Сгорание подушек
   regularTournament: Турнир
   diary: Дневник сна
+  activity: Награда за активность
   $unknown: Пополнение
 
 defaultError: Ошибка
