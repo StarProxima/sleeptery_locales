@@ -29,6 +29,7 @@ pillowsReason(context=Reasons):
   expiration: Сгорание подушек
   regularTournament: Турнир
   diary: Дневник сна
+  activity: Награда за активность
   $unknown: Пополнение
 
 defaultError: Ошибка
@@ -935,6 +936,7 @@ bottomSheets:
       inviteFriend: ''
       $unknown: ''
     subtitleInviteFriend: $friendName подключил девайс и начал свой путь по улучшению сна
+    subtitleInviteFriendList: $friendList и $lastFriend подключили девайсы и начали свой путь по улучшению сна
 
   setTimeToNotification:
     title: Время напоминания
@@ -1282,3 +1284,4 @@ onboarding:
       happyRating: Счастлив ли ты был сегодня? Как редко мы задаем себе этот вопрос) Но он один из самых главных.\n\nМы будем напоминать тебе отвечать на него ежедневно)
       settings: А если твои привычки или режим поменялись, здесь ты всегда сможешь настроить дневник под себя
     complete: К дневнику!
+
