@@ -384,24 +384,80 @@ pillows:
       recentPillowsHistory: Последние операции
     calculatingRules:
       appBarText: Правила начисления и сгорания подушек
-      headerText: Начисление подушек
       buttonText: Всё понятно
-      explanations(interface=PillowsExplanations):
-        lightSleep:
-          header: За фазу «Легкий сон»
-          description: 1 час – 6 подушек
-        remDeepSleep:
-          header: За фазу «Быстрый сон» и «Глубокий сон»
-          description: 1 час – 20 подушек
-        library:
-          header: За правильный ответ на вопрос из теста «Статьи дня» в «Библиотеке сна»
-          description: 10 подушек
+      explanations:
+        connectDevice:
+          header: Подключение трекера
+          award: 100
+        forSleep:
+          header: Подушки за сон
+          descriptions:
+            forHour:
+              name: За каждый час сна полученный с трекера
+              award: 10
+            asleep:
+              name: Отход ко сну по режиму
+              award: 10
+            wakingUp:
+              name: Пробуждение по режиму
+              award: 10
+            combo:
+              name: "Комбо: пробуждение и отход ко сну"
+              award: 20
+        forFriend:
+          header: Подушки за друга
+          descriptions:
+            friendConnectDevice:
+              name: Друг подключил свой девайс и получил подушки за сон
+              award: 100
+            cacheBack:
+              name: Кешбэк 10% подушками от стоимости билетов, приобретённых твоим другом
+              award: до 200
         diary:
-          header: За ежедневное заполнение дневника дается
-          description: от 2 до 10 подушек
-        referral:
-          header: За приглашенного друга
-          description: 3% от его подушек, обмененных на билеты
+          header: Дневник сна
+          descriptions:
+            setupDiary:
+              name: Настройка дневника
+              award: 10
+            firstDay:
+              name: Заполнение дневника 1 день
+              award: 2
+            secondDay:
+              name: Заполнение дневника 2 день
+              award: 4
+            thirdDay:
+              name: Заполнение дневника 3 день
+              award: 6
+            fourthDay:
+              name: Заполнение дневника 4 день
+              award: 8
+            other:
+              name: Заполнение дневника 5 дней подряд и далее без пропуска
+              award: 10
+        library:
+          header: Библиотека
+          descriptions:
+            completeTest:
+              name: Успешное прохождение теста
+              award: 10
+        readPillowsRules:
+          header: "Узнай правила\nначисления подушек"
+          award: 25
+        setupDiary:
+          header: "Настрой дневник\nи внеси свои ритуалы"
+          award: 20
+        libraryOnboarding:
+          header: "Познакомься \nс разделом «Библиотека»"
+          award: 20
+        rafflesOnboarding:
+          header: "Познакомься \nс разделом «Розыгрыши»"
+          award: 20
+        diaryOnboarding:
+          header: "Познакомься \nс разделом «Дневник сна»"
+          award: 20
+        tournamentsOnboarding:
+          header: "Познакомься \nс разделом «Турниры»"
+          award: 20
       pillowCombustion:
         title: Сгорание подушек
         variants:
