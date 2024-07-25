@@ -796,6 +796,7 @@ deviceInstructions:
     1: Шаг 1
     2: Шаг 2
     3: Шаг 3
+    4: Шаг 4
   ready: Готово
   needConnectDevice:
     lastMoment: Последний момент
@@ -812,6 +813,8 @@ deviceInstructions:
         garmin: Для работы с устройством нужен Garmin Connect и авторизация в сервисе Terra
         zeppLife: Для работы с устройством надо приложение ZeppLife и авторизация в Google Fit
         miFit: Для работы с устройством надо приложение Mi Fit и авторизация в Google Fit
+        appleHealth: Для работы с трекером понадобится приложение родное приложение трекера
+        healthConnect: Для работы с трекером понадобится родное приложение трекера и Health Connect
       subtitle:
         samsung: Samsung Health собирает данные с трекера, а Health Connect передает их в Sleeptery
         apple: Приложение «Здоровье» собирает данные с трекера и передает их в Sleeptery
@@ -819,6 +822,8 @@ deviceInstructions:
         garmin: Garmin Connect собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
         zeppLife: Приложение ZeppLife собирает данные с трекера, а Google Fit облачно передает данные в Sleeptery
         miFit: Приложение Mi Fit собирает данные с трекера, а Google Fit облачно передает данные в Sleeptery
+        appleHealth: Приложение трекера собирает данные о сне с трекера, передает их в Здоровье. Оттуда их забирает sleeptery
+        healthConnect: Приложение трекера собирает данные о сне с трекера, передает их в Health Connect. Оттуда их забирает sleeptery
       buttonText: Приступить к настройке
       secondaryButtonText: Пропустить настройку
     downloadExternalApp(interface=DeviceInstructionStage):
@@ -855,6 +860,34 @@ deviceInstructions:
     getAccessToAppleHealth(interface=DeviceInstructionStage):
       title: Дайте Sleeptery доступ к Здоровье
       subtitle: «Включить всё»
+      buttonText: Дать доступ
+  appleHealth:
+    getAccessToAppleHealth:
+      title: Предоставь sleeptery доступы в Здоровье
+      buttonText: Дать доступ
+    hasAccess:
+      title: Доступ есть!
+      buttonText: К следующему шагу
+    downloadApp:
+      title: Установи родное приложение приложение трекера
+      subtitle: Установите из App Store родное приложение для вашего трекера
+      buttonText: Я установил приложение
+    getAppAccessToAppleHealth:
+      title: Предоставь приложению трекера доступы в Здоровье
+      subtitle: Для этого в приложении трекера, в настройках или при первом заходе предоставь полный доступ в Здоровье
+      buttonText: Я предоставил доступ
+  healthConnect:
+    downloadDeviceApp:
+      title: Установи родное приложение трекера
+      buttonText: Я установил приложение
+    downloadHealthConnect:
+      title: Установи приложение Health Connect
+      buttonText: Установить Health Connect
+    getAppAccessToHealthConnect:
+      title: Предоставь приложению трекера доступ в Health Connect
+      buttonText: Дать доступ
+    getAccessToHealthConnect:
+      title: Предоставь sleeptery доступ в Health Connect
       buttonText: Дать доступ
   samsung:
     downloadHealthConnect(interface=DeviceInstructionStage):
