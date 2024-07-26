@@ -534,7 +534,7 @@ library:
         answers:
           correct: Правильный ответ
           incorrect: Неправильно!
-  
+
 raffle:
   screen:
     main:
@@ -1017,7 +1017,7 @@ tournaments:
       12: Спокойную Лигу
       11: Расслабляющую Лигу
       10: Дремотную Лигу
-  
+
   screens:
     tournamentScreen:
       tournament: Общий турнир
