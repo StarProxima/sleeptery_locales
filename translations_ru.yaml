@@ -817,6 +817,8 @@ deviceInstructions:
         garmin: Для работы с устройством нужен Garmin Connect и авторизация в сервисе Terra
         androidZeppLife: Для работы с устройством тебе понадобится ZeppLife, Google Fit и Health Connect
         androidMiFit: Для работы с устройством тебе понадобится Mi Fitness, Google Fit и Health Connect
+        iosZeppLife: Для работы с трекером понадобится приложение ZeppLife
+        iosMiFit: Для работы с трекером понадобится приложение Mi Fitness
         appleHealth: Для работы с трекером понадобится приложение родное приложение трекера
         healthConnect: Для работы с трекером понадобится родное приложение трекера и Health Connect
       subtitle:
@@ -826,6 +828,8 @@ deviceInstructions:
         garmin: Garmin Connect собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
         androidZeppLife: Приложение ZeppLife собирает данные с трекера, облачно передает их через Google Fit в Health Connect, затем данные о сне забирает sleeptery
         androidMiFit: Приложение Mi Fitness собирает данные с трекера, облачно передает их через Google Fit в Health Connect, затем данные о сне забирает sleeptery
+        iosZeppLife: ZeppLife собирает данные о сне с трекера, передает их в Здоровье. Оттуда их забирает sleeptery
+        iosMiFit: Mi Fitness собирает данные о сне с трекера, передает их в Здоровье. Оттуда их забирает sleeptery
         appleHealth: Приложение трекера собирает данные о сне с трекера, передает их в Здоровье. Оттуда их забирает sleeptery
         healthConnect: Приложение трекера собирает данные о сне с трекера, передает их в Health Connect. Оттуда их забирает sleeptery
       buttonText: Приступить к настройке
@@ -846,6 +850,9 @@ deviceInstructions:
         garmin: Установить Garmin Connect
         zeppLife: Установить ZeppLife
         miFit: Установить Mi Fit
+      secondaryButtonText:
+        zeppLife: Я установил приложение
+        miFit: Я установил приложение
     externalAppDownloaded(interface=DeviceInstructionStage):
       title:
         samsung: Samsung Health установлен
@@ -887,6 +894,23 @@ deviceInstructions:
     getAccessToHealthConnect:
       title: Предоставь sleeptery доступ в Health Connect
       buttonText: Дать доступ
+  iosXiaomi:
+    getAccessToAppleHealth:
+      title: Предоставь sleeptery доступы в Здоровье
+      buttonText: Дать доступ
+    accessDone:
+      title: Доступ есть!
+      buttonText: К следующему шагу
+    getAccessZeppLifeToAppleHealth:
+      title: Предоставь ZeppLife доступы в Здоровье
+      subtitle: После авторизации, ZeppLife запросит доступ в Здоровье. Необходимо разрешить полный доступ.
+      buttonText: Открыть ZeppLife
+      secondaryButtonText: Я предоставил доступ
+    getAccessMiFitToAppleHealth:
+      title: Предоставь Mi Fitness доступы в Здоровье
+      subtitle: Для этого в приложении Mi Fitness, в настройках, в разделе «Требуются разрешения», предоставь доступ в Здоровье
+      buttonText: Открыть Mi Fitness
+      secondaryButtonText: Я предоставил доступ
   apple:
     getAccessToAppleHealth(interface=DeviceInstructionStage):
       title: Дайте Sleeptery доступ к Здоровье
