@@ -797,6 +797,10 @@ deviceInstructions:
     2: Шаг 2
     3: Шаг 3
     4: Шаг 4
+    5: Шаг 5
+    6: Шаг 6
+    7: Шаг 7
+    8: Шаг 8
   ready: Готово
   needConnectDevice:
     lastMoment: Последний момент
@@ -811,8 +815,8 @@ deviceInstructions:
         apple: Для работы с Apple Watch надо приложение «Здоровье»
         oura: Для работы с устройством надо приложение Oura и авторизация в сервисе Terra
         garmin: Для работы с устройством нужен Garmin Connect и авторизация в сервисе Terra
-        zeppLife: Для работы с устройством надо приложение ZeppLife и авторизация в Google Fit
-        miFit: Для работы с устройством надо приложение Mi Fit и авторизация в Google Fit
+        androidZeppLife: Для работы с устройством тебе понадобится ZeppLife, Google Fit и Health Connect
+        androidMiFit: Для работы с устройством тебе понадобится Mi Fitness, Google Fit и Health Connect
         appleHealth: Для работы с трекером понадобится приложение родное приложение трекера
         healthConnect: Для работы с трекером понадобится родное приложение трекера и Health Connect
       subtitle:
@@ -820,21 +824,21 @@ deviceInstructions:
         apple: Приложение «Здоровье» собирает данные с трекера и передает их в Sleeptery
         oura: Приложение Oura собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
         garmin: Garmin Connect собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
-        zeppLife: Приложение ZeppLife собирает данные с трекера, а Google Fit облачно передает данные в Sleeptery
-        miFit: Приложение Mi Fit собирает данные с трекера, а Google Fit облачно передает данные в Sleeptery
+        androidZeppLife: Приложение ZeppLife собирает данные с трекера, облачно передает их через Google Fit в Health Connect, затем данные о сне забирает sleeptery
+        androidMiFit: Приложение Mi Fitness собирает данные с трекера, облачно передает их через Google Fit в Health Connect, затем данные о сне забирает sleeptery
         appleHealth: Приложение трекера собирает данные о сне с трекера, передает их в Здоровье. Оттуда их забирает sleeptery
         healthConnect: Приложение трекера собирает данные о сне с трекера, передает их в Health Connect. Оттуда их забирает sleeptery
       buttonText: Приступить к настройке
       secondaryButtonText: Пропустить настройку
     downloadExternalApp(interface=DeviceInstructionStage):
       title:
-        samsung: Установите Samsung Health
-        apple: Установите приложение Здоровье
-        oura: Установите приложение Oura
-        garmin: Установите Garmin Connect
-        zeppLife: Установите приложение ZeppLife
-        miFit: Установите приложение Mi Fit
-      subtitle: После установки приложения, подключите ваш трекер
+        samsung: Установи Samsung Health
+        apple: Установи приложение Здоровье
+        oura: Установи приложение Oura
+        garmin: Установи Garmin Connect
+        zeppLife: Установи приложение ZeppLife
+        miFit: Установи приложение Mi Fit
+      subtitle: После установки приложения подключи свой трекер
       buttonText:
         samsung: Установить Samsung Health
         apple: Установить Здоровье
@@ -850,12 +854,39 @@ deviceInstructions:
         garmin: Garmin Connect установлен
         zeppLife: Приложение ZeppLife установлено
         miFit: Приложение Mi Fit установлено
-      subtitle: Переходите к следующему шагу,\nосталось чуть-чуть
+      subtitle: Переходи к следующему шагу,\nосталось чуть-чуть
       buttonText: К следующему шагу
     completed(interface=DeviceInstructionStage):
       title: Полный коннект!
       subtitle: Теперь мы получаем данные с вашего трекера и можем отслеживать сон
       buttonText: Ура!
+  androidXiaomi:
+    installGoogleFit:
+      title: Установи приложение Google Fit
+      buttonText: Установить Google Fit
+    googleFitInstalled:
+      title: Приложение Google Fit установлено
+      subtitle: Переходи к следующему шагу,\nосталось чуть-чуть
+      buttonText: К следующему шагу
+    getAccessZeppLifeToGoogleFit:
+      title: Предоставь ZeppLife доступ в Google Fit
+      buttonText: Дать доступ
+    getAccessMiFitToGoogleFit:
+      title: Предоставь Mi Fitness доступ в Google Fit
+      buttonText: Дать доступ
+    installHealthConnect:
+      title: Установи приложение Health Connect
+      buttonText: Установить Health Connect
+    healthConnectInstalled:
+      title: Приложение Health Connect установлено
+      subtitle: Переходи к следующему шагу,\nосталось чуть-чуть
+      buttonText: К следующему шагу
+    getAccessHealthConnectToGoogleFit:
+      title: Предоставь Health Connect доступ в Google Fit
+      buttonText: Дать доступ
+    getAccessToHealthConnect:
+      title: Предоставь sleeptery доступ в Health Connect
+      buttonText: Дать доступ
   apple:
     getAccessToAppleHealth(interface=DeviceInstructionStage):
       title: Дайте Sleeptery доступ к Здоровье
