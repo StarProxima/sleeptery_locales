@@ -940,7 +940,7 @@ deviceInstructions:
       buttonText: Установить Health Connect
     getAppAccessToHealthConnect:
       title: Предоставь приложению трекера доступ в Health Connect
-      buttonText: Дать доступ
+      buttonText: Я предоставил доступ
     getAccessToHealthConnect:
       title: Предоставь sleeptery доступ в Health Connect
       buttonText: Дать доступ
