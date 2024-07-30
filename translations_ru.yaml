@@ -1046,7 +1046,7 @@ tournaments:
     tournamentScreen:
       tournament:
         regular: Общий турнир
-        corporate: Корпоративный турнир
+        corporate: T-Банк
       resultsAfter: 'Результаты через $time'
       promotionZone: Зона повышения
       demotionZone: Зона понижения
