@@ -1044,7 +1044,9 @@ tournaments:
 
   screens:
     tournamentScreen:
-      tournament: Общий турнир
+      tournament:
+        regular: Общий турнир
+        corporate: Корпоративный турнир
       resultsAfter: 'Результаты через $time'
       promotionZone: Зона повышения
       demotionZone: Зона понижения
