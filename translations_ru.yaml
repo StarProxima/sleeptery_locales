@@ -784,6 +784,10 @@ deviceInstructions:
       failedOpenZeppLife:
         title: Не удалось открыть ZeppLife
         text: Проверьте, что ZeppLife установлен
+    appleHealth:
+      noAccess:
+        title: Не удалось получить доступ
+        text: Попробуйте выдать разрешения в Apple Health ещё раз
 
   whyConnectDevice:
     appBar: Зачем подключать трекер?
