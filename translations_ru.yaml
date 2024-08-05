@@ -1308,9 +1308,9 @@ bottomSheets:
         google: Данные по сну отображаются в Zepp Life?
         realtime: ""
         freestylelibresdk: ""
-        appleHealth: ""
+        appleHealth: Данные по сну отображаются в Apple Health?
         googleFit: ""
-        googleHealthConnect: ""
+        googleHealthConnect: Данные по сну отображаются Health Connect (Здоровье и спорт)?
         $unknown: ""
       buttonText: Да
       secondaryButtonText: Нет
@@ -1331,9 +1331,9 @@ bottomSheets:
         garmin: ""
         realtime: ""
         freestylelibresdk: ""
-        appleHealth: ""
+        appleHealth: У Sleeptery есть доступ к данным твоего сна в Apple Health?
         googleFit: ""
-        googleHealthConnect: ""
+        googleHealthConnect: У Sleeptery есть доступ к данным твоего сна в Health Connect?
         $unknown: ""
       buttonText: Да, доступ есть
       secondaryButtonText: Включил
@@ -1354,9 +1354,9 @@ bottomSheets:
         google: Сними трекер на 1-2 минуты, обычно этого достаточно
         realtime: ""
         freestylelibresdk: ""
-        appleHealth: ""
+        appleHealth: Сними трекер на 1-2 минуты, обычно этого достаточно
         googleFit: ""
-        googleHealthConnect: ""
+        googleHealthConnect: Сними трекер на 1-2 минуты, обычно этого достаточно
         $unknown: ""
       buttonText(context=AllSleepSources):
         oura: Окей
@@ -1366,9 +1366,9 @@ bottomSheets:
         google: Ок, подожду
         realtime: ""
         freestylelibresdk: ""
-        appleHealth: ""
+        appleHealth: Ок, подожду
         googleFit: ""
-        googleHealthConnect: ""
+        googleHealthConnect: Ок, подожду
         $unknown: ""
       secondaryButtonText: Не хочу ждать
     deviceStatus:
@@ -1384,9 +1384,9 @@ bottomSheets:
         google: Рано или поздно мы получим данные и начислим подушки
         realtime: ""
         freestylelibresdk: ""
-        appleHealth: ""
+        appleHealth: Рано или поздно мы получим данные и начислим подушки
         googleFit: ""
-        googleHealthConnect: ""
+        googleHealthConnect: Рано или поздно мы получим данные и начислим подушки
         $unknown: ""
       buttonText: Принято
 
