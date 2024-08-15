@@ -1209,6 +1209,13 @@ bottomSheets:
 
   ratingAfterTime:
     title: Оценить можно после 21:00
+    titleV2: Оценить можно после 18:00
+    buttonText: Хорошо, вернусь позже
+
+  changeSleepPatternFail:
+    title: Режим можно менять один раз в семь дней
+    lastChanging: Вы меняли режим $n
+    nextChanging: Следующий раз режим сна можно будет изменить $n
     buttonText: Хорошо, вернусь позже
 
   fillHabits:
