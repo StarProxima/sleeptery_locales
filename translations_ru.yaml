@@ -649,7 +649,7 @@ raffle:
 diary:
   appbar:
     title: Дневник сна
-    clockTitle(context=DiaryAlarmSettingsScreenType):
+    clockTitle(context=DiaryPatternSettingsScreenType):
       diary: Дневник сна
       registration: Режим сна
       settings: ''
@@ -679,7 +679,7 @@ diary:
       subtitle: Укажите время, а мы будем напоминать вам про отход ко сну и будить по утрам
       goingToBed: Отход ко сну
       wakingUp: Подъём
-      buttonText(context=DiaryAlarmSettingsScreenType):
+      buttonText(context=DiaryPatternSettingsScreenType):
         diary: Завершить настройку
         registration: Сохранить и продолжить
         settings: Сохранить
@@ -1216,6 +1216,7 @@ bottomSheets:
 
   changeSleepPatternFail:
     title: Режим можно менять один раз в семь дней
+    subtitle: Режим рекомендуется изменять при смене локации, в отпуске или если вы убедились, что текущий вам не подходит. Помните, что организму для адаптации к новым изменениям режима требуется 7-14 дней.
     lastChanging: Вы меняли режим $n
     nextChanging: Следующий раз режим сна можно будет изменить $n
     buttonText: Хорошо, вернусь позже
