@@ -30,6 +30,7 @@ pillowsReason(context=Reasons):
   regularTournament: Турнир
   diary: Дневник сна
   activity: Награда за активность
+  sleepCorrection: Корректировка
   $unknown: Пополнение
 
 defaultError: Ошибка
