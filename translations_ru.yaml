@@ -319,12 +319,17 @@ referrals:
     other: $n билетов
   reward: Ваше вознаграждение
   friendTickets: Билеты друга
+  textForReferralLink: 'Начни улучшать сон со sleeptery\n и выигрывай призы за свои достижения\n Код твоего друга: $referralCode\n\n$link'
+  textForReferralNoLink: 'Начни улучшать сон со sleeptery\n и выигрывай призы за свои достижения\n Код твоего друга: $referralCode\n\nsleeptery.ru'
   toasts:
     failedGetReferralCode:
       title: Ошибка
       text: Не удалось получить реферальный код
     codeCopied:
       title: Промокод скопирован
+    cantGenerateReferralLink:
+      title: 'Не удалось создать реферальную ссылку!'
+      text: Обратитесь в тех. поддержку
 
 sideBar:
   setName: Укажите имя
