@@ -247,6 +247,10 @@ authReg:
     hint: Введите код-приглашение
     buttonText: Активировать
     secondaryButtonText: Пропустить
+    validation:
+      errors:
+        tooManyAttempts: Слишком много попыток, повторите позже
+      label: Реферальный код
   toasts:
     userRegistered:
       title: Успешная регистрация
