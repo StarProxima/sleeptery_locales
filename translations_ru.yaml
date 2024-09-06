@@ -609,6 +609,8 @@ raffle:
         few: $n минуты
         other: $n минут
       period: Проводится раз в
+      toasts:
+        raffleStartsYet: "Розыгрыш уже начался :("
 
 
   raffleRightNow: Розыгрыш прямо сейчас!
