@@ -35,6 +35,8 @@ pillowsReason(context=Reasons):
 
 defaultError: Ошибка
 
+errors:
+  noLink: Нет ссылки
 
 fixValidationErrors(param=errorsCount):
   one: Исправьте $errorsCount ошибку
@@ -545,6 +547,10 @@ library:
           correct: Правильный ответ
           incorrect: Неправильно!
 
+premium:
+  label:
+    text: для фанатов сна
+
 raffle:
   screen:
     main:
@@ -611,6 +617,10 @@ raffle:
       period: Проводится раз в
       toasts:
         raffleStartsYet: "Розыгрыш уже начался :("
+      prizeFund:
+        winner: Разыграем между участниками
+        charity: Отправим на благотворительность
+        yours: твои
 
 
   raffleRightNow: Розыгрыш прямо сейчас!
