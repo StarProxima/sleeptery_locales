@@ -1284,6 +1284,8 @@ bottomSheets:
 
   exchangePillowsForTickets:
     title: Обменять подушки на билеты
+    charityTitle: Обменять подушки на билеты (на благо)
+    raffleTitle: Обменять подушки на билеты (на розыгрыш)
     subtitle: 1 билет
     pillowsItem: Спишется
     buttonText: Обменять
