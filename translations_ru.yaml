@@ -621,6 +621,7 @@ raffle:
         winner: Разыграем между участниками
         charity: Отправим на благотворительность
         yours: твои
+        allTickets: Всего $n
 
 
   raffleRightNow: Розыгрыш прямо сейчас!
