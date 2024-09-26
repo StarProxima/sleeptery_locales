@@ -622,6 +622,12 @@ raffle:
         charity: Отправим на благотворительность
         yours: твои
         allTickets: Всего $n
+        fab:
+          button1: Разыграть
+          button2: Помочь
+        typeLabel:
+          first: 'разыграть между участниками'
+          second: 'на благотворительность'
 
 
   raffleRightNow: Розыгрыш прямо сейчас!
