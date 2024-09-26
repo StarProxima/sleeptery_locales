@@ -605,6 +605,8 @@ raffle:
         participateRaffle: Участвовать в розыгрыше
         exchangePillows: Обменять подушки на билеты
         pillowsRaffleEnded: Трансляции не будет, розыгрыш прошел автоматически
+        becomeAPremium: Стать Фанатом сна
+      premiumLabel: Чтобы участвовать, необходимо быть Фанатом сна
       ticketPrice: 1 билет = $n
       ticketsCardText: В этом розыгрыше у вас
       learnMore: Подробнее
