@@ -550,6 +550,7 @@ library:
 premium:
   label:
     text: для фанатов сна
+    common: ФАНАТ СНА
 
 raffle:
   screen:
