@@ -551,6 +551,8 @@ premium:
   label:
     text: для фанатов сна
     common: ФАНАТ СНА
+  toasts:
+    purchasedPremium: Поздравляем! Ты теперь фанат сна!
 
 raffle:
   screen:
