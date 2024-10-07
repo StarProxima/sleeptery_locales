@@ -28,6 +28,8 @@ pillowsReason(context=Reasons):
   quiz: Прочитанная статья
   expiration: Сгорание подушек
   regularTournament: Турнир
+  corporateTournament: Корпоративный турнир
+  subscriptionCacheback: Кэшбэк
   diary: Дневник сна
   activity: Награда за активность
   sleepCorrection: Корректировка
