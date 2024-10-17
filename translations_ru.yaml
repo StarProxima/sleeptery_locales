@@ -564,6 +564,9 @@ premium:
     common: ФАНАТ СНА
   toasts:
     purchasedPremium: Поздравляем! Ты теперь фанат сна!
+  banner:
+    main: "Еще больше возможностей со статусом Фанат Сна →"
+    pillows: "Спаси подушки, стань Фанатом Сна →"
 
 raffle:
   screen:
