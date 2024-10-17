@@ -77,6 +77,11 @@ shared:
     one: $pillows подушку
     few: $pillows подушки
     other: $pillows подушек
+  pillowsAmount(param=pillows):
+    zero: $pillows подушек
+    one: $pillows подушка
+    few: $pillows подушки
+    other: $pillows подушек
 
 storytelling:
   screen:
@@ -1151,6 +1156,16 @@ tournaments:
         quietLeague: "Спокойная лига — финальная лига, где остаются лучшие из этой лиги и переходят победители из Расслабляющей лиги. Правила перехода: 50% участников, занявших лучшие позиции остаются в текущей лиге, 50% переходят в Сонную лигу."
 
 bottomSheets:
+  pillowsExpired:
+    title: У тебя сгорело
+    subtitle: Чтобы в следующий раз у тебя не подгорало, стань Фанатом Сна. У них подушки вообще не горят.
+    buttonText: Стать Фанатом Сна
+    listTitle: "Дополнительно ты получишь:"
+    listItems:
+      first: «Фанатские» возможности
+      second: Новые методы для улучшения сна
+      third: Денежный призовой фонд
+
   joinCorporate:
     enterCode:
       title: Присоединиться к турниру
