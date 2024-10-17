@@ -357,6 +357,9 @@ sideBar:
   exit: Выйти
   beta: Beta-версия
   notifications: Уведомления
+  connectCompany: Подключить компанию
+  managementPremium: Управление статусом Фанат сна
+  getPremium: Получить статус
 
 devices:
   cards:
