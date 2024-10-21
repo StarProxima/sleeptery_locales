@@ -647,6 +647,12 @@ raffle:
         typeLabel:
           first: 'разыграть между участниками'
           second: 'на благотворительность'
+      regular:
+        label: "побеждает\nкаждый\n3-й"
+        title: Призовой фонд
+        place: $n место
+        specialPlace: Распределим между остальными
+        footerText: "выигрывает\nкаждый 3-й билет"
 
 
   raffleRightNow: Розыгрыш прямо сейчас!
