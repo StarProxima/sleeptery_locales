@@ -157,6 +157,7 @@ home:
         buttons:
           reset: Заново
           save: Готово
+        plus: "+1"
         toasts:
           cantSaveScore:
             title: "Не удалось сохранить оценку!"
