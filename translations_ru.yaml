@@ -618,7 +618,8 @@ raffle:
         funSleep: Фанат Сна
         label: твой купон на статус
         buttonText: Стать Фанатом Сна
-        timer: успевай $n
+        timer: успевай
+        couponIsExpired: Время действия купона истекло
       youTicketWin:
         zero: ''
         one: Твой билет выиграл!
