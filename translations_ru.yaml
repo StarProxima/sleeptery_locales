@@ -614,6 +614,11 @@ raffle:
       noTickets: Нет билетов
     winnersTickets:
       appBar: Победители
+      coupon:
+        funSleep: Фанат Сна
+        label: твой купон на статус
+        buttonText: Стать Фанатом Сна
+        timer: успевай $n
       youTicketWin:
         zero: ''
         one: Твой билет выиграл!
