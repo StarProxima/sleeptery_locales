@@ -182,9 +182,6 @@ home:
     waitingData: Ожидание данных...
     lastSyncAt: Последняя синхронизация $dateStr в $timeStr
     sync: Синхронизация...
-  couponBanner:
-    title: '-$n% на статус Фанат Сна'
-    subtitle: твой купон
 
 sleepingMode:
   title: Режим сна
@@ -594,6 +591,12 @@ premium:
   banner:
     main: "Еще больше возможностей со статусом Фанат Сна →"
     pillows: "Спаси подушки, стань Фанатом Сна →"
+  couponBanner:
+    title: '-$n% на статус Фанат Сна'
+    subtitle: твой купон
+    toasts:
+      noLink:
+        title: Нет ссылки
 
 raffle:
   screen:
