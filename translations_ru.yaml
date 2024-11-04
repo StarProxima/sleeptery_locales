@@ -1213,13 +1213,21 @@ challenges:
       title: Брось себе вызов
     progressCard:
       title:
-        completed: 'Челлендж пройден!'
-        noCompleted: 'Челлендж не был выполнен!'
+        completed: "Челлендж пройден!"
+        noCompleted: "Челлендж не был выполнен!"
   screens:
     challenges:
       appBarText: Челленджи
+      title: "Брось себе вызов, получи подушки"
     challenge:
       appBarText: Челлендж
+      ratio: коэффициент x$n
+      pillows: получишь, если продержишься
+      body:
+        premium:
+          ratio1: "Здесь"
+          ratio2: 'к твоей ставке'
+
 
 bottomSheets:
   pillowsExpired:
