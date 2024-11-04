@@ -408,7 +408,11 @@ devices:
 
 pillows:
   tooltip:
-    title: 'Твои @:shared.pillows скоро сгорят. Нажми на баланс, чтобы узнать подробности. \nУспей обменять подушки на билеты в розыгрышах'
+    title:
+      zero: ''
+      one: 'Твоя @:shared.pillowsAmount скоро сгорит.'
+      other: 'Твои @:shared.pillowsAmount скоро сгорят.'
+    title2: 'Нажми на баланс, чтобы узнать подробности. \nУспей обменять подушки на билеты в розыгрышах'
     buttonText: К розыгрышам!
   screen:
     balance:
