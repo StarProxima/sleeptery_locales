@@ -1246,6 +1246,16 @@ challenges:
 
 
 bottomSheets:
+  challengeFailed:
+    title: В этот раз не получилось
+    subtitle: Ты не справился с челленджем. Да, бывает разное, но это не повод унывать.
+    buttonText: Подробнее
+
+  challengeCompleted:
+    title: Челлендж пройден!
+    buttonText: Бросить новый вызов
+    secondaryButtonText: Круто!
+
   betDone:
     title: Ставки сделаны, ставок больше нет
     buttonText: Погнали
