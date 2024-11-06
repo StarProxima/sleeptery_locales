@@ -1243,6 +1243,24 @@ challenges:
             2: 'Ставлю половинку'
             3: 'Ставлю много!'
             4: 'Иду ва-банк!'
+      active:
+        body:
+          title: "Твоя ставка в этом челлендже — @:shared.pillowsAmount \nЧеллендж стартовал $startDate, закончится $endDate"
+          tooltip:
+            start: Это только начало
+            yetOneDay: Поднажми
+            end: Конец!
+            text: $n день
+        fab:
+          buttonText: Все идет по плану
+      failed:
+        body:
+          title: Ты не справился с челленджем. Да, бывает разное, но это не повод унывать.
+          tooltip:
+            text: Ну как же так :(
+        fab:
+          buttonText: Бросить новый вызов
+          secondaryButtonText: Ну и ладно
 
 
 bottomSheets:
