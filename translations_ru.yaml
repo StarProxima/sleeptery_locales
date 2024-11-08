@@ -1221,6 +1221,12 @@ challenges:
       appBarText: Челленджи
       title: "Брось себе вызов, получи подушки"
     challenge:
+      toast:
+        userChallengeAlreadyExists:
+          title: "Можно участвовать только в одном челлендже одновременно!"
+        challengeCantStart:
+          title: Ошибка! Челлендж не начался!
+          text: Повторите позже или обратитесь в тех. поддержку
       appBarText: Челлендж
       ratio: коэффициент x$n
       pillows: получишь, если продержишься
