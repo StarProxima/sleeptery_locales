@@ -1272,6 +1272,9 @@ bottomSheets:
 
   challengeCompleted:
     title: Челлендж пройден!
+    subtitle:
+      one: "Ты молодец, @:shared.days пролетел в один миг."
+      other: "Ты молодец, @:shared.days пролетели в один миг."
     buttonText: Бросить новый вызов
     secondaryButtonText: Круто!
 
