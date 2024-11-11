@@ -829,6 +829,7 @@ diary:
 
 deviceInstructions:
   appBar: Подключение трекера
+  appleHealthAppBar: Подключение устройства
   addDevice:
     title: Какая у вас модель устройства?
     subtitle: Нам нужно знать модель вашего трекера, чтобы начать процесс подключения
@@ -920,17 +921,19 @@ deviceInstructions:
       title:
         samsung: Для работы с Galaxy Watch надо 2 приложения
         apple: Для работы с Apple Watch надо приложение «Здоровье»
+        appleHealthWithoutDevice: Для отслеживания сна необходимо приложение «Здоровье»
         oura: Для работы с устройством надо приложение Oura и авторизация в сервисе Terra
         garmin: Для работы с устройством нужен Garmin Connect и авторизация в сервисе Terra
         androidZeppLife: Для работы с устройством тебе понадобится ZeppLife, Google Fit и Health Connect
         androidMiFit: Для работы с устройством тебе понадобится Mi Fitness, Google Fit и Health Connect
         iosZeppLife: Для работы с трекером понадобится приложение ZeppLife
         iosMiFit: Для работы с трекером понадобится приложение Mi Fitness
-        appleHealth: Для работы с трекером понадобится приложение родное приложение трекера
+        appleHealth: Для работы с трекером понадобится родное приложение трекера
         healthConnect: Для работы с трекером понадобится родное приложение трекера и Health Connect
       subtitle:
         samsung: Samsung Health собирает данные с трекера, а Health Connect передает их в Sleeptery
         apple: Приложение «Здоровье» собирает данные с трекера и передает их в Sleeptery
+        appleHealthWithoutDevice: Приложение «Здоровье» собирает данные о сне и передает их в sleeptery
         oura: Приложение Oura собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
         garmin: Garmin Connect собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
         androidZeppLife: Приложение ZeppLife собирает данные с трекера, облачно передает их через Google Fit в Health Connect, затем данные о сне забирает sleeptery
@@ -1051,6 +1054,16 @@ deviceInstructions:
     getAccessToHealthConnect:
       title: Предоставь sleeptery доступ в Health Connect
       buttonText: Дать доступ
+  appleHealthWithoutDevice:
+    getAccessToAppleHealth:
+      title: Дай sleeptery доступ к Здоровье
+      subtitle: «Включить всё»
+      buttonText: Дать доступ
+    setUpSchedule:
+      title: У тебя настроено расписание сна в «Здоровье»?
+      subtitle: Проверить можно в разделе «Сон»
+      buttonText: Да
+      secondaryButtonText: Как настроить
   samsung:
     downloadHealthConnect(interface=DeviceInstructionStage):
       title: Установите Health Connect
@@ -1276,6 +1289,20 @@ challenges:
 
 
 bottomSheets:
+  howSetUpAppleHealth:
+    title: Как настроить
+    subtitle: '1. Открой приложение «Здоровье» на iPhone.\n2. В разделе «Настроить функцию "Сон"» нажми «Приступить», а затем — «Далее».\n3. Далее, следуй инструкциям на экране.'
+    buttonText: Окей, понял
+  selectAppleDevice:
+    title: "Как будете отслеживать сон"
+    subtitle: Зависит от того, есть ли у вас трекер
+    appleWatch:
+      title: С помощью Apple Watch
+      subtitle: Полная детализация с фазами сна
+    appleHealth:
+      title: Через «Здоровье» на iPhone
+      subtitle: Только общее время сна, без фаз
+
   challengeFailed:
     title: В этот раз не получилось
     subtitle: Ты не справился с челленджем. Да, бывает разное, но это не повод унывать.
