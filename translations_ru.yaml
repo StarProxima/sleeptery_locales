@@ -157,6 +157,7 @@ home:
         buttons:
           reset: Заново
           save: Готово
+          skip: Оценить позже
         plus: "+1"
         toasts:
           cantSaveScore:
