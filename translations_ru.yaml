@@ -1246,6 +1246,8 @@ challenges:
       toast:
         userChallengeAlreadyExists:
           title: "Можно участвовать только в одном челлендже одновременно!"
+        userIsNotSubscriber:
+          title: Для участия в челлендже нужно быть Фанатом Сна!
         challengeCantStart:
           title: Ошибка! Челлендж не начался!
           text: Повторите позже или обратитесь в тех. поддержку
