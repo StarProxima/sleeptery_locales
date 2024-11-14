@@ -33,6 +33,7 @@ pillowsReason(context=Reasons):
   diary: Дневник сна
   activity: Награда за активность
   sleepCorrection: Корректировка
+  raffle: Розыгрыш
   $unknown: Пополнение
 
 defaultError: Ошибка
