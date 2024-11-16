@@ -920,6 +920,7 @@ deviceInstructions:
     title: Важно подключить трекер для сна, и мы поможем анализировать твой сон
     buttonText: Подключить трекер
     secondaryButtonText: У меня нет трекера
+    footerText: Если у тебя нет трекера, ты можешь отслеживать общее время сна через приложение «Здоровье». Нажми «Подключить трекер» и выбери пункт «Apple».
   shared:
     preview(interface=DeviceInstructionStage):
       title:
