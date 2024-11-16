@@ -1245,6 +1245,9 @@ challenges:
       title: "Брось себе вызов, получи подушки"
     challenge:
       toast:
+        insufficientAmountPillows:
+          title: Недостаточное количество подушек для ставки!
+          text: Возможно, отображены не актуальные данные. Обновите главную страницу или перезайдите в приложение
         userChallengeAlreadyExists:
           title: "Можно участвовать только в одном челлендже одновременно!"
         userIsNotSubscriber:
