@@ -30,6 +30,7 @@ pillowsReason(context=Reasons):
   regularTournament: Турнир
   corporateTournament: Корпоративный турнир
   subscriptionCacheback: Кэшбэк
+  challengeBet: Ставка в челлендже
   diary: Дневник сна
   activity: Награда за активность
   sleepCorrection: Корректировка
