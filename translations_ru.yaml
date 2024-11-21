@@ -745,6 +745,16 @@ raffle:
     other: $pillows Подушек
 
 diary:
+  mock:
+    habits:
+      first:
+        name: 'hot_shower'
+        title: 'Горячая ванна/душ'
+      second:
+        name: 'alcohol'
+        title: 'Алкоголь'
+      third:
+        title: 'Баня'
   appbar:
     title: Дневник сна
     clockTitle(context=DiaryPatternSettingsScreenType):
