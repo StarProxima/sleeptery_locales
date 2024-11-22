@@ -1308,8 +1308,37 @@ challenges:
           buttonText: Бросить новый вызов
           secondaryButtonText: Ну и ладно
 
+achievements:
+  levelLabel:
+    noLevel:
+      zero: Здесь максимум $n уровней
+      one: Здесь максимум $n уровень
+      few: Здесь максимум $n уровня
+      other: Здесь максимум $n уровней
+    common: Уровень $currentLevel из $maxLevel
+    maxLevel: Уровень $n, максимум!
+    sleepFun: Это максимум!
+  newLevelLabel: Новый уровень!
+  screens:
+    achievements:
+      appBarText: Достижения
+    achievementDetails:
+      appBarText: Достижение
+      buttonText:
+        noProgress: Все понятно
+        hasProgress: Буду стараться
+        newLevel: Вот это я молодец
+        maxLevel: Я в этом максимально крут
+      subtitle:
+        maxLevel: "Ты сделал все, что смог.\nСмотри чего ты достиг!"
 
 bottomSheets:
+  getPrizeForAchievement:
+    title: Твоя награда
+    buttonText:
+      first: Получить награду
+      second: Забрать подушки
+
   howSetUpAppleHealth:
     title: Как настроить
     subtitle: '1. Открой приложение «Здоровье» на iPhone.\n2. В разделе «Настроить функцию "Сон"» нажми «Приступить», а затем — «Далее».\n3. Далее, следуй инструкциям на экране.'
