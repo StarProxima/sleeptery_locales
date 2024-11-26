@@ -1311,10 +1311,10 @@ challenges:
 achievements:
   levelLabel:
     noLevel:
-      zero: "Здесь максимум\n$n уровней"
-      one: "Здесь максимум\n$n уровень"
-      few: "Здесь максимум\n$n уровня"
-      other: "Здесь максимум\n$n уровней"
+      zero: "Здесь максимум $n уровней"
+      one: "Здесь максимум $n уровень"
+      few: "Здесь максимум $n уровня"
+      other: "Здесь максимум $n уровней"
     common: Уровень $currentLevel из $maxLevel
     maxLevel: Уровень $n, максимум!
     sleepFun: Это максимум!
