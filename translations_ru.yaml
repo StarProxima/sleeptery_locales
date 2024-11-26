@@ -387,6 +387,8 @@ sideBar:
   connectCompany: Подключить компанию
   managementPremium: Управление статусом Фанат сна
   getPremium: Получить статус
+  friends: Друзья
+  achievements: Достижения
 
 devices:
   cards:
