@@ -1336,6 +1336,34 @@ achievements:
         percentUsers: Есть у $n% пользователей
         maxLevel: "Ты сделал все, что смог.\nСмотри чего ты достиг!"
 
+friends:
+  screens:
+    friends:
+      appBarText: Друзья
+      buttonCard:
+        search: "Найти друга в sleeptery"
+        invite: "Пригласить друга в sleeptery"
+      pages:
+        friendsPage:
+          tabs:
+            friends:
+              zero: Друзья
+              other: Друзья ($n)
+            requests:
+              zero: Запросы
+              other: Запросы ($n)
+          body:
+            requests:
+              empty:
+                title: "У тебя нет ни входящих,\nни исходящих запросов"
+              data:
+                incomingRequests: Входящие запросы
+                outgoingRequests: Исходящие запросы
+        emptyFriendsPage:
+          title: У тебя пока нет друзей, но это легко исправить
+
+
+
 bottomSheets:
   getPrizeForAchievement:
     title: Твоя награда
