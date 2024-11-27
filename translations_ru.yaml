@@ -64,6 +64,7 @@ sleepScoreType(map):
   100: Супер ночка, просто вау!!!
 
 shared:
+  oneOf: $current из $max
   nights:
     zero: $n ночей
     one: $n ночь
@@ -1332,6 +1333,7 @@ achievements:
         newLevel: Вот это я молодец
         maxLevel: Я в этом максимально крут
       subtitle:
+        percentUsers: Есть у $n% пользователей
         maxLevel: "Ты сделал все, что смог.\nСмотри чего ты достиг!"
 
 bottomSheets:
