@@ -1294,7 +1294,7 @@ challenges:
             4: 'Иду ва-банк!'
       active:
         body:
-          title: "Твоя ставка в этом челлендже — @:shared.pillowsAmount \nЧеллендж стартовал $startDate, закончится $endDate"
+          title: "Твоя ставка в этом челлендже — @:shared.pillowsAmount\nЧеллендж стартовал $startDate, закончится $endDate"
           tooltip:
             start: Это только начало
             yetOneDay: Поднажми
