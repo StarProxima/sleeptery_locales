@@ -1338,6 +1338,31 @@ achievements:
 
 friends:
   screens:
+    friendsOfFriend:
+      appBarText: Друзья $n
+    friendProfile:
+      appBarText: Твой друг
+      friendsOf:
+        zero: 0 друзей
+        one: 1 друг
+        few: $n друга
+        other: $n друзей
+      nightsInRow: "@:shared.nights подряд"
+      achievements:
+        title: "Достижения"
+        level: "Уровень $n"
+      pillowsChart:
+        title: "Подушки за последние 7 дней"
+        items:
+          you: Ты
+          friend: Друг
+        subtitle:
+          friendHasNotPillows: Ты сильно вырвался вперед своего друга, не сбавляй темп!
+          userHasNotPillows: Твой друг сильно вырвался вперед тебя, надо поднажать!
+          friendWin: Твой друг на пару шагов впереди, но у тебя все шансы его обойти!
+          userWin: Ты на пару шагов впереди своего друга, не сбавляй темп!
+          equalPillows: У вас одинаковое количество подушек, ух ты!
+
     friends:
       appBarText: Друзья
       buttonCard:
