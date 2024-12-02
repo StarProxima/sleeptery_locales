@@ -1338,10 +1338,24 @@ achievements:
 
 friends:
   screens:
+    addFriend:
+      block:
+        sendRequest:
+          requestSent:
+            title: $n получил твою заявку и скоро добавит тебя в друзья
+            buttonText: Отменить заявку
+          addFriend:
+            title: Добавь $n в друзья, чтобы узнать больше о нем
+            buttonText: Добавить в друзья
+        acceptRequest:
+          title: Добавь $n в друзья, чтобы узнать больше о нем
+          buttonText: Принять заявку
+          secondaryButtonText: Отменить заявку
     friendsOfFriend:
       appBarText: Друзья $n
     friendProfile:
       appBarText: Твой друг
+      removeFriend: Удалить $userName из друзей
       friendsOf:
         zero: 0 друзей
         one: 1 друг
@@ -1362,7 +1376,6 @@ friends:
           friendWin: Твой друг на пару шагов впереди, но у тебя все шансы его обойти!
           userWin: Ты на пару шагов впереди своего друга, не сбавляй темп!
           equalPillows: У вас одинаковое количество подушек, ух ты!
-
     friends:
       appBarText: Друзья
       buttonCard:
