@@ -1332,6 +1332,7 @@ achievements:
         hasProgress: Буду стараться
         newLevel: Вот это я молодец
         maxLevel: Я в этом максимально крут
+        sleepFun: Стать фанатом сна
       subtitle:
         percentUsers: Есть у $n% пользователей
         maxLevel: "Ты сделал все, что смог.\nСмотри чего ты достиг!"
