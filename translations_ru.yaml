@@ -10,6 +10,7 @@ bottomNavBar:
   diary: Дневник
   raffles: Розыгрыши
   tournaments: Турниры
+  challenges: Челленджи
 
 apiErrorWidget:
   title(context=Bool):
