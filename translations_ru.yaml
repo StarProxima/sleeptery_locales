@@ -1339,6 +1339,7 @@ achievements:
       subtitle:
         percentUsers: Есть у $n% пользователей
         maxLevel: "Ты сделал все, что смог.\nСмотри чего ты достиг!"
+        haveFriends: "Скоро узнаешь, как можно его получить"
 
 friends:
   screens:
