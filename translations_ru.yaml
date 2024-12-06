@@ -1274,6 +1274,8 @@ challenges:
       ratio: коэффициент x$n
       pillows: получишь, если продержишься
       sleepFun: Только для Фанатов Сна
+      fab:
+        hasActiveChallenge: Ты уже участвуешь в челлендже!
       premium:
         body:
           ratio1: "Здесь"
@@ -1287,7 +1289,6 @@ challenges:
           subtitle: Поставь подушки, а мы умножим твою ставку
         fab:
           noPillows: У тебя мало подушек, не поставить
-          hasActiveChallenge: Ты уже участвуешь в челлендже!
           text(map):
             0: 'Мало, но ставлю'
             1: 'Ставлю, но мало'
@@ -1381,6 +1382,11 @@ friends:
           friendWin: Твой друг на пару шагов впереди, но у тебя все шансы его обойти!
           userWin: Ты на пару шагов впереди своего друга, не сбавляй темп!
           equalPillows: У вас одинаковое количество подушек, ух ты!
+    searchFriends:
+      appBarText: Найти друга
+      hint: Имя или ник друга
+      noSearch: "Чтобы найти друга, введи\nего имя или ник"
+      noFriends: "Как-то ты сложно написал, с таким\nименем/ником вообще нет пользователей"
     friends:
       appBarText: Друзья
       buttonCard:
@@ -1390,12 +1396,14 @@ friends:
       pages:
         friendsPage:
           tabs:
+            friendsName: Друзья
+            requestsName: Запросы
             friends:
-              zero: Друзья
-              other: Друзья ($n)
+              zero: ""
+              other: ($n)
             requests:
-              zero: Запросы
-              other: Запросы ($n)
+              zero: ""
+              other: ($n)
           body:
             requests:
               empty:
