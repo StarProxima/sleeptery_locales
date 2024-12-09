@@ -1411,6 +1411,9 @@ friends:
               data:
                 incomingRequests: Входящие запросы
                 outgoingRequests: Исходящие запросы
+            friends:
+              empty:
+                title: "У тебя пока нет друзей :c"
         emptyFriendsPage:
           title: У тебя пока нет друзей, но это легко исправить
 
