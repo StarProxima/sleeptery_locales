@@ -1328,6 +1328,7 @@ achievements:
     common: Уровень $currentLevel из $maxLevel
     maxLevel: Уровень $n, максимум!
     sleepFun: Это максимум!
+    onlyLevel: Уровень $n
     noSleepFun: "Стань Фанатом Сна,\nтут ничего сложного"
   newLevelLabel: Новый уровень!
   screens:
