@@ -6,7 +6,9 @@ tomorrow: завтра
 
 bottomNavBar:
   sleep: Сон
+  sleepV2: Главная
   library: Библиотека
+  libraryV2: База
   diary: Дневник
   raffles: Розыгрыши
   tournaments: Турниры
@@ -570,6 +572,7 @@ library:
   screen:
     library:
       appBarText: Библиотека сна
+      appBarTextV2: База знаний
       all: Все
       adviceCard:
         title: Прочитай и получи
@@ -761,8 +764,9 @@ diary:
         title: 'Баня'
   appbar:
     title: Дневник сна
+    titleV2: Дневник
     clockTitle(context=DiaryPatternSettingsScreenType):
-      diary: Дневник сна
+      diary: Дневник
       registration: Режим сна
       settings: ''
   screens:
