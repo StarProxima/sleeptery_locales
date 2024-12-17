@@ -53,6 +53,10 @@ fixValidationErrors(param=errorsCount):
   many: Исправьте $errorsCount ошибок
   other: Исправьте $errorsCount ошибок
 
+errorToast:
+  title: Произошла ошибка!
+  subtitle: Попробуйте позже или обратитесь в тех. поддержку
+
 sleepScoreType(map):
   0: Подушки не начислены
   9: Кажется, кто-то перепутал ночь с днем
@@ -1461,6 +1465,22 @@ friends:
 
 
 bottomSheets:
+  newFriend:
+    title: У тебя новый друг!
+    subtitle: $n принял твоё приглашение в друзья
+    buttonText: Открыть профиль друга
+
+  newFriendInvitations:
+    title: Новый запрос в друзья
+    subtitle: $n пригласил тебя в друзья
+    buttonText: Добавить в друзья
+    secondaryButtonText: Отклонить
+
+  userInvitationDeclined:
+    title: Твой запрос отклонен
+    subtitle: $n отклонил твоё приглашение в друзья
+    buttonText: Ну и ладно
+
   getPrizeForAchievement:
     title: Твоя награда
     buttonText:
