@@ -1353,6 +1353,8 @@ achievements:
         haveFriends: "Скоро узнаешь, как можно его получить"
 
 friends:
+  friendLabel:
+    text: Друг
   screens:
     addFriend:
       block:
