@@ -1388,6 +1388,41 @@ friends:
           friendWin: Твой друг на пару шагов впереди, но у тебя все шансы его обойти!
           userWin: Ты на пару шагов впереди своего друга, не сбавляй темп!
           equalPillows: У вас одинаковое количество подушек, ух ты!
+      stats:
+        fillDiary:
+          title:
+            zero: $n дней
+            one: $n день
+            few: $n дня
+            other: $n дней
+          subtitle: 'заполнение дневника'
+        tournaments:
+          title:
+            zero: $n раз
+            one: $n раз
+            few: $n раза
+            other: $n раз
+          subtitle: 'топ-3 в турнирах'
+        library:
+          title:
+            zero: $n статей
+            one: $n статья
+            few: $n статьи
+            other: $n статей
+          subtitle:
+            one: прочитана в библиотеке
+            other: прочитано в библиотеке
+        leagues:
+          title: Лига
+        sleepContinuity:
+          title:
+            zero: $n дней
+            one: $n день
+            few: $n дня
+            other: $n дней
+          subtitle: непрерывность сна
+        challenges:
+          subtitle: успешных челленджей
     searchFriends:
       appBarText: Найти друга
       hint: Имя или ник друга
