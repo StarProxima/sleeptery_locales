@@ -486,19 +486,19 @@ pillows:
               award: 10
             firstDay:
               name: Заполнение дневника 1 день
-              award: 2
+              award: 5
             secondDay:
               name: Заполнение дневника 2 день
-              award: 4
+              award: 10
             thirdDay:
               name: Заполнение дневника 3 день
-              award: 6
+              award: 15
             fourthDay:
               name: Заполнение дневника 4 день
-              award: 8
+              award: 20
             other:
               name: Заполнение дневника 5 дней подряд и далее без пропуска
-              award: 10
+              award: 25
         library:
           header: Библиотека
           descriptions:
@@ -1732,7 +1732,7 @@ bottomSheets:
     secondaryButtonText: Ничего из этого не делал
 
   completeFillDiary:
-    subtitle: Заполняйте дневник каждый день и получайте подушки (максимум 10)
+    subtitle: Заполняйте дневник каждый день и получайте подушки (максимум 25)
     buttonText: Забрать подушки
 
   qualitativeSleep:
