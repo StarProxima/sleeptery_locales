@@ -1369,6 +1369,11 @@ friends:
           title: Добавь $n в друзья, чтобы узнать больше о нем
           buttonText: Принять заявку
           secondaryButtonText: Отменить заявку
+      toasts:
+        cantAcceptInvitation: Не удалось принять заявку :c
+        cantDeclineInvitation: Не удалось отклонить заявку :c
+        cantDeclineMyInvitation: Не удалось отменить заявку :c
+        cantCreateMyInvitation: Не удалось отправить заявку :c
     friendsOfFriend:
       appBarText: Друзья $n
     friendProfile:
