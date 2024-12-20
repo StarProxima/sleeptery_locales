@@ -1355,6 +1355,12 @@ achievements:
 friends:
   friendLabel:
     text: Друг
+  toasts:
+    userAlreadyDeclinedInvitation:
+      title: Пользователь отклонил заявку
+    userAlreadyAcceptedInvitation:
+      title: Невозможно отменить заявку!
+      text: Пользователь уже принял\отклонил заявку
   screens:
     addFriend:
       block:
