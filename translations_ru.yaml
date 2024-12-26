@@ -1380,6 +1380,9 @@ friends:
         cantDeclineInvitation: Не удалось отклонить заявку :c
         cantDeclineMyInvitation: Не удалось отменить заявку :c
         cantCreateMyInvitation: Не удалось отправить заявку :c
+        noPersonOrInvitation:
+          title: Ошибка!
+          text: Такой пользователь\заявка не найдена!
     friendsOfFriend:
       appBarText: Друзья $n
       toasts:
