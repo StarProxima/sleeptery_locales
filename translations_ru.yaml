@@ -1382,6 +1382,9 @@ friends:
         cantCreateMyInvitation: Не удалось отправить заявку :c
     friendsOfFriend:
       appBarText: Друзья $n
+      toasts:
+        thisIsYou:
+          title: Это ты!
     friendProfile:
       appBarText: Твой друг
       removeFriend: Удалить $userName из друзей
