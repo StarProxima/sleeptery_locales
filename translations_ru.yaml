@@ -852,6 +852,11 @@ diary:
     evaluateHappyCard:
       no: Нет
       yes: Да
+    evaluateDay:
+      title: Ты доволен этим днем?
+      yes: Определенно доволен
+      maybe: Затрудняюсь ответить
+      no: Бывали дни и получше
 
 deviceInstructions:
   appBar: Подключение трекера
@@ -1361,6 +1366,9 @@ friends:
     userAlreadyAcceptedInvitation:
       title: Невозможно отменить заявку!
       text: Пользователь уже принял\отклонил заявку
+    cantDeleteUserFromFriend:
+      title: Не удалось удалить друга из друзей:c
+      text: Обратитесь в тех. поддержку или попробуйте позже
   screens:
     addFriend:
       block:
