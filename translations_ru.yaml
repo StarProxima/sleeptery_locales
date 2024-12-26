@@ -1361,6 +1361,9 @@ friends:
     userAlreadyAcceptedInvitation:
       title: Невозможно отменить заявку!
       text: Пользователь уже принял\отклонил заявку
+    cantDeleteUserFromFriend:
+      title: Не удалось удалить друга из друзей:c
+      text: Обратитесь в тех. поддержку или попробуйте позже
   screens:
     addFriend:
       block:
