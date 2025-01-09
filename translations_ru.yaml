@@ -333,6 +333,16 @@ sleepContinuity:
 
 referrals:
   screen:
+    promocode:
+      title: Введи промокод
+      hint: Введи промокод
+      buttonText: Активировать
+      secondaryButtonText: У меня нет промокода
+      toasts:
+        promocodeActivated:
+          text: Промокод активирован успешно!
+        promocodeNotActivated:
+          text: Не удалось активировать промокод :c
     referralsHistory:
       appBar: История начисления подушек
   appBar: Пригласить друзей
@@ -398,6 +408,7 @@ sideBar:
   getPremium: Получить статус
   friends: Друзья
   achievements: Достижения
+  enterPromocode: Ввести промокод
 
 devices:
   cards:
