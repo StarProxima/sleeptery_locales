@@ -334,8 +334,8 @@ sleepContinuity:
 referrals:
   screen:
     promocode:
-      title: Введи промокод
-      hint: Введи промокод
+      title: Введи промокод от друга
+      hint: Введи промокод от друга
       buttonText: Активировать
       secondaryButtonText: У меня нет промокода
       toasts:
@@ -408,7 +408,7 @@ sideBar:
   getPremium: Получить статус
   friends: Друзья
   achievements: Достижения
-  enterPromocode: Ввести промокод
+  enterPromocode: Ввести промокод от друга
 
 devices:
   cards:
