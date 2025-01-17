@@ -335,7 +335,7 @@ referrals:
   screen:
     promocode:
       title: Введи промокод от друга
-      hint: Введи промокод от друга
+      hint: Введи код-приглашение
       buttonText: Активировать
       secondaryButtonText: У меня нет промокода
       toasts:
