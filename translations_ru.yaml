@@ -1419,6 +1419,9 @@ friends:
       achievements:
         title: "Достижения"
         level: "Уровень $n"
+        buttonText:
+          more: Ещё достижения друга
+          less: Скрыть достижения друга
       pillowsChart:
         title: "Подушки за последние 7 дней"
         items:
