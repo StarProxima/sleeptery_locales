@@ -316,6 +316,7 @@ permission:
         tournaments: Про турниры
         pillows: О начислении и сгорании подушек
         reminderTime: Время напоминания
+        sendStatsToEmail: Еженедельная статистика на email
       buttonText:
         turnOn: Сохранить
         ready: Готово
