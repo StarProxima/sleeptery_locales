@@ -1850,6 +1850,11 @@ bottomSheets:
     charityTitle: Обменять подушки на билеты (на благо)
     raffleTitle: Обменять подушки на билеты (на розыгрыш)
     subtitle: 1 билет
+    subtitleV2: "1 билет равен:"
+    tickets:
+      all: для всех
+      sleepFun: для Фанатов сна
+      discount: -50%
     pillowsItem: Спишется
     buttonText: Обменять
     secondaryButtonText: "Выбрать максимум:"
