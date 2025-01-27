@@ -353,7 +353,7 @@ referrals:
       header1: Что должен делать друг
       header2: Что получишь ты
     footer:
-      part1: максимум 300
+      part1: максимум 500
       part2: за одного друга
     device:
       name: 'Подключить трекер и получить подушки за сон'
@@ -361,7 +361,7 @@ referrals:
       description: единоразово
     exchange:
       name: 'Обменивать подушки на билеты'
-      pillowsAmount: 200
+      pillowsAmount: 400
       description: 10% с каждого билета
   title: Пригласи друга и улучши его сон
   subtitle: Твой промокод
