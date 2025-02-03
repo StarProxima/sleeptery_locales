@@ -1400,6 +1400,9 @@ friends:
         cantDeclineInvitation: Не удалось отклонить заявку :c
         cantDeclineMyInvitation: Не удалось отменить заявку :c
         cantCreateMyInvitation: Не удалось отправить заявку :c
+        invitationsAlreadyExists:
+          title: Заявка уже была отклонена/принята!
+          text: Обратитесь в тех. поддержку
         noPersonOrInvitation:
           title: Ошибка!
           text: Такой пользователь\заявка не найдена!
