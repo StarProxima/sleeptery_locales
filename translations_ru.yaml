@@ -198,6 +198,9 @@ home:
 sleepingMode:
   title: Режим сна
   container:
+    pillowsMode:
+      all: 20
+      one: 10
     column:
       title:
         noMode: Режим сна
