@@ -1520,6 +1520,11 @@ survey:
       buttonText: Продолжить
       secondaryButtonText: Предпочитаю не отвечать
       pages:
+        unknownType:
+          title: "Произошла ошибка, такого вопроса не существует\n(сами удивлены, как так получилось)"
+          subtitle: Можешь пропустить опрос или попробовать перейти к следующему вопросу
+          buttonText: Продолжить
+          secondaryButtonText: Пропустить
         age:
           selfText:
             title: Расскажи немного о себе
