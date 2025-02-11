@@ -412,7 +412,7 @@ sideBar:
   getPremium: Получить статус
   friends: Друзья
   achievements: Достижения
-  enterPromocode: Ввести промокод от друга
+  enterPromocode: Ввести промокод
 
 devices:
   cards:
@@ -1749,7 +1749,7 @@ bottomSheets:
     title: "Выберите способ связи:"
     items:
       email: Электронная почта
-      tgBot: Telegram-бот
+      tgBot: Telegram
     buttonText: Закрыть
 
   pillowsRules:
