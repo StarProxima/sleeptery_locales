@@ -624,8 +624,8 @@ premium:
   toasts:
     purchasedPremium: Поздравляем! Ты теперь фанат сна!
   banner:
-    main: "Еще больше возможностей со статусом Фанат Сна →"
-    pillows: "Спаси подушки, стань Фанатом Сна →"
+    main: "Еще больше возможностей со\nстатусом Фанат Сна →"
+    pillows: "Спаси подушки, стань\nФанатом Сна →"
   couponBanner:
     title: '-$n% на статус Фанат Сна'
     subtitle: твой купон
@@ -1415,7 +1415,7 @@ friends:
           text: Обратитесь в тех. поддержку
         noPersonOrInvitation:
           title: Ошибка!
-          text: Такой пользователь\заявка не найдена!
+          text: Такой пользователь/заявка не найдена!
     friendsOfFriend:
       appBarText: Друзья $n
       toasts:
