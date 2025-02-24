@@ -1441,6 +1441,7 @@ friends:
         items:
           you: Ты
           friend: Друг
+          other: Он
         subtitle:
           friendHasNotPillows: Ты сильно вырвался вперед своего друга, не сбавляй темп!
           userHasNotPillows: Твой друг сильно вырвался вперед тебя, надо поднажать!
