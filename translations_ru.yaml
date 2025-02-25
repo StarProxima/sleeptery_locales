@@ -93,6 +93,21 @@ shared:
     one: $pillows подушка
     few: $pillows подушки
     other: $pillows подушек
+  minutesAgo:
+    zero: сейчас
+    one: 1 минуту назад
+    few: $n минуты назад
+    other: $n минут назад
+  hoursAgo:
+    zero: ""
+    one: 1 час назад
+    few: $n часа назад
+    other: $n часов назад
+  daysAgo:
+    zero: ""
+    one: 1 день назад
+    few: $n дня назад
+    other: $n дней назад
 
 storytelling:
   screen:
@@ -1648,6 +1663,18 @@ survey:
             1: Иногда
             2: Часто
             3: Каждый раз
+
+news:
+  card:
+    news:
+      buttonText: Ко всем новостям
+      cardButton: Поздравить
+  screen:
+    news:
+      appBarText: Новости
+      emptyNews: Здесь будут показываться твои активности и активности твоих друзей
+
+
 
 
 bottomSheets:
