@@ -634,6 +634,9 @@ premium:
         title: Нет ссылки
 
 raffle:
+  winBanner:
+    title: Ты выиграл в розыгрыше!
+    subtitle: Посмотреть результат
   screen:
     main:
       title: Розыгрыши
