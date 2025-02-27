@@ -4,6 +4,8 @@ today: сегодня
 yesterday: вчера
 tomorrow: завтра
 
+appName: sleeptery
+
 bottomNavBar:
   sleep: Сон
   sleepV2: Главная
