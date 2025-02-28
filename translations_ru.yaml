@@ -1684,6 +1684,10 @@ news:
       ourButtonText: Подробнее
 
 bottomSheets:
+  rafflesWin:
+    title: Ты выиграл в розыгрыше!
+    buttonText: Посмотреть результат
+
   congratulationsFromFriends:
     title: Принимай поздравления!
     subtitle:
