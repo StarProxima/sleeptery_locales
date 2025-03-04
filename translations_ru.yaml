@@ -1670,7 +1670,9 @@ news:
   card:
     news:
       buttonText: Ко всем новостям
-      cardButton: Поздравить
+      cardButtonText:
+        common: Поздравить
+        our: Подробнее
   screen:
     news:
       appBarText: Новости
