@@ -97,17 +97,17 @@ shared:
     other: $pillows подушек
   minutesAgo:
     zero: сейчас
-    one: 1 минуту назад
+    one: $n минуту назад
     few: $n минуты назад
     other: $n минут назад
   hoursAgo:
     zero: ""
-    one: 1 час назад
+    one: $n час назад
     few: $n часа назад
     other: $n часов назад
   daysAgo:
     zero: ""
-    one: 1 день назад
+    one: $n день назад
     few: $n дня назад
     other: $n дней назад
 
