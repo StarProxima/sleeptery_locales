@@ -606,13 +606,24 @@ library:
     one: $n подушку
     few: $n подушки
     other: $n подушек
+  amountPillowsTomorrow:
+    zero: еще $n подушек завтра
+    one: еще $n подушку завтра
+    few: еще $n подушки завтра
+    other: еще $n подушек завтра
   screen:
     library:
       appBarText: Библиотека сна
       appBarTextV2: База знаний
       all: Все
+      achievement:
+        title: Ты мейстер 7-го уровня!
+        text: "Повторение мать ученье: выбирай статью, за которую получишь подушки сегодня!"
+        subtitle: Как ты понимаешь, тесты мы поменяли
       adviceCard:
         title: Прочитай и получи
+        wait:
+          title: "Пока отдохни!\nСледующая статья будет доступна через:"
     article:
       buttonText:
         startTest: Пройди тест и получи $n
