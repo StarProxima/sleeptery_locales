@@ -328,6 +328,8 @@ permission:
   screen:
     notificationsSettings:
       appBarTitle: Уведомления
+      buttons:
+        remindLibrary: Напомнить
       title: 'Мы знаем, что уведомления могут надоесть. Выбери, что для тебя важно, а мы напомним:'
       settings:
         diary: Заполнить дневник
