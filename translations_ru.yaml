@@ -513,13 +513,13 @@ pillows:
               award: 100
             cacheBack:
               name: Кешбэк 10% подушками от стоимости билетов, приобретённых твоим другом
-              award: до 200
+              award: до 400
         diary:
           header: Дневник сна
           descriptions:
             setupDiary:
               name: Настройка дневника
-              award: 10
+              award: 25
             firstDay:
               name: Заполнение дневника 1 день
               award: 5
@@ -543,10 +543,10 @@ pillows:
               award: 10
         readPillowsRules:
           header: "Узнай правила\nначисления подушек"
-          award: 25
+          award: 50
         setupDiary:
           header: "Настрой дневник\nи внеси свои ритуалы"
-          award: 20
+          award: 25
         libraryOnboarding:
           header: "Познакомься \nс разделом «Библиотека»"
           award: 20
@@ -559,6 +559,15 @@ pillows:
         tournamentsOnboarding:
           header: "Познакомься \nс разделом «Турниры»"
           award: 20
+        achievements:
+          header: "Достижения"
+          descriptions:
+            firstLevel:
+              name: Получение первого уровня достижения
+              award: 100
+            other:
+              name: За каждый последующий уровень
+              award: "+25"
       pillowCombustion:
         title: Сгорание подушек
         variants:
