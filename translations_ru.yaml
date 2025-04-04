@@ -1704,7 +1704,7 @@ news:
       buttonText: Ко всем новостям
       cardButtonText:
         common: Поздравить
-        our: Подробнее
+        sleeptery: Подробнее
   screen:
     news:
       appBarText: Новости
@@ -1715,7 +1715,7 @@ news:
         - Обнять – приподнять
         - Аплодировать стоя
         - Потыкать
-      ourButtonText: Подробнее
+      sleeptery: Подробнее
 
 bottomSheets:
   rafflesWin:
