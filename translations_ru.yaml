@@ -2109,6 +2109,7 @@ bottomSheets:
         appleHealth: Данные по сну отображаются в Apple Health?
         googleFit: ""
         googleHealthConnect: Данные по сну отображаются Health Connect (Здоровье и спорт)?
+        sleepteryRing: ""
         $unknown: ""
       buttonText: Да
       secondaryButtonText: Нет
@@ -2129,6 +2130,7 @@ bottomSheets:
         garmin: ""
         realtime: ""
         freestylelibresdk: ""
+        sleepteryRing: ""
         appleHealth: У Sleeptery есть доступ к данным твоего сна в Apple Health?
         googleFit: ""
         googleHealthConnect: У Sleeptery есть доступ к данным твоего сна в Health Connect?
@@ -2152,6 +2154,7 @@ bottomSheets:
         google: Сними трекер на 1-2 минуты, обычно этого достаточно
         realtime: ""
         freestylelibresdk: ""
+        sleepteryRing: ""
         appleHealth: Сними трекер на 1-2 минуты, обычно этого достаточно
         googleFit: ""
         googleHealthConnect: Сними трекер на 1-2 минуты, обычно этого достаточно
@@ -2163,6 +2166,7 @@ bottomSheets:
         apple: Ок, подожду
         google: Ок, подожду
         realtime: ""
+        sleepteryRing: ""
         freestylelibresdk: ""
         appleHealth: Ок, подожду
         googleFit: ""
@@ -2182,6 +2186,7 @@ bottomSheets:
         google: Рано или поздно мы получим данные и начислим подушки
         realtime: ""
         freestylelibresdk: ""
+        sleepteryRing: ""
         appleHealth: Рано или поздно мы получим данные и начислим подушки
         googleFit: ""
         googleHealthConnect: Рано или поздно мы получим данные и начислим подушки
