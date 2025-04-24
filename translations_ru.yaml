@@ -1039,6 +1039,7 @@ deviceInstructions:
         iosMiFit: Для работы с трекером понадобится приложение Mi Fitness
         appleHealth: Для работы с трекером понадобится родное приложение трекера
         healthConnect: Для работы с трекером понадобится родное приложение трекера и Health Connect
+        sleepteryRing: Для работы с трекером понадобится кольцо sleeptery
       subtitle:
         samsung: Samsung Health собирает данные с трекера, а Health Connect передает их в Sleeptery
         apple: Приложение «Здоровье» собирает данные с трекера и передает их в Sleeptery
@@ -1051,6 +1052,7 @@ deviceInstructions:
         iosMiFit: Mi Fitness собирает данные о сне с трекера, передает их в Здоровье. Оттуда их забирает sleeptery
         appleHealth: Приложение трекера собирает данные о сне с трекера, передает их в Здоровье. Оттуда их забирает sleeptery
         healthConnect: Приложение трекера собирает данные о сне с трекера, передает их в Health Connect. Оттуда их забирает sleeptery
+        sleepteryRing: Кольцо sleeptery собирает данные о сне и передает их в sleeptery
       buttonText: Приступить к настройке
       secondaryButtonText: Пропустить настройку
     downloadExternalApp(interface=DeviceInstructionStage):
@@ -1085,6 +1087,7 @@ deviceInstructions:
     completed(interface=DeviceInstructionStage):
       title: Полный коннект!
       subtitle: Теперь мы получаем данные с вашего трекера и можем отслеживать сон
+      subtitleSleeptery: Теперь мы получаем данные с вашего кольца и можем отслеживать сон
       buttonText: Ура!
   androidXiaomi:
     installGoogleFit:
@@ -1211,6 +1214,25 @@ deviceInstructions:
       title: Авторизируйтесь в сервисе Google
       buttonText: Авторизироваться в Google
       secondaryButtonText: Отменить
+  sleepteryRing:
+    requestPermission:
+      title: Дайте разрешения для подключения к кольцу
+      subtitle: Нажмите кнопку "Дать разрешения"
+      buttonText: Дать разрешения
+    bluetoothOn:
+      title: Для подключения к кольцу включите Bluetooth
+      buttonText: Включить bluetooth
+    scanDevices:
+      title: Нужно найти кольцо sleeptery для подключения
+      buttonText: Найти кольцо
+    connectDevice:
+      title: "Выбери кольцо для подключения"
+      subtitle: "Девайсы:"
+      devices:
+        name: "Название:"
+        mac: "Mac-адрес:"
+
+
 
 
 profileEdit:
