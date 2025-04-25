@@ -1227,7 +1227,7 @@ deviceInstructions:
       subtitle: Поднесите кольцо поближе к телефону
       buttonText: Найти кольцо
     connectDevice:
-      title: "Выбери кольцо для подключения"
+      title: "Выбери своё кольцо для подключения:"
       subtitle: "Девайсы:"
       devices:
         name: "Название:"
