@@ -1039,7 +1039,7 @@ deviceInstructions:
         iosMiFit: Для работы с трекером понадобится приложение Mi Fitness
         appleHealth: Для работы с трекером понадобится родное приложение трекера
         healthConnect: Для работы с трекером понадобится родное приложение трекера и Health Connect
-        sleepteryRing: Для работы с трекером понадобится кольцо sleeptery
+        sleepteryRing: Для получения данных понадобится кольцо sleepring
       subtitle:
         samsung: Samsung Health собирает данные с трекера, а Health Connect передает их в Sleeptery
         apple: Приложение «Здоровье» собирает данные с трекера и передает их в Sleeptery
@@ -1052,7 +1052,7 @@ deviceInstructions:
         iosMiFit: Mi Fitness собирает данные о сне с трекера, передает их в Здоровье. Оттуда их забирает sleeptery
         appleHealth: Приложение трекера собирает данные о сне с трекера, передает их в Здоровье. Оттуда их забирает sleeptery
         healthConnect: Приложение трекера собирает данные о сне с трекера, передает их в Health Connect. Оттуда их забирает sleeptery
-        sleepteryRing: Кольцо sleeptery собирает данные о сне и передает их в sleeptery
+        sleepteryRing: sleepring собирает данные о сне и передает их в sleeptery
       buttonText: Приступить к настройке
       secondaryButtonText: Пропустить настройку
     downloadExternalApp(interface=DeviceInstructionStage):
@@ -1216,14 +1216,15 @@ deviceInstructions:
       secondaryButtonText: Отменить
   sleepteryRing:
     requestPermission:
-      title: Дайте разрешения для подключения к кольцу
+      title: Дайте разрешения для подключения к sleepring
       subtitle: Нажмите кнопку "Дать разрешения"
       buttonText: Дать разрешения
     bluetoothOn:
-      title: Для подключения к кольцу включите Bluetooth
+      title: Для подключения к sleepring включите bluetooth
       buttonText: Включить bluetooth
     scanDevices:
-      title: Нужно найти кольцо sleeptery для подключения
+      title: Необходимо найти кольцо sleepring для подключения по bluetooth
+      subtitle: Поднесите кольцо поближе к телефону
       buttonText: Найти кольцо
     connectDevice:
       title: "Выбери кольцо для подключения"
