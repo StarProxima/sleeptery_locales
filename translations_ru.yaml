@@ -170,6 +170,7 @@ home:
         title2: Активности хорошо, но...
         buttonText: Больше подушек с трекером
         secondaryButtonText: Зачем подключать трекер?
+        topButtonText: Подключить трекер
       temporaryWaitingNewData:
         title: Ждём данные от $appName...
         subtitle: Обычно занимает до 5 минут
@@ -833,6 +834,7 @@ raffle:
     other: $pillows Подушек
 
 diary:
+  baseAward: 5
   mock:
     habits:
       first:
@@ -1740,7 +1742,17 @@ news:
         - Потыкать
       sleeptery: Подробнее
 
+ai:
+  adviceButton:
+    text: Тебе совет по сну
+
 bottomSheets:
+  aiAdvice:
+    title: "Тебе совет по сну"
+    subtitle: "Да-да, у нас тоже теперь есть ИИ"
+    dislikeButton: "Ерунда"
+    likeButton: "Полезно"
+
   cantBuySleepFanWhenUserHasLite:
     title: "Извините за беспокойство:("
     subtitle: "На данный момент улучшение подписки не доступно автоматически, напишите нам, чтобы мы могли помочь."
