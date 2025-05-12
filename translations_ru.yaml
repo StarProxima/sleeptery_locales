@@ -1217,23 +1217,22 @@ deviceInstructions:
       buttonText: Авторизироваться в Google
       secondaryButtonText: Отменить
   sleepteryRing:
-    requestPermission:
-      title: Дайте разрешения для подключения к sleepring
-      subtitle: Нажмите кнопку "Дать разрешения"
-      buttonText: Дать разрешения
-    bluetoothOn:
-      title: Для подключения к sleepring включите bluetooth
-      buttonText: Включить bluetooth
+    deviceName: "sleepring"
+    requestPermissionAndBluetoothOn:
+      title: Необходимы разрешения
+      subtitle: А именно к геолокации и Bluetooth
+    requestDeniedPermissionAndBluetoothOn:
+      title: Необходимы разрешения
+      subtitle: А именно к геолокации и Bluetooth
+      items:
+        first: Bluetooth, чтобы подключиться к кольцу
+        second: Геолокация, чтобы считать шаги
+      buttonText: Открыть настройки
     scanDevices:
-      title: Необходимо найти кольцо sleepring для подключения по bluetooth
-      subtitle: Поднесите кольцо поближе к телефону
-      buttonText: Найти кольцо
-    connectDevice:
-      title: "Выбери своё кольцо для подключения:"
-      subtitle: "Девайсы:"
-      devices:
-        name: "Название:"
-        mac: "Mac-адрес:"
+      title: Выбери своё устройство
+      subtitle: Поднеси кольцо как можно ближе к телефону
+      findText: "Ищем\nкольцо"
+
 
 
 
