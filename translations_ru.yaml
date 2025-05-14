@@ -603,6 +603,29 @@ sleepStatistics:
     sleepDuration: Длительность сна
     qualitative: Качественный сон
 
+  sleepInfo:
+    daily: Показатели за день
+    updatedAt: 'обновлены в ${time}'
+    weekly: "Средние дневные показатели\nза неделю"
+    monthly: "Средние дневные показатели\nза месяц"
+    manually: "добавлены вручную"
+    partlyManually: "частично добавлены вручную"
+
+  timeline:
+    sleepTime: Время сна
+
+  performancesV2:
+    rem: Быстрый
+    deep: Глубокий
+    light: Легкий
+    qualitative: Качественный сон
+    awakeCountTitle: "Подъёмов\nза ночь"
+    awakeCount(n):
+      zero: $n раз
+      one: $n раз
+      few: $n раза
+      other: $n раз
+
   noData(context=PeriodType):
     none: ""
     day: За этот день не было данных
