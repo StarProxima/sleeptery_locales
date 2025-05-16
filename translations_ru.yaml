@@ -15,6 +15,7 @@ bottomNavBar:
   raffles: Розыгрыши
   tournaments: Турниры
   challenges: Челленджи
+  dashboard: Дашборд
 
 apiErrorWidget:
   title(context=Bool):
