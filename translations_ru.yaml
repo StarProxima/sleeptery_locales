@@ -182,6 +182,11 @@ home:
       waitingNewData:
         title: Уже завтра вы получите подушки за сон
         subtitle: Сегодня, перед отходом ко сну, не забудьте надеть трекер
+        buttonText: Заполни дневник
+      sleepringWaitingNewData:
+        title: sleepring подключено!
+        subtitle: "Подушки за сон будут завтра, а сейчас:"
+        buttonText: Заполни дневник
       sleepScore:
         subtitle: "Нажимай на облачко,\nчтобы оценить свой сон"
         buttons:
