@@ -439,6 +439,7 @@ sideBar:
 
 devices:
   cards:
+    batteryLevel: заряд $n%
     noActiveDevice: У вас нет активного устройства
     status(context=DeviceStatus):
       active: Активное устройство
