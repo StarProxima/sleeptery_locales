@@ -143,6 +143,8 @@ home:
       articleName: Статья «$n»
       subtitle: Прочитайте и получите подушки
     sleepStats:
+      connectingToSleepring:
+        text: Подключаемся к sleepring
       gauge:
         sleep: за сон
         activity: активности
@@ -156,9 +158,15 @@ home:
         title: С подключением трекера возникли сложности
         subtitle: Удалите трекер и добавьте заново
         buttonText: Перейти в «Мои устройства»
+      sleepringConnectionProblems:
+        title: Не удалось подключиться к sleepring
+        subtitle: Убедитесь, что кольцо заряжено или поднеси его ближе к телефону
+        buttonText: Повторить
       noData:
         title: Нет данных,\nну как же так
         buttonText: Почему так?
+        titleV2: Жаль... Нет никаких данных
+        buttonTextV2: А почему так?
       pending:
         title: Трекер подключен, но...
         subtitle: Данные о сне за прошлую ночь мы пока не получили
@@ -176,6 +184,7 @@ home:
         title: Ждём данные от $appName...
         subtitle: Обычно занимает до 5 минут
         tracker: трекера...
+        sleepringTitle: Обрабатываем твой сон
       temporaryWaitingOldData:
         title: Пока подключаем твой трекер...
         subtitle: Обычно занимает до 5 минут
@@ -2157,6 +2166,9 @@ bottomSheets:
     buttonText: Добавить
     hint: например, Баня
 
+  chargeRing:
+    text: "Для улучшения качества сна, попробуйте следующее: 1. Обеспечьте полную темноту в спальне. За 30 минут до сна проверьте, чтобы все источники света были выключены, включая светодиоды на электронике. 2. Поддерживайте регулярный режим сна. Постарайтесь засыпать и просыпаться в одно и то же время даже в выходные дни. Для этого установите будильник на 7:00 и придерживайтесь этого времени."
+
   noSleepData:
     nothingHelps:
       title: Если ничего не помогло, тебе надо заново привязать трекер
@@ -2167,6 +2179,19 @@ bottomSheets:
       subtitle: Мы не получили данные по вашему сну, давайте разберемся из-за чего
       buttonText: Да, спал
       secondaryButtonText: Нет, не спал
+    mainSleepring:
+      title: Ты сегодня спал с кольцом?
+      subtitle: Мы не получили данные по вашему сну, давайте разберемся из-за чего
+      buttonText: Да, конечно
+      secondaryButtonText: Нет, без кольца
+    notUsedSleepring:
+      title: Ну вот и ответ почему так...\nЗаполни хотя бы дневник сна!
+      buttonText: В дневник
+      secondaryButtonText: Вернусь позже
+    hasSleepringCharged:
+      title: Оно было заряжено вечером?
+      buttonText: Заряжено
+      secondaryButtonText: Нет
     hasSleepDataInExternalApp:
       title(context=AllSleepSources):
         samsung: Данные по сну отображаются в Samsung Health?
@@ -2211,6 +2236,8 @@ bottomSheets:
       title: Ну что же...
       subtitle: Остается только написать нам в поддержку, мы разберемся
       buttonText: Написать
+      titleV2: Похоже надо разбираться технарям. Написать в поддержку?
+      secondaryButtonText: Нет
     notification:
       title: Можем напоминать тебе про трекер перед отходом ко сну
       buttonText: Да, хочу
