@@ -636,6 +636,8 @@ sleepStatistics:
     light: Легкий
     qualitative: Качественный сон
     awakeCountTitle: "Подъёмов\nза ночь"
+    sleep: Отход ко сну
+    wakeUp: Пробуждение
     awakeCount(n):
       zero: $n раз
       one: $n раз
