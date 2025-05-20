@@ -622,13 +622,23 @@ sleepStatistics:
   sleepInfo:
     daily: Показатели за день
     updatedAt: 'обновлены в ${time}'
-    weekly: "Средние дневные показатели\nза неделю"
-    monthly: "Средние дневные показатели\nза месяц"
+    weekly: "Средние дневные показатели за неделю"
+    monthly: "Средние дневные показатели за месяц"
     manually: "добавлены вручную"
     partlyManually: "частично добавлены вручную"
 
   timeline:
     sleepTime: Время сна
+
+  health:
+    steps: Шаги
+    stepsAverage: в среднем за день, а всего $n
+    pulse: Пульс
+    pulsePerMinute: в минуту
+    bloodPressure: Артериальное давление
+    oxygenInBlood: Кислород в крови
+    saturation: SpO2
+    aiAdvice: Совет от ИИ
 
   performancesV2:
     rem: Быстрый
