@@ -601,6 +601,7 @@ pillows:
 sleepStatistics:
   nightsWithTracker: '@:shared.nights с трекером'
   appBar: Статистика сна
+  appBarV2: Дашборд
   tabs:
     days: Дни
     weeks: Недели
@@ -608,7 +609,17 @@ sleepStatistics:
   dailyIndicators:
     day: Показатели за день
     other: Средние дневные показатели
-
+  onboarding:
+    title: Это дашборд
+    subtitle: "Здесь будем фиксировать все твои показатели"
+    items:
+      phases: "Детализация сна\nпо фазам"
+      stats: Показатели качественного сна
+      ai: Совет от ИИ
+      days: "Дни, недели,\nмесяцы"
+      other: "и многое\nдругое..."
+    trailing: После сегодняшней ночи здесь будут собраны все данные, а также персональные советы
+    buttonText: "Круто! Перейти к дашборду"
   performances:
     rem: Быстрый сон
     deep: Глубокий сон
