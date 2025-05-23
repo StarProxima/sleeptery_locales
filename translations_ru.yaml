@@ -931,12 +931,42 @@ diary:
           3: Баня
     fillDiary:
       diaryBody:
-        sleepRateText(map):
-          1: Прямо так? - Треш
-          2: На двоечку - держись!
-          3: Нуу, бывает хуже
-          4: Ну, кстати, неплохо
-          5: Хорош!
+        habits: Ритуалы и привычки
+        sleepRate:
+          title: Оцени сон
+          sleepRateText(map):
+            1: Прямо так? - Треш
+            2: На двоечку - держись!
+            3: Нуу, бывает хуже
+            4: Ну, кстати, неплохо
+            5: Хорош!
+        energyRate:
+          title: Сколько было энергии?
+          energyRateText:
+            first: Мало
+            second: Средне
+            third: Много
+        buttonText: Заполнить дневник
+      timeBody:
+        title:
+          first: Ещё
+          second: пару
+          third: моментов
+        buttonText: Далее
+        wakeUpAtNight:
+          title: Просыпался ночью?
+          subtitle: Сколько раз?
+          countWakeUp(map):
+            0: 1
+            1: 2
+            2: 3
+            3: 4
+            4: 5+
+        sleepTimePicker:
+          bedTitle: "Вчера я лег\nспать в"
+          wakeUpTitle: "Сегодня\nпроснулся в"
+        allSleepTime:
+          title: Общее время сна
     selectHabits:
       title: "Выберите ритуалы и привычки, которые вы совершаете регулярно в течении дня:"
       buttonText: Продолжить
