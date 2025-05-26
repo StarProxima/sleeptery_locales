@@ -637,6 +637,11 @@ sleepStatistics:
     monthly: "Средние дневные показатели за месяц"
     manually: "добавлены вручную"
     partlyManually: "частично добавлены вручную"
+    noData:
+      daily: "За этот день не было данных"
+      weekly: "За эту неделю не было данных"
+      monthly: "За этот месяц не было данных"
+
 
   timeline:
     sleepTime: Время сна
