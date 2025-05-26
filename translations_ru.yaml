@@ -946,6 +946,9 @@ diary:
             first: Мало
             second: Средне
             third: Много
+        comment:
+          title: Если считаешь, что нужно что-то добавить
+          hint: Смелее добавляй здесь
         buttonText: Заполнить дневник
       timeBody:
         title:
