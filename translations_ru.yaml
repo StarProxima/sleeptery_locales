@@ -167,6 +167,7 @@ home:
         buttonText: Почему так?
         titleV2: Жаль... Нет никаких данных
         buttonTextV2: А почему так?
+        diaryButtonText: Заполнить дневник
       pending:
         title: Трекер подключен, но...
         subtitle: Данные о сне за прошлую ночь мы пока не получили
