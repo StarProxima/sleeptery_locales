@@ -670,6 +670,11 @@ sleepStatistics:
       one: $n раз
       few: $n раза
       other: $n раз
+  fillDiary:
+    title1: "Данных нет:c заполни хотя бы дневник"
+    title2: "Вся статистика уже готова, чтобы всё увидеть, заполни дневник"
+    buttonText: "Заполнить дневник"
+    secondaryButtonText: "Заполню позже"
 
   noData(context=PeriodType):
     none: ""
