@@ -976,6 +976,19 @@ diary:
           wakeUpTitle: "Сегодня\nпроснулся в"
         allSleepTime:
           title: Общее время сна
+      noSleepDataBody:
+        title: Пока данных за эту ночь нет
+        items:
+          first:
+            title: Если спал без трекера или на нем нет данных, укажи длительность сна вручную
+            firstSubtitle: За ручной ввод
+            secondSubtitle: подушки не начислим
+            buttonText: Указать вручную
+          second:
+            title: Данные на трекере есть, но они пока не пришли в sleeptery
+            firstSubtitle: Когда данные придут, обновим статистику и
+            secondSubtitle: начислим подушки
+            buttonText: Заполнить дневник
     selectHabits:
       title: "Выберите ритуалы и привычки, которые вы совершаете регулярно в течении дня:"
       buttonText: Продолжить
