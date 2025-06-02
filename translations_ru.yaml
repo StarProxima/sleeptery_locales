@@ -196,7 +196,7 @@ home:
       sleepringWaitingNewData:
         title: sleepring подключено!
         subtitle: "Подушки за сон будут завтра, а сейчас:"
-        buttonText: Заполни дневник
+        buttonText: Что есть на главной?
       sleepScore:
         subtitle: "Нажимай на облачко,\nчтобы оценить свой сон"
         buttons:
