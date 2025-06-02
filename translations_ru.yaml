@@ -160,7 +160,7 @@ home:
         buttonText: Перейти в «Мои устройства»
       sleepringConnectionProblems:
         title: Не удалось подключиться к sleepring
-        subtitle: Убедитесь, что кольцо заряжено или поднеси его ближе к телефону
+        subtitle: Убедись, что кольцо заряжено или поднеси его ближе к телефону
         buttonText: Повторить
       noData:
         title: Нет данных,\nну как же так
