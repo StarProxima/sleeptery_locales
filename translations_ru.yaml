@@ -675,6 +675,10 @@ sleepStatistics:
     title2: "Вся статистика уже готова, чтобы всё увидеть, заполни дневник"
     buttonText: "Заполнить дневник"
     secondaryButtonText: "Заполню позже"
+    marks:
+      sleep: Оценка сна
+      energy: Энергия
+
 
   noData(context=PeriodType):
     none: ""
