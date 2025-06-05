@@ -678,6 +678,16 @@ sleepStatistics:
     marks:
       sleep: Оценка сна
       energy: Энергия
+      sleepDescriptions:
+        first: Держись
+        second: На троечку(
+        third: Неплохо!
+        fourth: Великолепно!
+      energyDescriptions:
+        first: Мало
+        second: Средне
+        third: Много!
+
 
 
   noData(context=PeriodType):
