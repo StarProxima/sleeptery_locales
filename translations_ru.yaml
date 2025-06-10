@@ -26,6 +26,13 @@ apiErrorWidget:
     no: 'Обновите страницу или вернитесь позже'
   update: 'Обновить'
 
+sleepteryRing:
+  toasts:
+    turnOnBleGetData: Включи bluetooth для получения данных с кольца
+    sleepringConnected: sleepring подключено
+    sleepringNotConnected: sleepring не подключено
+    turnOnBle: Включи Bluetooth
+
 pillowsReason(context=Reasons):
   sleep: Вознаграждение за ночь
   challenge: Челлендж
