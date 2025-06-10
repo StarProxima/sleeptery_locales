@@ -456,6 +456,9 @@ devices:
   cards:
     batteryLevel: заряд $n%
     noActiveDevice: У вас нет активного устройства
+    sleepring:
+      connected: подключено
+      notConnected: не подключено
     status(context=DeviceStatus):
       active: Активное устройство
       longTimeNoData: Долгое время без данных
