@@ -32,6 +32,42 @@ sleepteryRing:
     sleepringConnected: sleepring подключено
     sleepringNotConnected: sleepring не подключено
     turnOnBle: Включи Bluetooth
+  promo:
+    first:
+      v1:
+        title: Персональный трекер по сну
+        subtitle: как восстановиться и что изменить
+      v2:
+        title: Персональный трекер по сну
+        subtitle: дает четкие советы как улучшить сон
+    second:
+      v1:
+        title1: Раскрой потенциал
+        title2: с кольцом
+        subtitle1: Компактное и умное
+        subtitle2: с ИИ-советами
+      v2:
+        title1: Раскрой потенциал
+        title2: с кольцом
+        subtitle1: C умным кольцом
+        subtitle2: с ИИ-советами
+    third:
+      sleepFun: ФАНАТОВ СНА
+      v1:
+        title: Кольцо для
+        subtitle: стильное и умное с ИИ-советами
+      v2:
+        title: Кольцо для
+        subtitle: сон под контролем, без лишних усилий
+    fourth:
+      v1:
+        title1: Пссс...
+        title2: — это умное кольцо
+        subtitle: раскрой весь потенциал своего сна
+      v2:
+        title1: Пссс...
+        title2: — это умное кольцо
+        subtitle: дает четкие советы как улучшить сон
 
 pillowsReason(context=Reasons):
   sleep: Вознаграждение за ночь
@@ -188,6 +224,8 @@ home:
         buttonText: Больше подушек с трекером
         secondaryButtonText: Зачем подключать трекер?
         topButtonText: Подключить трекер
+        diaryButtonText: Заполнить дневник
+        yesterdayButtonText: Заполнить дневник за вчера
       temporaryWaitingNewData:
         title: Ждём данные от $appName...
         subtitle: Обычно занимает до 5 минут
