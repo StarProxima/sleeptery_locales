@@ -679,6 +679,18 @@ sleepStatistics:
     sleepDuration: Длительность сна
     qualitative: Качественный сон
 
+  averageRates:
+    daily:
+      title: Средние показатели за
+      button:
+        left: ночь
+        right: день
+    weekly:
+      title: Средние показатели за неделю
+    monthly:
+      title: Средние показатели за месяц
+  habits: Ритуалы и привычки текущего дня
+
   sleepInfo:
     daily: Показатели за день
     updatedAt: 'обновлены в ${time}'
