@@ -682,9 +682,11 @@ sleepStatistics:
   sleepInfo:
     daily: Показатели за день
     updatedAt: 'обновлены в ${time}'
+    updatedAtV2: 'Показатели обновлены в ${time}'
     weekly: "Средние дневные показатели за неделю"
     monthly: "Средние дневные показатели за месяц"
     manually: "добавлены вручную"
+    manuallyV2: "Показатели добавлены вручную"
     partlyManually: "частично добавлены вручную"
     noData:
       daily: "За этот день не было данных"
@@ -694,6 +696,7 @@ sleepStatistics:
 
   timeline:
     sleepTime: Время сна
+    sleepTimeV2: Длительность сна
 
   health:
     steps: Шаги
@@ -701,7 +704,9 @@ sleepStatistics:
     pulse: Пульс
     pulsePerMinute: в минуту
     bloodPressure: Артериальное давление
+    bloodPressureV2: Артериа. давление
     oxygenInBlood: Кислород в крови
+    oxygenInBloodV2: "Кислород\nв крови"
     saturation: SpO2
     aiAdvice: Совет от ИИ
 
