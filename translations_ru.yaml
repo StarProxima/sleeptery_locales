@@ -1021,6 +1021,7 @@ diary:
           2: Алкоголь
           3: Баня
     fillDiary:
+      appBar: Ритуалы
       diaryBody:
         habits: Ритуалы и привычки
         sleepRate:
