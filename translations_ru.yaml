@@ -690,6 +690,7 @@ sleepStatistics:
     monthly:
       title: Средние показатели за месяц
   habits: Ритуалы и привычки текущего дня
+  previousHabits: Ритуалы и привычки прошлого дня
 
   sleepInfo:
     daily: Показатели за день
