@@ -753,6 +753,12 @@ sleepStatistics:
         first: Мало
         second: Средне
         third: Много!
+      energyDescriptionsV2:
+        first: Мало
+        second: Пойдет
+        third: Средне
+        fourth: Хорошо
+        fifth: Много!
 
 
 
