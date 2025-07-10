@@ -1041,7 +1041,7 @@ diary:
         comment:
           title: Если считаешь, что нужно что-то добавить
           hint: Смелее добавляй здесь
-        buttonText: Заполнить дневник
+        buttonText: Сохранить изменения
       timeBody:
         title:
           first: Ещё
