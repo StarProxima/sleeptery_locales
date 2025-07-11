@@ -1067,7 +1067,7 @@ diary:
           bedTitle: "Вчера я лег\nспать в"
           wakeUpTitle: "Сегодня\nпроснулся в"
         allSleepTime:
-          title: Общее время сна
+          title: Фактическое время сна
       noSleepDataBody:
         title: Пока данных за эту ночь нет
         items:
@@ -1966,6 +1966,11 @@ ai:
     text: Тебе совет по сну
 
 bottomSheets:
+  editSleepTime:
+    title: Фактическое время сна
+    buttonText: Готово
+    hours: Часы
+    minutes: Минуты
   sleepringOffer:
     otherDevices: Huawei, Amazfit и Whoop пока не работают со sleeptery
     title:
