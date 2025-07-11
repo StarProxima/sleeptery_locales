@@ -500,6 +500,11 @@ sideBar:
 devices:
   cards:
     batteryLevel: заряд $n%
+    batteryValue:
+      full: "хватит на ~4-5 дней"
+      normal: "хватит на ~3 дня"
+      low: "хватит на ~1-2 дня"
+      empty: "пора заряжаться"
     noActiveDevice: У вас нет активного устройства
     sleepring:
       connected: подключено
