@@ -696,6 +696,9 @@ sleepStatistics:
       title: Средние показатели за месяц
   habits: Ритуалы и привычки текущего дня
   previousHabits: Ритуалы и привычки прошлого дня
+  habitsV2:
+    text: Ритуалы и привычки
+    subtext: изменить
 
   sleepInfo:
     daily: Показатели за день
@@ -727,6 +730,8 @@ sleepStatistics:
     oxygenInBloodV2: "Кислород\nв крови"
     saturation: SpO2
     aiAdvice: Совет от ИИ
+  comment:
+    title: Комментарий
 
   performancesV2:
     rem: Быстрый
