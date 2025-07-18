@@ -698,6 +698,7 @@ sleepStatistics:
   previousHabits: Ритуалы и привычки прошлого дня
   habitsV2:
     text: Ритуалы и привычки
+    text2: Дневник
     subtext: изменить
 
   sleepInfo:
@@ -769,8 +770,6 @@ sleepStatistics:
         third: Средне
         fourth: Хорошо
         fifth: Много!
-
-
 
   noData(context=PeriodType):
     none: ""
@@ -1078,6 +1077,9 @@ diary:
           wakeUpTitle: "Сегодня\nпроснулся в"
         allSleepTime:
           title: Фактическое время сна
+        toasts:
+          sleepTimeBiggerThanDiff:
+            title: "Фактическое время сна не может быть больше, чем разница между временем просыпания и засыпания!"
       noSleepDataBody:
         title: Пока данных за эту ночь нет
         items:
