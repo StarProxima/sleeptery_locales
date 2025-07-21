@@ -1197,6 +1197,7 @@ deviceInstructions:
           garmin: Garmin Connect не установлен
           zeppLife: ZeppLife не установлен
           miFit: MiFit не установлен
+          googleFit: Google Fit не установлен
         text:
           samsung: Приложение Health Connect не установлено. Пожалуйста, установите Health Connect на своё устройство
           apple: Приложение Apple Health не установлено. Пожалуйста, установите Apple Health на своё устройство
@@ -1204,6 +1205,7 @@ deviceInstructions:
           garmin: Приложение Garmin Connect не установлено. Пожалуйста, установите Garmin Connect на своё устройство
           zeppLife: Приложение ZeppLife не установлено. Пожалуйста, установите ZeppLife на своё устройство
           miFit: Приложение MiFit не установлено. Пожалуйста, установите MiFit на своё устройство
+          googleFit: Приложение Google Fit не установлено. Пожалуйста, установите Google Fit на своё устройство
       failedToOpenAuthLink:
         title: Не удалось открыть ссылку авторизации
         text: Попробуйте ещё раз
