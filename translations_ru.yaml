@@ -527,6 +527,15 @@ devices:
         ready: Готово
         change: Изм.
       buttonText: Подключить новый трекер
+    device:
+      appBar: Активный трекер
+      buttons:
+        sync: Синхронизировать
+        reset: Сбросить данные
+        delete: Отключить
+      footer: Чтобы подключить новый девайс, отключи текущий
+      connected: подключено
+      notConnected: не подключено
 
 pillows:
   tooltip:
@@ -1980,6 +1989,16 @@ ai:
     text: Тебе совет по сну
 
 bottomSheets:
+  resetSleepring:
+    title: "Ты действительно хочешь\nсбросить данные?"
+    subtitle: "Данные удалятся из кольца, но останутся в приложении"
+    buttonText: "Не сбрасывать данные"
+    secondaryButtonText: "Сбросить"
+  offDevice:
+    title: "Ты действительно хочешь\nотключить устройство?"
+    subtitle: "Данные сохраняются в памяти кольца до 5 дней, поэтому при переподключении они не пропадут"
+    buttonText: "Оставить устройство"
+    secondaryButtonText: "Отключить"
   editSleepTime:
     title: Фактическое время сна
     buttonText: Готово
