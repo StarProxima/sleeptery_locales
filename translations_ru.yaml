@@ -1040,6 +1040,7 @@ raffle:
 
 diary:
   baseAward: 5
+  maxAward: 25
   mock:
     habits:
       first:
