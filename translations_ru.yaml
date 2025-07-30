@@ -563,6 +563,7 @@ devices:
       footer: Чтобы подключить новый девайс, отключи текущий
       connected: подключено
       notConnected: не подключено
+      firmwareVersion: Версия $version
 
 pillows:
   tooltip:
