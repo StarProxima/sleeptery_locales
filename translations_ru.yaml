@@ -759,18 +759,25 @@ sleepStatistics:
     sleepTimeV2: Длительность сна
 
   health:
+    title: Метрики здоровья
     steps: Шаги
     stepsAverage: в среднем за день, а всего $n
     pulse: Пульс
     pulsePerMinute: в минуту
     bloodPressure: Артериальное давление
     bloodPressureV2: Артериа. давление
+    hrv: HRV
+    hrvUnit: мс
     oxygenInBlood: Кислород в крови
     oxygenInBloodV2: "Кислород\nв крови"
     saturation: SpO2
     aiAdvice: Совет от ИИ
   comment:
     title: Комментарий
+
+  charts:
+    buttonText: Показать бооольше
+    buttonText2: Свернуть
 
   performancesV2:
     rem: Быстрый
@@ -786,10 +793,16 @@ sleepStatistics:
       few: $n раза
       other: $n раз
   fillDiary:
+    title: "Дневник сна"
     title1: "Данных нет, заполни хотя бы дневник"
     title2: "Вся статистика уже готова, чтобы всё увидеть, заполни дневник"
     buttonText: "Заполнить дневник"
+    buttonText2: "Заполнить дневник сна"
     secondaryButtonText: "Заполню позже"
+    marksV2:
+      sleep: Оценка сна
+      day: Оценка дня
+      habits: Ритуалы и привычки
     marks:
       sleep: Оценка сна
       energy: Энергия
