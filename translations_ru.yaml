@@ -170,6 +170,11 @@ shared:
     one: $n день назад
     few: $n дня назад
     other: $n дней назад
+  steps:
+    zero: 0 шагов
+    one: $n шаг
+    few: $n шага
+    other: $n шагов
 
 storytelling:
   screen:
@@ -778,6 +783,34 @@ sleepStatistics:
   charts:
     buttonText: Показать бооольше
     buttonText2: Свернуть
+    title: А теперь поподробнее
+    min: Мин
+    max: Макс
+    avg: В среднем за период
+    diary:
+      energyRate:
+        title: Энергия в течение дня
+        unitOfMeasure: ()
+      sleepRate:
+        title: Оценка сна
+        unitOfMeasure: "★"
+    health:
+      heartRate:
+        title: Пульс
+        unitOfMeasure: уд/мин
+      hrv:
+        title: HRV
+        unitOfMeasure: мс
+      oxygenSaturation:
+        title: Кислород
+        unitOfMeasure: "%"
+      steps:
+        title: Шаги
+    sleep:
+      asleep:
+        title: Отход ко сну
+      awake:
+        title: Пробуждение
 
   performancesV2:
     rem: Быстрый
@@ -827,6 +860,7 @@ sleepStatistics:
     day: За этот день не было данных
     week: За эту неделю не было данных
     month: За этот месяц не было данных
+
 
   whyNoData: Почему так?
   noDataToday: Нет данных за этот день
