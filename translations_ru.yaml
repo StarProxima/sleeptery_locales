@@ -794,10 +794,10 @@ sleepStatistics:
     diary:
       energyRate:
         title: Энергия в течение дня
-        unitOfMeasure: ()
+        unitOfMeasure: "⚡"
       sleepRate:
         title: Оценка сна
-        unitOfMeasure: "★"
+        unitOfMeasure: "⭐"
     health:
       heartRate:
         title: Пульс
