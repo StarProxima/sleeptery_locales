@@ -6,6 +6,11 @@ tomorrow: завтра
 
 appName: sleeptery
 
+units:
+  distance:
+    m: м
+    km: км
+
 bottomNavBar:
   sleep: Сон
   sleepV2: Главная
