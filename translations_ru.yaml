@@ -708,6 +708,9 @@ sleepStatistics:
     days: Дни
     weeks: Недели
     month: Месяцы
+  sleepRating:
+    bad: так себе
+    good: хорошо
   dailyIndicators:
     day: Показатели за день
     other: Средние дневные показатели
