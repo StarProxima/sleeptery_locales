@@ -2080,6 +2080,19 @@ ai:
   adviceButton:
     text: Тебе совет по сну
 
+sleepSegments:
+  buttons:
+    no: Нет, не спал
+    yes: Да, спал
+  question:
+    part1: Ты спал в период
+    part2: с $startDate до $endDate?
+  body:
+    title: Давай кое-что уточним
+    subtitle: "Мы получили данные о сне, но есть момент, который требует проверки:"
+    userSleep: Твой сон
+
+
 bottomSheets:
   lowBatteryForUpdate:
     title: "Сейчас зарядки кольца мало"
