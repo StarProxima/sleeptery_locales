@@ -1366,6 +1366,7 @@ deviceInstructions:
         garmin: Для работы с устройством нужен Garmin Connect и авторизация в сервисе Terra
         androidZeppLife: Для работы с устройством тебе понадобится ZeppLife, Google Fit и Health Connect
         androidMiFit: Для работы с устройством тебе понадобится Mi Fitness, Google Fit и Health Connect
+        androidMiFitV2: Для работы с устройством тебе понадобится Mi Fitness и Health Connect
         iosZeppLife: Для работы с трекером понадобится приложение ZeppLife
         iosMiFit: Для работы с трекером понадобится приложение Mi Fitness
         appleHealth: Для работы с трекером понадобится родное приложение трекера
@@ -1379,6 +1380,7 @@ deviceInstructions:
         garmin: Garmin Connect собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
         androidZeppLife: Приложение ZeppLife собирает данные с трекера, облачно передает их через Google Fit в Health Connect, затем данные о сне забирает sleeptery
         androidMiFit: Приложение Mi Fitness собирает данные с трекера, облачно передает их через Google Fit в Health Connect, затем данные о сне забирает sleeptery
+        androidMiFitV2: Приложение Mi Fitness собирает данные с трекера, передает их в Health Connect, затем данные о сне забирает sleeptery
         iosZeppLife: ZeppLife собирает данные о сне с трекера, передает их в Здоровье. Оттуда их забирает sleeptery
         iosMiFit: Mi Fitness собирает данные о сне с трекера, передает их в Здоровье. Оттуда их забирает sleeptery
         appleHealth: Приложение трекера собирает данные о сне с трекера, передает их в Здоровье. Оттуда их забирает sleeptery
@@ -1433,6 +1435,9 @@ deviceInstructions:
       buttonText: Дать доступ
     getAccessMiFitToGoogleFit:
       title: Предоставь Mi Fitness доступ в Google Fit
+      buttonText: Дать доступ
+    getAccessMiFitToHealthConnect:
+      title: Предоставь Mi Fitness доступ в Health Connect
       buttonText: Дать доступ
     installHealthConnect:
       title: Установи приложение Health Connect
