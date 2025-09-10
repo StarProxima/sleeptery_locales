@@ -385,6 +385,7 @@ authReg:
   pincode:
     title: Введите код авторизации
     subtitle: Отправили вам на почту
+    subtitleV2: Отправили вам код на почту $n
     hint: _
     buttonText: Войти
     secondaryButtonText:
