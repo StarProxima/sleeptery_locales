@@ -2489,6 +2489,7 @@ bottomSheets:
   howGetPrize:
     title: Как получить приз
     subtitle: Если ваш билет выиграл, мы свяжемся с вами в течении 3-х дней
+    subtitleV2: Если ваш билет выиграл, мы свяжемся с вами по почте $email в течение 3-х дней
     buttonText: Буду ждать
 
   sleepRating:
