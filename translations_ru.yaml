@@ -391,10 +391,8 @@ authReg:
     secondaryButtonText:
       text: Отправить повторно
       time: Отправить повторно через $n сек
-    supportButton: Написать в поддержку
-    toasts:
-      maxAttempts:
-        title: Лимит попыток исчерпан. Пожалуйста, обратитесь в поддержку
+    supportButton: Техподдержка
+    maxAttempts: Лимит попыток исчерпан. Пожалуйста, обратитесь в поддержку
   nickname:
     title: Придумайте никнейм
     hint: и введите его здесь
@@ -2112,15 +2110,15 @@ sleepSegments:
 
 bottomSheets:
   pinCodeAttempts:
+    sentToEmail: Отправили на $email
     firstAttempt:
-      title: Мы отправили новый код на $email
-      subtitle: Убедись, что правильно указал почту и что выключен VPN.
-      buttonText: Всё верно
-      secondaryButtonText: Исправить почту
+      title: Убедись, что правильно указал почту и что выключен VPN
+      buttonText: Всё правильно, жду код
+      secondaryButtonText: Изменить почту
     otherAttempts:
-      title: Ты использовал $attempt из $maxResentAttempts попыток авторизации. Спам проверил на всякий случай?!
-      buttonText: Отправить код ещё раз
-      secondaryButtonText: Написать в поддержку
+      subtitle: Ты использовал $attempt из $maxResentAttempts попыток авторизации. Может быть письмо попало в спам? Проверь, пожалуйста.
+      secondaryButtonText: Отправить ещё раз код
+      buttonText: Написать в поддержку
   lowBatteryForUpdate:
     title: "Сейчас зарядки кольца мало"
     subtitle: "Заряди кольцо как минимум до 40%. Если кольцо сядет в процессе обновления, могут возникнуть проблемы с дальнейшем использованием."
