@@ -139,6 +139,12 @@ sleepScoreType(map):
   100: Супер ночка, просто вау!!!
 
 shared:
+  countWakeUp(map):
+    0: 1
+    1: 2
+    2: 3
+    3: 4
+    4: 5+
   oneOf: $current из $max
   nights:
     zero: $n ночей
@@ -884,6 +890,18 @@ sleepStatistics:
         third: Средне
         fourth: Хорошо
         fifth: Много!
+
+  editSleepTime:
+    appBar: Редактирование времени сна
+    sleepTime:
+      fallAsleepTitle: "Вчера я лег\nспать в"
+      wakeUpTitle: "Сегодня\nпроснулся в"
+    totalSleepTime: Общее время сна
+    awake:
+      awakeCount: Сколько раз?
+      hasAwakeNight: Просыпался ночью?
+    buttonText: Сохранить
+    footerText: Изменении времени отхода ко сну и просыпания не повлияет на расчет подушек за сон и режим
 
   noData(context=PeriodType):
     none: ""
