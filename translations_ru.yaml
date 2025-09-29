@@ -180,6 +180,7 @@ shared:
     one: $n шаг
     few: $n шага
     other: $n шагов
+  positionInTournament: Ты занял $n-е место
 
 storytelling:
   screen:
