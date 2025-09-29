@@ -2365,6 +2365,7 @@ bottomSheets:
     items:
       email: Электронная почта
       tgBot: Telegram
+      faq: Может быть ответ уже есть
     buttonText: Закрыть
 
   pillowsRules:
