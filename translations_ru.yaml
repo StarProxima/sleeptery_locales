@@ -207,6 +207,18 @@ storytelling:
       buttonText: Скорее бы поспать
 
 
+faq:
+  screen:
+    sleepring:
+      appBar: FAQ
+      items(interface=FaqSleepringItems, map):
+        first:
+          title: Сегодня данные с моего трекера не пришли, почему так?
+          body: ""
+        second:
+          title: Кольцо село, я его зарядил, поспал, но данных нет. Почему так произошло?
+          body: Если кольцо разрядилось полностью, после зарядки необходимо включить приложение и синхронизировать кольцо со sleeptery
+
 home:
   cards:
     dailyAdvice:
