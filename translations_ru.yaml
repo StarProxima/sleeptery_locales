@@ -723,6 +723,26 @@ pillows:
         debit: списание
 
 sleepStatistics:
+  incorrectSleepData:
+    synced:
+      title: Данные успешно обновлены
+      subtitle: Если время до сих пор ошибочное, ты можешь отредактировать данные вручную
+      firstButton: Изменить вручную
+      secondButton: Теперь всё верно
+    syncing:
+      title: Синхронизируем с кольцом, проверяем данные
+    userSelectError:
+      title: Возможно данные сна еще не полностью обработаны
+      subtitle: Подожди 4-5 минут и синхронизируй кольцо с приложением еще раз
+      firstButton: Подождать 5 минут
+      secondButton: Синхронизировать
+    incorrectData:
+      title:
+        start: Время пробуждения отклонилось
+        highlight: более чем на 2 часа.
+        end: Так и есть или это ошибка?
+      firstButton: Нет, это ошибка
+      secondButton: Всё правильно
   nightsWithTracker: '@:shared.nights с трекером'
   appBar: Статистика сна
   appBarV2: Дашборд
