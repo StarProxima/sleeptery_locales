@@ -284,6 +284,33 @@ home:
         title: Уже завтра вы получите подушки за сон
         subtitle: Сегодня, перед отходом ко сну, не забудьте надеть трекер
         buttonText: Заполни дневник
+      timeDeviation:
+        dataIsNotCorrect:
+          title: Есть несостыковка
+          subtitle: Время пробуждения отклонилось
+          question:
+            first: Ты правда проснулся
+            second: в $n?
+          firstButton: Это ошибка
+          secondButton: Да, в $n
+        userSelectError:
+          title: "Вот что мы можем\nпредпринять"
+          subtitle: "Возможно данные сна еще\nне полностью обработаны"
+          body: Подожди 4-5 минут и синхронизируй кольцо с приложением еще раз
+          firstButton: Подождать
+          secondButton: Обновить
+        syncing:
+          text: Обновляем
+        synced:
+          title: "Данные успешно\nобновлены"
+          subtitle: Если время до сих пор ошибочное, ты можешь изменить данные вручную
+          firstButton: Изменить
+          secondButton: Теперь верно
+        syncFailed:
+          title: "Не удалось\nобновить данные"
+          subtitle: "Проверь что кольцо заряжено и находится рядом с телефоном, а на телефоне включен bluetooth"
+          firstButton: Подождать
+          secondButton: Обновить
       sleepringWaitingNewData:
         title: sleepring подключено!
         subtitle: "Подушки за сон будут завтра, а сейчас:"
@@ -724,6 +751,11 @@ pillows:
 
 sleepStatistics:
   incorrectSleepData:
+    syncError:
+      title: Не удалось обновить данные
+      subtitle: Проверь что кольцо заряжено и находится рядом с телефоном, а на телефоне включен bluetooth
+      firstButton: Попробовать позже
+      secondButton: Синхронизировать
     synced:
       title: Данные успешно обновлены
       subtitle: Если время до сих пор ошибочное, ты можешь отредактировать данные вручную
