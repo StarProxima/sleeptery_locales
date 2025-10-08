@@ -304,13 +304,19 @@ home:
         synced:
           title: "Данные успешно\nобновлены"
           subtitle: Если время до сих пор ошибочное, ты можешь изменить данные вручную
+          text: Мы добавили сон
+          withDateRange: с $startDate — $endDate
           firstButton: Изменить
           secondButton: Теперь верно
         syncFailed:
           title: "Не удалось\nобновить данные"
           subtitle: "Проверь что кольцо заряжено и находится рядом с телефоном, а на телефоне включен bluetooth"
-          firstButton: Подождать
-          secondButton: Обновить
+          buttonText: Синхронизировать
+        wait:
+          title: "Возможно твой сон\nслишком хорош"
+          subtitle: "Нам требуется больше времени\nна его обработку"
+          text: "Если через 10 минут ничего не\nпоменяется, напиши в поддержку"
+          buttonText: Вернусь через 10 минут
       sleepringWaitingNewData:
         title: sleepring подключено!
         subtitle: "Подушки за сон будут завтра, а сейчас:"
@@ -751,30 +757,36 @@ pillows:
 
 sleepStatistics:
   incorrectSleepData:
-    syncError:
-      title: Не удалось обновить данные
+    syncFailed:
+      title: Не удалось подключиться к sleepring
       subtitle: Проверь что кольцо заряжено и находится рядом с телефоном, а на телефоне включен bluetooth
-      firstButton: Попробовать позже
-      secondButton: Синхронизировать
+      buttonText: Синхронизировать
     synced:
       title: Данные успешно обновлены
       subtitle: Если время до сих пор ошибочное, ты можешь отредактировать данные вручную
       firstButton: Изменить вручную
       secondButton: Теперь всё верно
+      text: Мы добавили сон
+      withDateRange: с $startDate — $endDate
     syncing:
       title: Синхронизируем с кольцом, проверяем данные
     userSelectError:
       title: Возможно данные сна еще не полностью обработаны
       subtitle: Подожди 4-5 минут и синхронизируй кольцо с приложением еще раз
-      firstButton: Подождать 5 минут
-      secondButton: Синхронизировать
-    incorrectData:
+      firstButton: Подождать
+      secondButton: Обновить
+    dataIsNotCorrect:
       title:
         start: Время пробуждения отклонилось
         highlight: более чем на 2 часа.
         end: Так и есть или это ошибка?
       firstButton: Нет, это ошибка
       secondButton: Всё правильно
+    wait:
+      title: Возможно, требуется больше времени на его обработку
+      subtitle: Если через 10 минут ничего не поменяется, напиши в поддержку
+      buttonText: Вернусь через 10 минут
+
   nightsWithTracker: '@:shared.nights с трекером'
   appBar: Статистика сна
   appBarV2: Дашборд
