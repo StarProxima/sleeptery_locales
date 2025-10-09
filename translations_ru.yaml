@@ -2224,6 +2224,15 @@ sleepSegments:
 
 
 bottomSheets:
+  sleepManualAndFromTrackerData:
+    title: Мы получили данные за сон
+    subtitle: В ночь с $startDate на $endDate ты записал сон вручную, а сейчас пришли данные с трекера
+    text: Ты можешь заменить ручные данные на данные с трекера, а можешь оставить как есть
+    firstButton: Оставить
+    secondButton: Заменить
+    dateRanges:
+      manual: ты записал вручную
+      tracker: пришло с трекера
   pinCodeAttempts:
     sentToEmail: Отправили на $email
     firstAttempt:
