@@ -2222,8 +2222,29 @@ sleepSegments:
     subtitle: "Мы получили данные о сне, но есть момент, который требует проверки:"
     userSleep: Твой сон
 
+dialogs:
+  rateApp:
+    first:
+      title: Нравится ли тебе sleeptery?
+      buttonText: Да, очень
+      secondaryButtonText: Не совсем
+    second:
+      title: Спасибо!
+      subtitle:
+        android: Пожалуйста, поддержи нас в Google play
+        ios: Пожалуйста, поддержи нас в AppStore
+      buttonText: Поставить 5 звезд →
 
 bottomSheets:
+  rateApp:
+    first:
+      title: Помоги нам сделать sleeptery лучше
+      subtitle: Расскажи, что тебе нравится, что важно, а самом главное, что нам стоит улучшить
+      hint: Смелее напиши нам
+      buttonText: Отправить отзыв
+    second:
+      title: Спасибо за твой ответ
+      buttonText: Закрыть
   sleepManualAndFromTrackerData:
     title: Мы получили данные за сон
     subtitle: В ночь с $startDate на $endDate ты записал сон вручную, а сейчас пришли данные с трекера
