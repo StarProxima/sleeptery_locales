@@ -646,6 +646,8 @@ devices:
       connected: подключено
       notConnected: не подключено
       firmwareVersion: Версия $version
+      firmwareVersionV2: "Версия прошивки: $version"
+      writeAppleHealthButton: "Передавать данные\nв Apple Health"
 
 pillows:
   tooltip:
