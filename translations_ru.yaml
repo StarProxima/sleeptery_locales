@@ -304,6 +304,8 @@ home:
         dataIsNotCorrect:
           title: Есть несостыковка
           subtitle: Время пробуждения отклонилось
+          meanWakeUp: Обычно ты просыпаешься в
+          todayWakeUp: а сегодня в
           question:
             first: Ты правда проснулся
             second: в $n?
@@ -984,6 +986,10 @@ sleepStatistics:
       hasAwakeNight: Просыпался ночью?
     buttonText: Сохранить
     footerText: Изменении времени отхода ко сну и просыпания не повлияет на расчет подушек за сон и режим
+    toasts:
+      cantSave:
+        title: Не удалось сохранить данные!
+        description: Попробуй ещё раз или обратитесь в тех. поддержку
 
   noData(context=PeriodType):
     none: ""
