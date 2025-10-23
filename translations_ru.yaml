@@ -301,6 +301,10 @@ home:
         subtitle: Сегодня, перед отходом ко сну, не забудьте надеть трекер
         buttonText: Заполни дневник
       timeDeviation:
+        toasts:
+          dataCorrectIsNotSuccessful:
+            title: Не удалось выполнить операцию!
+            text: Попробуйте позже или обратитесь в тех. поддержку
         dataIsNotCorrect:
           title: Есть несостыковка
           subtitle: Время пробуждения отклонилось
@@ -2253,7 +2257,11 @@ bottomSheets:
     second:
       title: Спасибо за твой ответ
       buttonText: Закрыть
-  sleepManualAndFromTrackerData:
+  sleepConflict:
+    toasts:
+      operationIsNotSuccess:
+        title: Не удалось выполнить операцию!
+        text: Повторите позже или обратитесь в тех. поддержку
     title: Мы получили данные за сон
     subtitle: В ночь с $startDate на $endDate ты записал сон вручную, а сейчас пришли данные с трекера
     text: Ты можешь заменить ручные данные на данные с трекера, а можешь оставить как есть
