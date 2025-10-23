@@ -2238,6 +2238,7 @@ dialogs:
   rateApp:
     first:
       title: Нравится ли тебе sleeptery?
+      subtitle: Нам очень важна твоя оценка
       buttonText: Да, очень
       secondaryButtonText: Не совсем
     second:
