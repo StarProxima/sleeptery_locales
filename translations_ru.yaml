@@ -627,6 +627,9 @@ devices:
     cantResetDevice:
       title: Не удалось выполнить сброс
       text: Перепривяжите кольцо или обратитесть в тех. поддержку
+    cantChangeInterval:
+      title: Не удалось установить интервал!
+      text: Попробуйте позже или обратитесь в тех. поддержку
   cards:
     batteryLevel: заряд $n%
     batteryValue:
