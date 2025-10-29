@@ -1048,13 +1048,15 @@ sleepStatistics:
       measure:
         heart:
           appBarText: Измерение пульса
+        oxygen:
+          appBarText: Измерение кислорода
         shared:
           startBody:
             title: Это займет 1 минуту
             subtitle: "Расположите датчики вниз\nНе шевелитесь\nНе меняйте частоту дыхания"
             buttonText: Начать
           measureBody:
-            seconds: $n sec
+            seconds: $n сек
             aLittleBit: Ещё немного
             subtitle: "Старайтесь не шевелиться\nи не менять частоту дыхания"
             buttonText: Остановить
