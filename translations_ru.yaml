@@ -1024,6 +1024,44 @@ sleepStatistics:
   whyNoData: Почему так?
   noDataToday: Нет данных за этот день
   error: Ошибка
+  measuring:
+    shared:
+      historyButton:
+        show: История измерений
+        hide: Скрыть историю
+      healthParameter:
+        sleep: Во сне
+        awake: В бодрствовании
+        mean: в среднем
+        min: мин
+        separator: "|"
+        max: макс
+    screen:
+      heartParameter:
+        appBarText: Пульс
+        uom: $n уд/мин
+        buttonText: Измерить\nпульс
+      oxygenParameter:
+        appBarText: Кислород
+        uom: $n%
+        buttonText: Измерить\nкислород
+      measure:
+        heart:
+          appBarText: Измерение пульса
+        shared:
+          startBody:
+            title: Это займет 1 минуту
+            subtitle: "Расположите датчики вниз\nНе шевелитесь\nНе меняйте частоту дыхания"
+            buttonText: Начать
+          measureBody:
+            seconds: $n sec
+            aLittleBit: Ещё немного
+            subtitle: "Старайтесь не шевелиться\nи не менять частоту дыхания"
+            buttonText: Остановить
+          endBody:
+            title: Измерение завершено
+            buttonText: Измерить ещё раз
+            secondaryButtonText: Готово
 
 library:
   toAllArticles: Ко всем статьям
