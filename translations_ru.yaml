@@ -1046,11 +1046,22 @@ sleepStatistics:
         uom: $n%
         buttonText: Измерить\nкислород
       measure:
+        toasts:
+          notConnected:
+            title: Кольцо не подключено!
+            text: Попробуйте синхронизировать вручную или обратитесь в тех. поддержку
+          error:
+            title: Ошибка при измерении!
+            text: Попробуйте ещё раз или обратитесь в тех. поддержку
         heart:
           appBarText: Измерение пульса
         oxygen:
           appBarText: Измерение кислорода
         shared:
+          errorBody:
+            title: "Для измерения пульса\nнадень кольцо на палец"
+            buttonText: Измерить еще раз
+            secondaryButtonText: Закрыть
           startBody:
             title: Это займет 1 минуту
             subtitle: "Расположите датчики вниз\nНе шевелитесь\nНе меняйте частоту дыхания"
