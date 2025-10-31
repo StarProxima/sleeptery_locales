@@ -1047,6 +1047,9 @@ sleepStatistics:
         buttonText: Измерить\nкислород
       measure:
         toasts:
+          cantStopMeasurement:
+            title: Не удалось отменить измерение!
+            text: Попробуйте ещё раз или дождитесь окончание измерения
           notConnected:
             title: Кольцо не подключено!
             text: Попробуйте синхронизировать вручную или обратитесь в тех. поддержку
@@ -1055,11 +1058,15 @@ sleepStatistics:
             text: Попробуйте ещё раз или обратитесь в тех. поддержку
         heart:
           appBarText: Измерение пульса
+          errorBody:
+            title: Не получилось измерить пульс
         oxygen:
           appBarText: Измерение кислорода
+          errorBody:
+            title: Не получилось измерить сатурацию
         shared:
           errorBody:
-            title: "Для измерения пульса\nнадень кольцо на палец"
+            subtitle: "Убедись, чтобы кольцо было надето на палец, а датчик был снизу"
             buttonText: Измерить еще раз
             secondaryButtonText: Закрыть
           startBody:
