@@ -1045,6 +1045,8 @@ sleepStatistics:
         appBarText: Кислород
         uom: $n%
         buttonText: Измерить\nкислород
+      stepsParameter:
+        appBarText: Шаги
       measure:
         toasts:
           cantStopMeasurement:
@@ -1052,7 +1054,7 @@ sleepStatistics:
             text: Попробуйте ещё раз или дождитесь окончание измерения
           notConnected:
             title: Кольцо не подключено!
-            text: Попробуйте синхронизировать вручную или обратитесь в тех. поддержку
+            text: Попробуйте ещё раз или обратитесь в тех. поддержку
           error:
             title: Ошибка при измерении!
             text: Попробуйте ещё раз или обратитесь в тех. поддержку
