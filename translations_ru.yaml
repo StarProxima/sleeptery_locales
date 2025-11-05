@@ -1040,10 +1040,15 @@ sleepStatistics:
       heartParameter:
         appBarText: Пульс
         uom: $n уд/мин
+        historyUom:
+          one: $n удар в минуту
+          few: $n удара в минуту
+          other: $n ударов в минуту
         buttonText: Измерить\nпульс
       oxygenParameter:
         appBarText: Кислород
         uom: $n%
+        historyUom: $n%
         buttonText: Измерить\nкислород
       stepsParameter:
         appBarText: Шаги
