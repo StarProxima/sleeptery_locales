@@ -1036,6 +1036,7 @@ sleepStatistics:
         min: мин
         separator: "|"
         max: макс
+        noData: Нет данных
     screen:
       heartParameter:
         appBarText: Пульс
