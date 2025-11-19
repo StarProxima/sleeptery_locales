@@ -1053,6 +1053,10 @@ sleepStatistics:
         buttonText: Измерить\nкислород
       stepsParameter:
         appBarText: Шаги
+        uom:
+          one: $n шаг
+          few: $n шага
+          other: $n шагов
       measure:
         toasts:
           cantStopMeasurement:
