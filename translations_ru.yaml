@@ -1060,6 +1060,7 @@ sleepStatistics:
       bloodPressureParameter:
         appBarText: Давление
         uom: $sbp/$dbp
+        buttonText: Измерить\nдавление
       measure:
         toasts:
           cantStopMeasurement:
