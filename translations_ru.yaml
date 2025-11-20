@@ -1057,6 +1057,9 @@ sleepStatistics:
           one: $n шаг
           few: $n шага
           other: $n шагов
+      bloodPressureParameter:
+        appBarText: Давление
+        uom: $sbp/$dbp
       measure:
         toasts:
           cantStopMeasurement:
@@ -1076,6 +1079,10 @@ sleepStatistics:
           appBarText: Измерение кислорода
           errorBody:
             title: Не получилось измерить сатурацию
+        bloodPressure:
+          appBarText: Измерение давления
+          errorBody:
+            title: Не получилось измерить давление
         shared:
           errorBody:
             subtitle: "Убедись, чтобы кольцо было надето на палец, а датчик был снизу"
