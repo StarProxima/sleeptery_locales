@@ -1038,6 +1038,36 @@ sleepStatistics:
         max: макс
         noData: Нет данных
     screen:
+      calibration:
+        bloodPressure:
+          appBarText: Калибровка
+          body:
+            initial:
+              title: Откалибровать sleepring
+              subtitle: "Чтобы измерить давление корректно,\nнеобходимо откалибровать устройство\nс помощью тонометра"
+              buttonText: Откалибровать
+              secondaryButtonText: Пропустить и измерить давление
+            first:
+              title: Потребуется тонометр
+              subtitle: Выполни калибровку с помощью тонометра с плечевой манжетой
+              buttonText: Тонометр у меня есть
+            second:
+              title: Закрепи манжету тонометра на руке, на которой ты НЕ носишь sleepring
+              buttonText: Готово
+            sleepring:
+              title: Надень sleepring
+              subtitle: Расположи кольцо на пальце датчиками\nвниз, не шевелись и не меняй частоту дыхания
+              buttonText: Начать
+            third:
+              title: Включи тонометр
+            data:
+              title: Введи показания тонометра, когда он завершит замер
+              buttonText: Ввести показания тонометра
+            end:
+              title: Калибровка завершена
+              subtitle: Если что, ты сможешь откалибровать sleepring, нажав на кнопку в правом верхнем углу находясь на экране «Давление»
+              buttonText: Готово
+              secondaryButtonText: Измерить давление
       heartParameter:
         appBarText: Пульс
         uom: $n уд/мин
