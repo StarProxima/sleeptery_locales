@@ -641,6 +641,7 @@ devices:
     sleepring:
       connected: подключено
       notConnected: не подключено
+      connecting: подключение
     status(context=DeviceStatus):
       active: Активное устройство
       longTimeNoData: Долгое время без данных
@@ -670,6 +671,7 @@ devices:
       footer: Чтобы подключить новый девайс, отключи текущий
       connected: подключено
       notConnected: не подключено
+      connecting: подключение
       firmwareVersion: Версия $version
       firmwareVersionV2: "Версия прошивки: $version"
       writeAppleHealthButton: "Передавать данные\nв Apple Health"
