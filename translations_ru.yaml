@@ -1128,6 +1128,7 @@ sleepStatistics:
             title: Это займет 1 минуту
             subtitle: "Расположите датчики вниз\nНе шевелитесь\nНе меняйте частоту дыхания"
             buttonText: Начать
+            betaButton: Бета-версия
           measureBody:
             seconds: $n сек
             aLittleBit: Ещё немного
@@ -2381,6 +2382,10 @@ dialogs:
       buttonText: Поставить 5 звезд →
 
 bottomSheets:
+  measuringBeta:
+    title: Бета-версия
+    subtitle: "Эта функция в бета-тестировании. Мы будем благодарны за твой отзыв нам в поддержку и предложения по улучшению."
+    buttonText: Всё понятно
   bloodPressureCalibration:
     title: Показания тонометра
     hint: 0
