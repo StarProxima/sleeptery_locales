@@ -903,6 +903,7 @@ sleepStatistics:
     sleepTimeV2: Длительность сна
 
   health:
+    defaultMetricValue: "-"
     title: Метрики здоровья
     steps: Шаги
     stepsAverage: в среднем за день, а всего $n
