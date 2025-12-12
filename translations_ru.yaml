@@ -2548,6 +2548,7 @@ bottomSheets:
     subtitle: "Да-да, у нас тоже теперь есть ИИ"
     dislikeButton: "Ерунда"
     likeButton: "Полезно"
+    discuss: "Обсудить"
 
   cantBuySleepFanWhenUserHasLite:
     title: "Извините за беспокойство:("
