@@ -2356,6 +2356,14 @@ news:
 ai:
   adviceButton:
     text: Тебе совет по сну
+  screen:
+    aiChat:
+      drawer:
+        title: ИИ-советы
+      textField:
+        hint: Напиши свой вопрос
+        validator:
+          empty: Не может быть пустым!
 
 sleepSegments:
   toasts:
