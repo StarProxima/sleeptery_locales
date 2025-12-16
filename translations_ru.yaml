@@ -922,6 +922,13 @@ sleepStatistics:
     title: Комментарий
 
   charts:
+    sleepDuration:
+      tooltip:
+        rem: Быстрый сон
+        deep: Глубокий сон
+        light: Легкий сон
+        awake: Бодрствование
+        sleep: Сон
     buttonText: Показать бооольше
     buttonText2: Свернуть
     title: А теперь поподробнее
