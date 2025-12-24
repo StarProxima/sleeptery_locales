@@ -2365,6 +2365,10 @@ ai:
     text: Тебе совет по сну
   screen:
     aiChat:
+      toasts:
+        commonError:
+          title: Произошла ошибка!
+          text: Попробуйте ещё раз или обратитесь в тех. поддержку!
       drawer:
         title: ИИ-советы
       textField:
