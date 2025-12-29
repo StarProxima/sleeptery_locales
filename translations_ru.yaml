@@ -819,7 +819,10 @@ sleepStatistics:
     additionalInfo:
       awake: Бодрствование
       awakeCount: Подъёмов за ночь
-
+    editSleepButton:
+      selectPiece: Выберите фрагмент сна, чтобы отредактировать
+      change: Изменить
+    addButton: Добавить сон
 
   incorrectSleepData:
     syncFailed:
@@ -2416,6 +2419,26 @@ dialogs:
       buttonText: Поставить 5 звезд →
 
 bottomSheets:
+  addSleepPiece:
+    title: Добавить сон
+    intersection:
+      one: "Данный фрагмент сна пересекается с фрагментом: $times. Объединить фрагменты?"
+      other: "Данный фрагмент сна пересекается с фрагментами: $times. Объединить фрагменты?"
+    start: Начало
+    end: Окончание
+    buttonText:
+      add: Добавить
+      merge: Объединить
+  deleteSleepPiece:
+    title: "Вы действительно хотите\nудалить фрагмент сна\n$time?"
+    buttonText: Не удалять
+    secondaryButtonText: Удалить
+  editSleepPiece:
+    title: Редактировать сон
+    start: Начало
+    end: Окончание
+    buttonText: Сохранить
+    secondaryButtonText: Удалить часть сна
   hrv:
     title: HRV
     text: "HRV (вариабельность сердечного ритма) — изменчивость интервалов между ударами сердца в миллисекундах. Нет единой нормы: показатели зависят от возраста и подготовки. Важно отслеживать не цифры, а свой личный тренд и изменения в нём. Хорошо, если ваш средний ночной HRV стабилен или постепенно растет."
