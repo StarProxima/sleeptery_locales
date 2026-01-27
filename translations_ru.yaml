@@ -2378,6 +2378,8 @@ ai:
         commonError:
           title: Произошла ошибка!
           text: Попробуйте ещё раз или обратитесь в тех. поддержку!
+        unsupportedMessage:
+          title: Данное сообщение не может быть обработано!
       drawer:
         title: ИИ-советы
       textField:
