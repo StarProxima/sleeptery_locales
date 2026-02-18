@@ -32,6 +32,9 @@ apiErrorWidget:
   update: 'Обновить'
 
 sleepteryRing:
+  names:
+    sleepring1: "sleepring"
+    sleepring2: "sleepring 2"
   toasts:
     turnOnBleGetData: Включи bluetooth для получения данных с кольца
     sleepringConnected: sleepring подключено
