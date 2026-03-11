@@ -1076,6 +1076,10 @@ sleepStatistics:
         noData: Нет данных
     screen:
       calibration:
+        toasts:
+          cantSaveCalibration:
+            title: Не удалось сохранить давление!
+            text: Попробуйте ещё раз или обратитесь в тех. поддержку
         bloodPressure:
           appBarText: Калибровка
           body:
