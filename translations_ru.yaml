@@ -1928,11 +1928,12 @@ tournaments:
   leagues:
     defaultName: Лига $n
     defaultNameAccusativeCase: Лигу $n
-    name(map):
+    # Фикс, не использовать (map), т.к. в новой версии slang ключ 12 интерпретируется как '"12"', а не '12'
+    name:
       12: Спокойная Лига
       11: Расслабляющая Лига
       10: Дремотная Лига
-    nameAccusativeCase(map):
+    nameAccusativeCase:
       12: Спокойную Лигу
       11: Расслабляющую Лигу
       10: Дремотную Лигу
