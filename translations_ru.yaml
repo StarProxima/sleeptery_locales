@@ -127,7 +127,7 @@ errorToast:
   title: Произошла ошибка!
   subtitle: Попробуйте позже или обратитесь в тех. поддержку
 
-sleepScoreType(map):
+sleepScoreTypeV2(map):
   0: Подушки не начислены
   9: Кажется, кто-то перепутал ночь с днем
   19: Ну, хоть глаза закрыли...
@@ -142,7 +142,7 @@ sleepScoreType(map):
   100: Супер ночка, просто вау!!!
 
 shared:
-  countWakeUp(map):
+  countWakeUpV2(map):
     0: 1
     1: 2
     2: 3
@@ -1444,7 +1444,7 @@ diary:
         habits: Ритуалы и привычки
         sleepRate:
           title: Оцени сон
-          sleepRateText(map):
+          sleepRateTextV2(map):
             1: Прямо так? - Треш
             2: На двоечку - держись!
             3: Нуу, бывает хуже
@@ -1469,7 +1469,7 @@ diary:
         wakeUpAtNight:
           title: Просыпался ночью?
           subtitle: Сколько раз?
-          countWakeUp(map):
+          countWakeUpV2(map):
             0: 1
             1: 2
             2: 3
@@ -1641,7 +1641,7 @@ deviceInstructions:
       secondly: Во-вторых, чтобы улучшать сон нужно его начать контролировать, а значит измерять
       thirdly: А еще на основании этих данных мы покажем тебе, когда лучше всего засыпать, чтобы высыпаться
   # Оставил так, так как под шаги норм подходит, думаю
-  steps(map):
+  stepsV2(map):
     1: Шаг 1
     2: Шаг 2
     3: Шаг 3
@@ -1928,12 +1928,11 @@ tournaments:
   leagues:
     defaultName: Лига $n
     defaultNameAccusativeCase: Лигу $n
-    # Фикс, не использовать (map), т.к. в новой версии slang ключ 12 интерпретируется как '"12"', а не '12'
-    name:
+    nameV2(map):
       12: Спокойная Лига
       11: Расслабляющая Лига
       10: Дремотная Лига
-    nameAccusativeCase:
+    nameAccusativeCaseV2(map):
       12: Спокойную Лигу
       11: Расслабляющую Лигу
       10: Дремотную Лигу
@@ -2046,7 +2045,7 @@ challenges:
           subtitle: Поставь подушки, а мы умножим твою ставку
         fab:
           noPillows: У тебя мало подушек, не поставить
-          text(map):
+          textV2(map):
             0: 'Мало, но ставлю'
             1: 'Ставлю, но мало'
             2: 'Ставлю половинку'
@@ -2310,7 +2309,7 @@ survey:
             6: 8
             7: 9
             8: 10+
-          hoursDescription(map):
+          hoursDescriptionV2(map):
             0: треш
             1: это конечно мало
             2: маловато
@@ -2326,7 +2325,7 @@ survey:
             2: 3
             3: 4
             4: 5
-          scoreDescription(map):
+          scoreDescriptionV2(map):
             0: сочуствуем
             1: бывает хуже
             2: терпимо
