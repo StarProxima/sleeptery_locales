@@ -1592,6 +1592,13 @@ deviceInstructions:
         text:
           samsung: Проверьте, что вы согласились выдать разрешения в Health Connect
           apple: Проверьте, что вы согласились выдать разрешения в Apple Health
+      cantOpen:
+        garmin:
+          title: Не удалось открыть Garmin Connect!
+          text: Обратитесь в тех. поддержку
+        oura:
+          title: Не удалось открыть Oura!
+          text: Обратитесь в тех. поддержку
       appNotInstalled:
         title:
           samsung: Health Connect не установлен
@@ -1666,6 +1673,10 @@ deviceInstructions:
         appleHealthWithoutDevice: Для отслеживания сна необходимо приложение «Здоровье»
         oura: Для работы с устройством надо приложение Oura и авторизация в сервисе Terra
         garmin: Для работы с устройством нужен Garmin Connect и авторизация в сервисе Terra
+        androidGarmin: "Для работы с трекером понадобится приложение «Garmin Connect»"
+        iosGarmin: "Для работы с трекером понадобится приложение «Garmin Connect»"
+        androidOura: "Для работы с трекером понадобится приложение «Oura»"
+        iosOura: "Для работы с трекером понадобится «Oura»"
         androidZeppLife: Для работы с устройством тебе понадобится ZeppLife, Google Fit и Health Connect
         androidMiFit: Для работы с устройством тебе понадобится Mi Fitness, Google Fit и Health Connect
         androidMiFitV2: Для работы с устройством тебе понадобится Mi Fitness и Health Connect
@@ -1680,6 +1691,10 @@ deviceInstructions:
         appleHealthWithoutDevice: Приложение «Здоровье» собирает данные о сне и передает их в sleeptery
         oura: Приложение Oura собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
         garmin: Garmin Connect собирает данные с трекера, а сервис Terra облачно передает данные в Sleeptery
+        iosGarmin: "«Garmin Connect» собирает данные о сне с трекера, передает их в «Apple Здоровье (Apple Health)». Оттуда их забирает sleeptery"
+        androidGarmin: "Приложение «Garmin Connect» собирает данные о сне с трекера, передает их в «Здоровье и спорт (Health Connect)». Оттуда их забирает sleeptery"
+        androidOura: "Приложение «Oura» собирает данные о сне с трекера, передает их в «Здоровье и спорт (Health Connect)». Оттуда их забирает sleeptery"
+        iosOura: "Приложение «Oura» собирает данные о сне с трекера, передает их в «Apple Здоровье (Apple Health)». Оттуда их забирает sleeptery"
         androidZeppLife: Приложение ZeppLife собирает данные с трекера, облачно передает их через Google Fit в Health Connect, затем данные о сне забирает sleeptery
         androidMiFit: Приложение Mi Fitness собирает данные с трекера, облачно передает их через Google Fit в Health Connect, затем данные о сне забирает sleeptery
         androidMiFitV2: Приложение Mi Fitness собирает данные с трекера, передает их в Health Connect, затем данные о сне забирает sleeptery
@@ -1696,14 +1711,25 @@ deviceInstructions:
         apple: Установи приложение Здоровье
         oura: Установи приложение Oura
         garmin: Установи Garmin Connect
+        androidGarmin: "Установи приложение «Garmin Connect»"
+        iosGarmin: "Установи родное приложение трекера"
+        androidOura: "Установи приложение «Oura»"
+        iosOura: "Установи приложение «Oura»"
         zeppLife: Установи приложение ZeppLife
         miFit: Установи приложение Mi Fit
       subtitle: После установки приложения подключи свой трекер
+      subtitleV2:
+        iosGarmin: "Установите из App Store приложение «Garmin Connect»"
+        iosOura: "Установите из App Store приложение «Oura»"
       buttonText:
         samsung: Установить Samsung Health
         apple: Установить Здоровье
         oura: Установить Oura
         garmin: Установить Garmin Connect
+        androidGarmin: Я установил приложение
+        iosGarmin: Я установил приложение
+        androidOura: Я установил приложение
+        iosOura: Я установил приложение
         zeppLife: Установить ZeppLife
         miFit: Установить Mi Fit
       secondaryButtonText:
@@ -1828,12 +1854,56 @@ deviceInstructions:
       subtitle: В разделе «Мои приложения»
       buttonText: Дать доступ
   garmin:
+    android:
+      downloadHealthConnect:
+        title: "Установи приложение «Здоровье и спорт (Health Connect)»"
+        buttonText: Установить Health Connect
+      accessGarminToHeatlhConnect:
+        title: "Предоставь приложению «Garmin Connect» доступ в «Здоровье и спорт (Health Connect)»"
+        subtitle: "Для этого в «Garmin Connect» в настройках предоставь доступ в «Здоровье и спорт (Health Connect)»"
+        buttonText: Я предоставил доступ
+      accessToHealthConnect:
+        title: "Предоставь sleeptery доступ в «Здоровье и спорт (Health Connect)»"
+        buttonText: Дать доступ
+    ios:
+      accessToAppleHealth:
+        title: "Предоставь sleeptery доступы в «Apple Здоровье (Apple Health)»"
+        buttonText: Дать доступ
+      accessToAppleHealthGranted:
+        title: "Доступ есть!"
+        buttonText: К следующему шагу
+      accessGarminConnectToAppleHealth:
+        title: "Предоставь приложению трекера доступы в «Apple Здоровье (Apple Health)»"
+        subtitle: "Для этого в «Garmin Connect», в настройках или при первом заходе предоставь полный доступ в Здоровье"
+        buttonText: Я предоставил доступ
     logInTerra(interface=DeviceInstructionStage):
       title: Авторизируйтесь в сервисе Terra
       subtitle: В списке устройств выберите Garmin и введите данные для авторизации
       buttonText: Авторизироваться в Terra
       secondaryButtonText: Отменить
   oura:
+    android:
+      downloadHealthConnect:
+        title: "Установи приложение «Здоровье и спорт (Health Connect)»"
+        buttonText: Установить Health Connect
+      accessOuraToHealthConnect:
+        title: "Предоставь приложению «Oura» доступ в «Здоровье и спорт (Health Connect)»"
+        subtitle: "Для этого в «Oura» в настройках предоставь доступ в «Здоровье и спорт (Health Connect)». Перейди в Settings → Data sharing → Health Connect"
+        buttonText: Я предоставил доступ
+      accessToHealthConnect:
+        title: "Предоставь sleeptery доступ в «Здоровье и спорт (Health Connect)»"
+        buttonText: "Дать доступ"
+    ios:
+      accessToAppleHealth:
+        title: "Предоставь sleeptery доступы в «Apple Здоровье (Apple Health)»"
+        buttonText: Дать доступ
+      accessToAppleHealthGranted:
+        title: Доступ есть!
+        buttonText: "К следующему шагу"
+      accessOuraToAppleHealth:
+        title: "Предоставь приложению трекера доступы в «Apple Здоровье (Apple Health)»"
+        subtitle: "Для этого в «Oura», в настройках или при первом заходе предоставь полный доступ в «Apple Здоровье (Apple Health)»"
+        buttonText: "Я предоставил доступ"
     logInTerra(interface=DeviceInstructionStage):
       title: Авторизируйтесь в сервисе Terra
       subtitle: В списке устройств выберите Oura и введите данные для авторизации
