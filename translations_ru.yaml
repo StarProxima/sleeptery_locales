@@ -1874,7 +1874,7 @@ deviceInstructions:
         buttonText: К следующему шагу
       accessGarminConnectToAppleHealth:
         title: "Предоставь приложению трекера доступы в «Apple Здоровье (Apple Health)»"
-        subtitle: "Для этого в «Garmin Connect», в настройках или при первом заходе предоставь полный доступ в Здоровье"
+        subtitle: "Для этого в «Garmin Connect», в настройках или при первом заходе предоставь полный доступ в «Apple Здоровье (Apple Health)»"
         buttonText: Я предоставил доступ
     logInTerra(interface=DeviceInstructionStage):
       title: Авторизируйтесь в сервисе Terra
@@ -1902,7 +1902,7 @@ deviceInstructions:
         buttonText: "К следующему шагу"
       accessOuraToAppleHealth:
         title: "Предоставь приложению трекера доступы в «Apple Здоровье (Apple Health)»"
-        subtitle: "Для этого в «Oura», в настройках или при первом заходе предоставь полный доступ в «Apple Здоровье (Apple Health)»"
+        subtitle: "Для этого в приложении «Oura», в настройках или при первом заходе предоставь полный доступ в «Apple Здоровье (Apple Health)»"
         buttonText: "Я предоставил доступ"
     logInTerra(interface=DeviceInstructionStage):
       title: Авторизируйтесь в сервисе Terra
