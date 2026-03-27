@@ -1860,7 +1860,7 @@ deviceInstructions:
         buttonText: Установить Health Connect
       accessGarminToHeatlhConnect:
         title: "Предоставь приложению «Garmin Connect» доступ в «Здоровье и спорт (Health Connect)»"
-        subtitle: "Для этого в «Garmin Connect» в настройках предоставь доступ в «Здоровье и спорт (Health Connect)»"
+        subtitle: "В приложении «Здоровье и спорт (Health Connect)» перейди в «Разрешения приложений» → «Garmin Connect». Предоставь полный доступ"
         buttonText: Я предоставил доступ
       accessToHealthConnect:
         title: "Предоставь sleeptery доступ в «Здоровье и спорт (Health Connect)»"
@@ -1874,7 +1874,7 @@ deviceInstructions:
         buttonText: К следующему шагу
       accessGarminConnectToAppleHealth:
         title: "Предоставь приложению трекера доступы в «Apple Здоровье (Apple Health)»"
-        subtitle: "Для этого в «Garmin Connect», в настройках или при первом заходе предоставь полный доступ в «Apple Здоровье (Apple Health)»"
+        subtitle: "В приложении «Garmin Connect» на главном экране в левом верхнем углу нажми на иконку профиля, перейди в «Настройки» → «Подключенные приложения» → «Apple Health». Нажми на кнопку «Подключиться к приложению “Здоровье” от Apple». Предоставь полный доступ"
         buttonText: Я предоставил доступ
     logInTerra(interface=DeviceInstructionStage):
       title: Авторизируйтесь в сервисе Terra
@@ -1888,7 +1888,7 @@ deviceInstructions:
         buttonText: Установить Health Connect
       accessOuraToHealthConnect:
         title: "Предоставь приложению «Oura» доступ в «Здоровье и спорт (Health Connect)»"
-        subtitle: "Для этого в «Oura» в настройках предоставь доступ в «Здоровье и спорт (Health Connect)». Перейди в Settings → Data sharing → Health Connect"
+        subtitle: "В приложении «Здоровье и спорт (Health Connect)» перейди в «Разрешения приложений» → «Oura». Предоставь полный доступ"
         buttonText: Я предоставил доступ
       accessToHealthConnect:
         title: "Предоставь sleeptery доступ в «Здоровье и спорт (Health Connect)»"
@@ -1902,7 +1902,7 @@ deviceInstructions:
         buttonText: "К следующему шагу"
       accessOuraToAppleHealth:
         title: "Предоставь приложению трекера доступы в «Apple Здоровье (Apple Health)»"
-        subtitle: "Для этого в приложении «Oura», в настройках или при первом заходе предоставь полный доступ в «Apple Здоровье (Apple Health)»"
+        subtitle: "Для этого в приложении «Oura» перейди в Settings → Data sharing → Apple Health. Предоставь полный доступ"
         buttonText: "Я предоставил доступ"
     logInTerra(interface=DeviceInstructionStage):
       title: Авторизируйтесь в сервисе Terra
