@@ -823,6 +823,7 @@ sleepStatistics:
         light: Лёгкий
         deep: Глубокий
         rem: Быстрый
+        awake: Бодрствование
     sleepPerformance:
       qualitative: Качественный
       asleep: Фактическое время сна
