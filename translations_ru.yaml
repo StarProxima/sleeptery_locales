@@ -685,6 +685,9 @@ devices:
       firmwareVersion: Версия $version
       firmwareVersionV2: "Версия прошивки: $version"
       writeAppleHealthButton: "Передавать данные\nв Apple Health"
+      backgroundButton:
+        on: Включить сервис
+        off: Выключить сервис
 
 pillows:
   tooltip:
@@ -2839,6 +2842,7 @@ bottomSheets:
     items:
       email: Электронная почта
       tgBot: Telegram
+      maxBot: MAX
       faq: Может быть ответ уже есть
     buttonText: Закрыть
 
