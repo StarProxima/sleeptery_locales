@@ -688,6 +688,9 @@ devices:
       backgroundButton:
         on: Включить сервис
         off: Выключить сервис
+        v2:
+          on: Включить обработку сна в фоне
+          off: Отключить обработку сна в фоне
 
 pillows:
   tooltip:
