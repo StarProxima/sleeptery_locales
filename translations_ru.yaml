@@ -685,6 +685,7 @@ devices:
       firmwareVersion: Версия $version
       firmwareVersionV2: "Версия прошивки: $version"
       writeAppleHealthButton: "Передавать данные\nв Apple Health"
+      writeHealthConnectButton: "Передавать данные\nв Health connect"
       backgroundButton:
         on: Включить сервис
         off: Выключить сервис
