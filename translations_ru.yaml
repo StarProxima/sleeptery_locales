@@ -229,7 +229,7 @@ onboardingV2:
           first: "Твой сон\nразрушает\nтвой день?"
           second: "Мы знаем почему -\nи что с этим делать"
       countText:
-        initialCount: 10000
+        initialCount: 9998
         suffix: человек уже
         footer: просыпаются бодрее
       primaryButton: Показать мне
