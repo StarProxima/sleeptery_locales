@@ -215,6 +215,27 @@ storytelling:
       subtitle: факт
       buttonText: Скорее бы поспать
 
+onboardingV2:
+  screens:
+    initial:
+      title:
+        first: Улучшай сон
+        second: улучшай жизнь
+      icons:
+        left:
+          first: "Наука\n+\nтрекер\n+\nтвои\nпривычки:"
+          second: "Первый результат -\nчерез 7 дней"
+        right:
+          first: "Твой сон\nразрушает\nтвой день?"
+          second: "Мы знаем почему -\nи что с этим делать"
+      countText:
+        initialCount: 10000
+        suffix: человек уже
+        footer: просыпаются бодрее
+      primaryButton: Показать мне
+      secondaryButton: У меня уже есть аккаунт
+
+
 
 faq:
   screen:
