@@ -600,6 +600,8 @@ activities:
         $unknown: ''
 
 authReg:
+  shared:
+    saveSettings: Сохрани настройки
   email:
     title: Чтобы начать, введите Email
     hint: Введите ваш Email
@@ -608,6 +610,22 @@ authReg:
     toast:
       title: Ошибка
       text: Пин-код уже был отправлен на данный email
+  emailV2:
+    hint: Укажи свой email
+    toast:
+      title: Ошибка
+      text: Пин-код уже был отправлен на данный email
+    newUser:
+      title: Создай профиль
+      subtitle: так твои данные никуда не пропадут
+      buttonText: Создать профиль
+      footer:
+        first: Создавая аккаунт, ты соглашаешься с условиями и
+        second: политикой конфиденциальность
+    oldUser:
+      title: С возвращением!
+      subtitle: Вводи email и погнали
+      buttonText: Войти
   pincode:
     title: Введите код авторизации
     subtitle: Отправили вам на почту
@@ -619,6 +637,21 @@ authReg:
       time: Отправить повторно через $n сек
     supportButton: Техподдержка
     maxAttempts: Лимит попыток исчерпан. Пожалуйста, обратитесь в поддержку
+  pincodeV2:
+    title: Введи проверочный код
+    subtitle: Отправили его тебе письмом на почту $n
+    hint: _
+    secondaryButtonText:
+      text: Отправить повторно
+      time: Отправить повторно через $n сек
+    supportButton: Техподдержка
+    maxAttempts: Лимит попыток исчерпан. Пожалуйста, обратитесь в поддержку
+    errors:
+      mismatch: Не те цифры, попробуй еще раз
+      expired: Время действия кода истекло
+      notFound: Код не найден
+      codeWasNotSent: Код не был отправлен на email
+      common: Ошибка
   nickname:
     title: Придумайте никнейм
     hint: и введите его здесь
