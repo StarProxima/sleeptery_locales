@@ -656,6 +656,18 @@ authReg:
     title: Придумайте никнейм
     hint: и введите его здесь
     buttonText: Сохранить
+  nicknameV2:
+    title: Твое имя в sleeptery
+    subtitle: будет отображается в турнирной таблице
+    buttonText: Продолжить
+    hint: Введи его здесь
+    participants:
+      first:
+        name: MysticSword
+        pillows: 561
+      last:
+        name: BlazeDragon
+        pillows: 435
   referral:
     title: У вас есть код от друга?
     subtitle: Если вас пригласил друг, вы можете попросить у него код-приглашение и указать его ниже
