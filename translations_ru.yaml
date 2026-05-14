@@ -1754,6 +1754,7 @@ deviceInstructions:
   appleHealthAppBar: Подключение устройства
   addDevice:
     title: Какая у вас модель устройства?
+    titleV2: Укажи конкретней
     subtitle: Нам нужно знать модель вашего трекера, чтобы начать процесс подключения
     buttonText: У меня нет трекера
     noTracker: Если у тебя нет трекера, ты можешь отслеживать общее время сна через приложение «Здоровье». Для этого выбери пункт «Apple».
@@ -2111,6 +2112,11 @@ deviceInstructions:
     requestPermissionAndBluetoothOn:
       title: Необходимы разрешения
       subtitle: А именно к геолокации и Bluetooth
+    requestPermissionAndBluetoothOnV2:
+      top: Перед тем как начнем подключние
+      title: Нам понадобится доступ к bluetooth и геолокации
+      subtitle: Спокойно! Покажем всего два окна подряд, пожалуйста дай на все разрешение
+      buttonText: Дать доступы
     requestDeniedPermissionAndBluetoothOn:
       title: Необходимы разрешения
       subtitle: А именно к геолокации и Bluetooth
@@ -2812,6 +2818,7 @@ bottomSheets:
     title:
       first: Попробуй
       second: sleepring
+    titleV2: Попробуй sleepring
     subtitle: "Это наше кольцо, и вот почему стоит его использовать:"
     items:
       first: "Анализ сна: фазы, пульс, SpO2"
