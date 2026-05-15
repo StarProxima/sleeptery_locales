@@ -840,6 +840,16 @@ devices:
       subtitle: Проверьте интернет и попробуйте снова
       refresh: Обновить
   screen:
+    selectDevice:
+      title: Какой трекер у тебя есть?
+      subtitle: Ты увидишь реальную картину своего сна уже после первой ночи
+      variant: Выбери свой вариант
+      devices:
+        sleepring:
+          first: У меня
+          second: sleepring
+        other: У меня другое устройство
+        noDevice: У меня нет трекера
     devices:
       appBar: Мои устройства
       editing:
