@@ -191,6 +191,14 @@ shared:
     other: $n шагов
   positionInTournament: Ты занял $n-е место
 
+goals:
+  screen:
+    selectGoal:
+      title: "На чем\nсфокусируемся?"
+      footer: "Листай, чтобы\nпосмотреть все цели"
+      cards:
+        buttonText: Выбираю эту
+
 storytelling:
   screen:
     subtitle: самый недооцененный ресурс по управлению жизнью
