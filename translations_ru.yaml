@@ -198,6 +198,9 @@ goals:
       footer: "Листай, чтобы\nпосмотреть все цели"
       cards:
         buttonText: Выбираю эту
+    cardDetail:
+      buttonText: Мне подходит
+      secondaryButtonText: Выбрать другую
 
 storytelling:
   screen:
