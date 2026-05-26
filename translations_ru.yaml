@@ -198,6 +198,7 @@ goals:
       footer: "Листай, чтобы\nпосмотреть все цели"
       cards:
         buttonText: Выбираю эту
+        fakeButtonText: Продолжить без цели
     cardDetail:
       buttonText: Мне подходит
       secondaryButtonText: Выбрать другую
