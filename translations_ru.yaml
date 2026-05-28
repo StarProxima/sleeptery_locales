@@ -357,7 +357,33 @@ onboardingV2:
           buttonText: Установить режим
 
 
-
+sleep:
+  screens:
+    splash:
+      title: Доброе утро, $n!
+    sleepWakeRating:
+      title:
+        title1: Оцени свое пробуждение
+        title2: Оцени
+      subtitle: Жми на облако, чтобы оценить
+      rates(map):
+        1: Сочувствуем. Будем исправлять
+        2: Понимаем. Есть куда расти
+        3: Средне. Сделаем заметно лучше
+        4: Хороший старт. Закрепим
+        5: Отлично спишь. Сохраним это
+      cloudTitle:
+        top: Нажимай на меня
+        bottom: Я жду
+      buttonText: Готово
+      secondaryButtonText: Пропустить
+    sleepSyncData:
+      loading: "Получаем\nданные за сон"
+    sleepIntentWake:
+      title: Оцени свое пробуждение
+      subtitle: Как прошла ночь, как спалось, как чувствуешь себя сейчас
+      buttonText: Приступить к оценке
+      secondaryButtonText: Пропустить
 
 faq:
   screen:
