@@ -1717,6 +1717,11 @@ diary:
           1: Горячая ванна/душ
           2: Алкоголь
           3: Баня
+    fillDiaryYesterday:
+      title: Вспомни вчерашний вечер
+      subtitle: Это поможет точнее понять, что повлияло на сон. А еще ты получишь +5 подушек
+      buttonText: Заполнить дневник за вчера
+      secondaryButtonText: Пропустить
     fillDiary:
       appBar: Ритуалы
       diaryBody:
@@ -1744,6 +1749,10 @@ diary:
           first: Ещё
           second: пару
           third: моментов
+        titleV2:
+          first: Надо
+          second: кое-что
+          third: уточнить
         buttonText: Далее
         wakeUpAtNight:
           title: Просыпался ночью?
