@@ -141,6 +141,11 @@ sleepScoreTypeV2(map):
   99: Почти идеально, отдохнул на славу
   100: Супер ночка, просто вау!!!
 
+# тут текстовки
+sleepScoreTypeV3(map):
+  0: Подушки не начислены
+  60: А неплохо ведь
+
 shared:
   countWakeUpV2(map):
     0: 1
@@ -378,7 +383,43 @@ sleep:
       buttonText: Готово
       secondaryButtonText: Пропустить
     sleepSyncData:
-      loading: "Получаем\nданные за сон"
+      body:
+        loading: "Получаем\nданные за сон"
+        noData:
+          title: "Данных пока нет"
+          text: "Пока не увидели данных,\nты точно спал в кольце?"
+          firstButton: Без кольца
+          secondButton: Да, в кольце
+        cantReconnect:
+          title: "Данных пока нет"
+          text: "Не можем подключиться к кольцу, поставь его на зарядку и возвращайся"
+          buttonText: Пойду заряжать
+        noDataFromRing:
+          title: "Возможно твой сон слишком хорош"
+          text: "Нам требуется больше времени\nна его обработку"
+          subtext: "Если через 10 минут ничего не\nпоменяется, напиши в поддержку"
+          buttonText: Вернусь попозже
+        nightsInRow:
+          title: ночей с трекером
+          subtitle:
+            zero: $nights ночей с трекером
+            one: $nights ночь с трекером
+            few: $nights ночи с трекером
+            other: $nights ночей с трекером
+          buttonText: Продолжить
+        sleepRate:
+          title: Оценка сна
+          sleepPattern:
+            title:
+              noMode: Режим сна
+              wakeUp: Ты встал по режиму $n
+              asleep: Ты лег по режиму $n
+              all: Всё по режиму $n
+            item:
+              wakeUp: Пробуждение
+              onMode: (по режиму $time)
+              asleep: Отход ко сну
+            buttonText: Забрать подушки
     sleepIntentWake:
       title: Оцени свое пробуждение
       subtitle: Как прошла ночь, как спалось, как чувствуешь себя сейчас
