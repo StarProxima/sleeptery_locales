@@ -207,6 +207,8 @@ goals:
     cardDetail:
       buttonText: Мне подходит
       secondaryButtonText: Выбрать другую
+      title: Я, $nick, хочу с помощью sleeptery
+      titleWithoutNick: Я хочу с помощью sleeptery
 
 storytelling:
   screen:
@@ -740,6 +742,13 @@ authReg:
     subtitle: будет отображается в турнирной таблице
     buttonText: Продолжить
     hint: Введи его здесь
+    errors:
+      mismatch: Не те цифры, попробуй еще раз
+      expired: Время действия кода истекло
+      notFound: Код не найден
+      codeWasNotSent: Код не был отправлен на email
+      userAlreadyExists: Пользователь с такой электронной почтой/именем уже существует
+      common: Ошибка, обратитесь в тех. поддержку
     participants:
       first:
         name: MysticSword
