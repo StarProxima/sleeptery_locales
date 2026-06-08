@@ -210,10 +210,32 @@ goals:
         buttonText: Выбираю эту
         fakeButtonText: Продолжить без цели
     cardDetail:
-      buttonText: Мне подходит
-      secondaryButtonText: Выбрать другую
-      title: Я, $nick, хочу с помощью sleeptery
-      titleWithoutNick: Я хочу с помощью sleeptery
+      secondaryButtonText: Выбрать другую цель
+      secondaryButtonTextFake: Выбрать цель
+      body:
+        initial:
+          title: 21 день — и ты увидишь разницу
+          items:
+            first:
+              title: Мы собираем данные
+              subtitle: Тебе надо только надеть устройство на ночь
+            second:
+              title: Ты делишься ощущениями
+              subtitle: Оцениваешь пробуждение утром и день в целом вечером
+            third:
+              title: Инсайт каждую неделю
+              subtitle: Это будут не общие советы — а твои паттерны
+            fourth:
+              title: Отчет через 21 день
+              subtitle: Что изменилось, почему и что делать дальше
+          buttonText: Продолжить
+        test:
+          buttonText: Все именно так
+        approve:
+          title: Я, $nick, хочу с помощью sleeptery
+          titleWithoutNick: Я хочу с помощью sleeptery
+          fakeButtonText: Продолжить без цели
+
 
 storytelling:
   screen:
