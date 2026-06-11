@@ -429,7 +429,11 @@ sleep:
           subtext: "Если через 10 минут ничего не\nпоменяется, напиши в поддержку"
           buttonText: Вернусь попозже
         nightsInRow:
-          title: ночей с трекером
+          title:
+            zero: ночей с трекером
+            one: ночь с трекером
+            few: ночи с трекером
+            other: ночей с трекером
           subtitle:
             zero: $nights ночей с трекером
             one: $nights ночь с трекером
@@ -1812,6 +1816,7 @@ diary:
           second: кое-что
           third: уточнить
         buttonText: Далее
+        buttonTextV2: Сохранить
         wakeUpAtNight:
           title: Просыпался ночью?
           subtitle: Сколько раз?
