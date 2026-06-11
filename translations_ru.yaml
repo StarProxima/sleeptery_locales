@@ -159,6 +159,7 @@ shared:
     one: $n ночь
     few: $n ночи
     other: $n ночей
+  onlyNights: $n ночей
   days:
     zero: $n дней
     one: $n день
@@ -2813,6 +2814,7 @@ news:
 ai:
   adviceButton:
     text: Тебе совет по сну
+    textV2: Тебе совет от ИИ
   screen:
     aiChat:
       toasts:
