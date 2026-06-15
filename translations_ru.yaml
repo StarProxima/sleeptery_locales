@@ -236,6 +236,9 @@ goals:
           title: Я, $nick, хочу с помощью sleeptery
           titleWithoutNick: Я хочу с помощью sleeptery
           fakeButtonText: Продолжить без цели
+          welcomeOverlay:
+            title: Добро пожаловать в sleeptery
+            buttonText: Начать
 
 
 storytelling:
