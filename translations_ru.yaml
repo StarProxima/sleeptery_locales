@@ -2103,6 +2103,7 @@ deviceInstructions:
       buttonText: К следующему шагу
     completed(interface=DeviceInstructionStage):
       title: Полный коннект!
+      titleV2: sleepring подключен
       subtitle: Теперь мы получаем данные с вашего трекера и можем отслеживать сон
       subtitleSleeptery: Теперь мы получаем данные с вашего кольца и можем отслеживать сон
       buttonText: Ура!
