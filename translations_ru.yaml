@@ -175,6 +175,11 @@ shared:
     one: $pillows подушка
     few: $pillows подушки
     other: $pillows подушек
+  pillowsText:
+    zero: подушек
+    one: подушка
+    few: подушки
+    other: подушек
   minutesAgo:
     zero: сейчас
     one: $n минуту назад
@@ -497,12 +502,14 @@ homeV2:
       item2: Шаги
     body:
       sleep:
+        loading:
+          title: "Нет\nданных"
+          text: Я пока подожду данные
         noData:
           title: "Нет\nданных"
-          text1: Мы же договаривались
-          text2: Я пока подожду данные
-        noTracker:
-          title: трекер не подключен
+          text: Мы же договаривались
+        noDevice:
+          title: Трекер\nне подключен
         pattern:
           got: в режиме
           less: раньше режима
@@ -510,6 +517,20 @@ homeV2:
         timePattern:
           good: хорошо
           bad: плохо
+      steps:
+        data:
+          calorie: калории
+          distance: расстояние
+          goal: цель шагов
+  body:
+    noDevice:
+      text: "Раскрой все возможности своего \nсна — подключи трекер"
+      subtext: "Ты — спишь, мы — получаем данные, даем подушки, рекомендации, советы, показываем прозрачные данные"
+      buttonText:
+        part1: Попробуй
+        part2: sleepring
+      or: или
+      secondaryButtonText: Подключи свой трекер
 
 
 home:
@@ -2819,6 +2840,7 @@ ai:
   adviceButton:
     text: Тебе совет по сну
     textV2: Тебе совет от ИИ
+    noData: Нет сна — нет совета
   screen:
     aiChat:
       toasts:
