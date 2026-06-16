@@ -501,6 +501,10 @@ homeV2:
       item1: Ночь
       item2: Шаги
     body:
+      diary:
+        title: Вечерний дневник
+        subtitle: 2 минуты поможет оценить сон завтра
+        buttonText: Заполнить дневник
       sleep:
         loading:
           title: "Нет\nданных"
