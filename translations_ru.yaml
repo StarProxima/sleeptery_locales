@@ -539,6 +539,9 @@ homeV2:
         part2: sleepring
       or: или
       secondaryButtonText: Подключи свой трекер
+    device:
+      pattern:
+        title: Режим сна за последние 7 дней
 
 
 home:
