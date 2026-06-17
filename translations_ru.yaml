@@ -542,6 +542,8 @@ homeV2:
     device:
       pattern:
         title: Режим сна за последние 7 дней
+      steps:
+        title: Шаги за последние 7 дней
 
 
 home:
