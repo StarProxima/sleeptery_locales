@@ -159,6 +159,7 @@ shared:
     one: $n ночь
     few: $n ночи
     other: $n ночей
+  nightsOfNum: $n/$all ночей
   onlyNights: $n ночей
   days:
     zero: $n дней
@@ -208,6 +209,14 @@ shared:
   positionInTournament: Ты занял $n-е место
 
 goals:
+  block:
+    noGoal:
+      title: Не спи просто так
+      buttonText: Поставить цель и идти к ней
+      subtitle: 90% тех, кто работает над сном, достигают своих целей
+    goal:
+      title: Движение к цели
+      weeklyCompare: По сравнению с $n-й неделей
   screen:
     selectGoal:
       title: "На чем\nсфокусируемся?"
