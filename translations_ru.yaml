@@ -1831,6 +1831,11 @@ diary:
       subtitle: Это поможет точнее понять, что повлияло на сон. А еще ты получишь +5 подушек
       buttonText: Заполнить дневник за вчера
       secondaryButtonText: Пропустить
+    fillDiaryToday:
+      title: Время подвести итоги
+      subtitle: День подходит к концу, оцени день, укажи ритуалы и получи за это подушки
+      buttonText: Заполнить дневник
+      secondaryButtonText: Пропустить
     fillDiary:
       appBar: Ритуалы
       diaryBody:
