@@ -1078,7 +1078,7 @@ pillows:
     accrual:
       reasons:
         sleepPattern: Подушки за режим
-        diary: Подушки за заполнение дневника
+        diary: Заполнение дневника
   tooltip:
     title:
       zero: ''
