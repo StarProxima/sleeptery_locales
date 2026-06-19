@@ -1812,6 +1812,14 @@ diary:
       registration: Режим сна
       settings: ''
   screens:
+    sleepCloud:
+      title: "Облако устало\nи хочет спать"
+      subtitle1: И тебе тоже пора
+      subtitle2: "Проведи по кнопке, чтобы\nотправить облако спать"
+      sliderText: Пойти спать
+      buttonText: Пойду спать позже
+    sleepCloudExit:
+      title: Отправляюсь спать
     main:
       ratings:
         sleep: оценка сна
