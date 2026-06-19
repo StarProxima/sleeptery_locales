@@ -1074,6 +1074,11 @@ devices:
           off: Отключить обработку сна в фоне
 
 pillows:
+  overlay:
+    accrual:
+      reasons:
+        sleepPattern: Подушки за режим
+        diary: Подушки за заполнение дневника
   tooltip:
     title:
       zero: ''
