@@ -737,6 +737,13 @@ sleepingMode:
       wakingUp: пробуждение
 
 activities:
+  card:
+    user:
+      advice:
+        text: "Прочитай статью"
+      endOfDay:
+        text: "Облако устало и хочет спать"
+        subtext: "И тебе тоже пора"
   list:
     title: Получи еще больше подушек
     buttonText:
