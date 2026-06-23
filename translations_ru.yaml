@@ -1086,6 +1086,7 @@ pillows:
       reasons:
         sleepPattern: Подушки за режим
         diary: Заполнение дневника
+        advice: Совет дня
   tooltip:
     title:
       zero: ''
