@@ -215,6 +215,9 @@ shared:
     few: шага
     other: шагов
   positionInTournament: Ты занял $n-е место
+  timeDuration:
+    hours: "ч"
+    minutes: "мин"
 
 goals:
   block:
@@ -1929,10 +1932,38 @@ diary:
             5: Хорош!
         energyRate:
           title: Сколько было энергии?
+          titleGoals:
+            energy: Сколько у тебя энергии сегодня?
+            easyWake: Как легко ты проснулся?
+            schedule: Насколько стабилен твой режим?
+            fewerAwakenings: Как непрерывно ты спал?
+            sleepQuality: Сна хватило на день?
           energyRateText:
             first: Мало
             second: Средне
             third: Много
+          rateGoals:
+            energy:
+              first: Мало
+              second: Средне
+              third: Много
+            easyWake:
+              first: Тяжело
+              second: Нормально
+              third: Легко
+            schedule:
+              first: Сбился
+              second: Частично
+              third: Стабильно
+            fewerAwakenings:
+              first: Рвано
+              second: С перерывами
+              third: Непрерывно
+            sleepQuality:
+              first: Не хватило
+              second: Почти
+              third: С запасом
+
         comment:
           title: Если считаешь, что нужно что-то добавить
           hint: Смелее добавляй здесь
