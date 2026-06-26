@@ -156,6 +156,7 @@ sleepScoreTypeV3(map):
   100: Супер ночка
 
 shared:
+  fakeAmountPillows: 100
   countWakeUpV2(map):
     0: 1
     1: 2
@@ -584,6 +585,8 @@ homeV2:
         subtitle: 2 минуты поможет оценить сон завтра
         buttonText: Заполнить дневник
       sleep:
+        data:
+          fakeText: Супер начало!
         loading:
           title: "Нет\nданных"
           text: Я пока подожду данные
