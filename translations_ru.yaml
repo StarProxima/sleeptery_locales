@@ -230,6 +230,7 @@ goals:
     goal:
       title: Движение к цели
       weeklyCompare: По сравнению с $n-й неделей
+      newGoalButton: Выбрать новую цель
   screen:
     selectGoal:
       title: "На чем\nсфокусируемся?"
