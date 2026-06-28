@@ -475,6 +475,9 @@ sleep:
   screens:
     splash:
       title: Доброе утро, $n!
+      titleNight: Доброй ночи, $n!
+      titleDay: Добрый день, $n!
+      titleEvening: Добрый вечер, $n!
     sleepWakeRating:
       title:
         title1: Оцени свое пробуждение
