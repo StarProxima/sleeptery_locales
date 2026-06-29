@@ -473,6 +473,8 @@ onboardingV2:
 
 sleep:
   screens:
+    fakePillowsAccrual:
+      pillowsText: Супер начало!
     splash:
       title: Доброе утро, $n!
       titleNight: Доброй ночи, $n!
