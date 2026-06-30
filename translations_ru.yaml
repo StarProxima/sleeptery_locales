@@ -877,6 +877,8 @@ authReg:
     toast:
       title: Ошибка
       text: Пин-код уже был отправлен на данный email
+    toastEmailNotExist:
+      title: Такого аккаунта еще нет, зарегистрируйтесь!
     newUser:
       title: Создай профиль
       subtitle: так твои данные никуда не пропадут
