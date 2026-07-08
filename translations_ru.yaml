@@ -499,6 +499,7 @@ sleep:
       secondaryButtonText: Пропустить
     sleepSyncData:
       body:
+        skipButton: Пропустить
         loading: "Получаем\nданные за сон"
         noData:
           title: "Данных пока нет"
@@ -608,7 +609,7 @@ homeV2:
           late: позже режима
         timePattern:
           good: хорошо
-          bad: плохо
+          bad: так себе
       steps:
         data:
           calorie: калории
@@ -1908,6 +1909,12 @@ diary:
       subtitle2: "Проведи по кнопке, чтобы\nотправить облако спать"
       sliderText: Пойти спать
       buttonText: Пойду спать позже
+    sleepCantUseApp:
+      title: "Сейчас облако спит"
+      subtitle: И ты тоже иди спать
+      text: Как проснешься, возвращайся, начислим подушки за сон
+      chipText: ждем тебя в $time
+      buttonText: Закрыть sleeptery
     sleepCloudExit:
       title: Отправляюсь спать
     main:
