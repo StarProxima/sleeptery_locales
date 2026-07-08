@@ -611,6 +611,8 @@ homeV2:
         timePattern:
           good: хорошо
           bad: так себе
+          poor: мало
+          rich: много
       steps:
         data:
           calorie: калории
