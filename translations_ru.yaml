@@ -558,8 +558,10 @@ sleep:
             buttonText: Забрать подушки
     sleepIntentWake:
       title: Оцени свое пробуждение
+      titleNoDevice: Как спал эту ночь?
       subtitle: Как прошла ночь, как спалось, как чувствуешь себя сейчас
       buttonText: Приступить к оценке
+      buttonTextNoDevice: Заполнить данные
       secondaryButtonText: Пропустить
 
 faq:
@@ -2019,7 +2021,6 @@ diary:
           second: кое-что
           third: уточнить
         buttonText: Далее
-        buttonTextV2: Сохранить
         wakeUpAtNight:
           title: Просыпался ночью?
           subtitle: Сколько раз?
