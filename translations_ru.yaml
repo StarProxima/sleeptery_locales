@@ -32,6 +32,20 @@ apiErrorWidget:
     no: 'Обновите страницу или вернитесь позже'
   update: 'Обновить'
 
+deviceBrands:
+  sleepring1: "sleepring"
+  sleepring2: "sleepring 2"
+  oura: "Oura"
+  garmin: "Garmin"
+  google: "Google"
+  xiaomi: "Xiaomi"
+  huawei: "Huawei"
+  apple: "Apple Watch"
+  samsung: "Samsung Galaxy Watch"
+  appleHealth: "Apple Health"
+  googleHealthConnect: "Google Health"
+  other: "Другое устройство"
+
 sleepteryRing:
   names:
     sleepring1: "sleepring"
