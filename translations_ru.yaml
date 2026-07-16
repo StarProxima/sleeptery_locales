@@ -698,10 +698,8 @@ sleep:
             buttonText: Забрать подушки
     sleepIntentWake:
       title: Оцени свое пробуждение
-      titleNoDevice: Как спал эту ночь?
       subtitle: Как прошла ночь, как спалось, как чувствуешь себя сейчас
       buttonText: Приступить к оценке
-      buttonTextNoDevice: Заполнить данные
       secondaryButtonText: Пропустить
 
 faq:
