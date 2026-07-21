@@ -2686,12 +2686,17 @@ challenges:
       active:
         body:
           title: "Твоя ставка в этом челлендже — @:shared.pillowsAmount\nЧеллендж стартовал $startDate, закончится $endDate"
+          completed: "Челлендж выполнен!"
           tooltip:
             start: Это только начало
             yetOneDay: Поднажми
             end: Конец!
+            completed: Круто!
             text: $n день
         fab:
+          completed:
+            buttonText: Бросить новый вызов
+            secondaryButtonText: Круто!
           buttonText: Все идет по плану
       failed:
         body:
