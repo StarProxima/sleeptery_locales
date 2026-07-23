@@ -1095,6 +1095,49 @@ sideBar:
   friends: Друзья
   achievements: Достижения
   enterPromocode: Ввести промокод
+  gestureControl: Управление жестами
+
+gestureControl:
+  title: Управление жестами
+  description: "sleepring 2 поддерживает управление жестами. Чтобы жесты распознавались точнее, носи кольцо на указательном пальце."
+  warning: "Внимание! Управление жестами увеличивает потребление энергии"
+  info:
+    title: Что такое жест?
+    description: Дважды коснитесь пальцем кольца или соедините палец с кольцом и большой палец, будто в жесте «ОК»
+  modes:
+    music:
+      title: Музыка
+      description: Переключение на следующий трек
+    shortVideo:
+      title: Короткие видео
+      description: Скролл до следующего видео
+    ebook:
+      title: Электронная книга
+      description: Перелистывание на следующую страницу
+    photo:
+      title: Фото
+      description: Делает фото при включенной камере
+  actions:
+    done: Готово
+    retry: Попробовать снова
+  states:
+    loading: Загружаем настройки жестов
+    saving: Сохраняем настройку жестов
+    disconnected:
+      title: Кольцо не подключено
+      description: Поднеси sleepring 2 ближе к телефону и попробуй ещё раз
+    readError:
+      title: Не удалось загрузить настройки жестов
+      description: Проверь подключение к кольцу и попробуй ещё раз
+    saveError:
+      title: Не удалось сохранить настройку жестов
+      description: Проверь подключение к кольцу и попробуй ещё раз
+    unsupported:
+      title: Управление жестами недоступно
+      description: Эта функция работает только со sleepring 2
+  accessibility:
+    modeSelected: Жест выбран
+    modeNotSelected: Жест не выбран
 
 devices:
   toasts:
