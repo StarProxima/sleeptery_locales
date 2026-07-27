@@ -11,6 +11,7 @@ units:
   distance:
     m: м
     km: км
+  temperature: °C
 
 bottomNavBar:
   sleep: Сон
@@ -1490,6 +1491,7 @@ sleepStatistics:
     oxygenInBlood: Кислород в крови
     oxygenInBloodV2: "Кислород\nв крови"
     saturation: SpO2
+    temperature: Температура кожи
     aiAdvice: Совет от ИИ
     lastSyncAt: Данные обновлены в $time
   comment:
@@ -1673,6 +1675,10 @@ sleepStatistics:
         appBarText: Давление
         uom: $sbp/$dbp
         buttonText: Измерить\nдавление
+      temperatureParameter:
+        appBarText: Температура кожи
+        uom: $n @:units.temperature
+        buttonText: Измерить
       measure:
         toasts:
           cantStopMeasurement:
@@ -1699,6 +1705,10 @@ sleepStatistics:
           appBarText: Измерение давления
           errorBody:
             title: Не получилось измерить давление
+        temperature:
+          appBarText: "Измерить\nтемпературу кожи"
+          errorBody:
+            title: Не получилось измерить температуру кожи
         shared:
           errorBody:
             subtitle: "Убедись, чтобы кольцо было надето на палец, а датчик был снизу"
@@ -3281,7 +3291,13 @@ bottomSheets:
     title: "Средний показатель пульса в течение дня"
     titleWeek: "Средний показатель пульса в течение недели"
     titleMonth: "Средний показатель пульса в течение месяца"
-    text: "Рассчитан на основе измерений кольца в период бодрствования. Измерения проводятся раз в час"
+    text: "Рассчитан на основе измерений кольца. Измерения проводятся раз в час"
+    buttonText: Теперь понятно
+  temperatureDay:
+    title: "Средний показатель температуры кожи в течение дня"
+    titleWeek: "Средний показатель температуры кожи в течение недели"
+    titleMonth: "Средний показатель температуры кожи в течение месяца"
+    text: "Рассчитан на основе измерений кольца. Измерения проводятся раз в час"
     buttonText: Теперь понятно
   stepsDay:
     title: "Общее количество шагов за день"
