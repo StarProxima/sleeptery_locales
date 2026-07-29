@@ -1527,6 +1527,8 @@ sleepStatistics:
         unitOfMeasure: "%"
       steps:
         title: Шаги
+      temperature:
+        title: Температура кожи
     sleep:
       asleep:
         subtitle: по режиму
