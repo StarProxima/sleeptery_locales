@@ -255,6 +255,13 @@ trainings:
           few: $n дня назад
           other: $n дней назад
       footer: История тренировок
+    startOrContinue:
+      start:
+        title: Займёмся спортом?
+        buttonText: Начать тренировку
+      continue:
+        title: Поднажми!
+        buttonText: Перейти к тренировке
   screen:
     ongoing:
       body:
@@ -695,8 +702,6 @@ homeV2:
         title: Режим сна за последние 7 дней
       steps:
         title: Шаги за последние 7 дней
-      training:
-        title: Займёмся спортом?
 
 
 home:
