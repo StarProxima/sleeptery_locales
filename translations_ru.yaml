@@ -12,6 +12,14 @@ units:
     m: м
     km: км
   temperature: °C
+  bpm: $n уд/мин
+  calories:
+    cal:
+      zero: 0 калорий
+      one: $n калория
+      few: $n калории
+      other: $n калорий
+    cals: $n ккал
 
 bottomNavBar:
   sleep: Сон
@@ -235,6 +243,44 @@ shared:
   timeDuration:
     hours: "ч"
     minutes: "мин"
+
+trainings:
+  cards:
+    history:
+      title:
+        text: Последняя тренировка была
+        daysCount:
+          zero: сегодня
+          one: $n день назад
+          few: $n дня назад
+          other: $n дней назад
+      footer: История тренировок
+  screen:
+    ongoing:
+      body:
+        counter:
+          title: Начнем через
+          buttonText: Отменить
+          startValue: 3
+          endValue: 0
+        go:
+          title: Вперёд!
+        training:
+          resumeButton: Продолжить
+          pauseButton: Приостановить
+          stopButton: Завершить
+    selectTraining:
+      appBar: Выбери тренировку
+    training:
+      buttonText: Готово
+      secondaryButtonText: Удалить тренировку
+      items:
+        steps: Шаги
+        distance: Дистанция
+        calories: Калории
+        bpm: Средний пульс
+    history:
+      appBar: История тренировок
 
 goals:
   block:
@@ -649,6 +695,8 @@ homeV2:
         title: Режим сна за последние 7 дней
       steps:
         title: Шаги за последние 7 дней
+      training:
+        title: Займёмся спортом?
 
 
 home:
