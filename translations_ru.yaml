@@ -245,6 +245,11 @@ shared:
     minutes: "мин"
 
 trainings:
+  typeName:
+    walking: Ходьба
+    running: Бег
+    jumpingRope: Скакалка
+    swimmingPool: Плавание
   cards:
     history:
       title:
