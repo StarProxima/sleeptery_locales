@@ -281,6 +281,7 @@ trainings:
           resumeButton: Продолжить
           pauseButton: Приостановить
           stopButton: Завершить
+          pulse: Пульс
     selectTraining:
       appBar: Выбери тренировку
     training:
