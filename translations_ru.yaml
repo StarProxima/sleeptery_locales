@@ -248,8 +248,14 @@ trainings:
   typeName:
     walking: Ходьба
     running: Бег
-    jumpingRope: Скакалка
-    swimmingPool: Плавание
+    swimmingPool: Плавание в бассейне
+    treadmill: Беговая дорожка
+    cycling: Велосипед
+    indoorCycling: Велотренажёр
+    ellipticalMachine: Эллипс
+    yoga: Йога
+    stretching: Растяжка
+    strength: Силовые тренировки
   cards:
     history:
       title:
