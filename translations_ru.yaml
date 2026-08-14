@@ -561,6 +561,11 @@ sleep:
       titleNight: Доброй ночи, $n!
       titleDay: Добрый день, $n!
       titleEvening: Добрый вечер, $n!
+      noName:
+        title: Доброе утро!
+        titleNight: Доброй ночи!
+        titleDay: Добрый день!
+        titleEvening: Добрый вечер!
     sleepWakeRating:
       title:
         title1: Оцени свое пробуждение
