@@ -312,6 +312,35 @@ goals:
       weeklyCompare: По сравнению с $n-й неделей
       newGoalButton: Выбрать новую цель
   screen:
+    finalReport:
+      title: Финальный отчет
+      subtitle: Немного хайлайтов
+      means:
+        title: Средние показатели
+        asleep: Ложишься
+        pattern:
+          diff: Отклонение от режима $nм
+          ok: Норма
+        awake: Просыпаешься
+      sleepGrade:
+        title: Оценка сна
+        yours: Твоя оценка
+        ours: Наша оценка
+        week: "$n\nнед"
+        diff:
+          start: "Оценка\nна старте"
+          now: "Оценка\nсейчас"
+      recommendations:
+        title: Рекомендация
+      result: Как мы все посчитали?
+      buttonText: "Отслеживать текущую цель"
+      secondaryButtonText: "Выбрать другую цель"
+      tertiaryButtonText: "Дальше я сам без цели"
+    briefFinalReport:
+      title: "Вот и прошли\n3 недели"
+      subtitle: "21 день - привычка уже сформирована"
+      parameter: "Показатели выросли, вот например:"
+      buttonText: Далее
     selectGoal:
       title: "На чем\nсфокусируемся?"
       footer: "Листай, чтобы\nпосмотреть все цели"
