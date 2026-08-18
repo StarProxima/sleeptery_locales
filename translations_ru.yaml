@@ -256,6 +256,7 @@ trainings:
     yoga: Йога
     stretching: Растяжка
     strength: Силовые тренировки
+    other: Тренировка
   cards:
     history:
       title:
