@@ -326,8 +326,10 @@ goals:
       title: Движение к цели
       weeklyCompare: По сравнению с $n-й неделей
       newGoalButton: Выбрать новую цель
+      reportButton: Финальный отчёт
   screen:
     finalReport:
+      noData: Нет данных!
       title: Финальный отчет
       subtitle: Немного хайлайтов
       means:
@@ -336,6 +338,7 @@ goals:
         pattern:
           diff: Отклонение от режима $nм
           ok: Норма
+          notOk: Не норма
         awake: Просыпаешься
       sleepGrade:
         title: Оценка сна
@@ -351,10 +354,12 @@ goals:
       buttonText: "Отслеживать текущую цель"
       secondaryButtonText: "Выбрать другую цель"
       tertiaryButtonText: "Дальше я сам без цели"
+      noDataButtonText: "Вернусь позже"
     briefFinalReport:
       title: "Вот и прошли\n3 недели"
       subtitle: "21 день - привычка уже сформирована"
       parameter: "Показатели выросли, вот например:"
+      parameterBad: "Показатели упали, вот например:"
       buttonText: Далее
     selectGoal:
       title: "На чем\nсфокусируемся?"
