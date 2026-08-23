@@ -2661,8 +2661,8 @@ deviceInstructions:
     requestPermissionAndBluetoothOnV2:
       top: Перед тем как начнем подключние
       title: Нам понадобится доступ к bluetooth и геолокации
-      subtitle: Спокойно! Покажем всего два окна подряд, пожалуйста дай на все разрешение
-      buttonText: Дать доступы
+      subtitle: Дальше iOS покажет два системных запроса - для Bluetooth и геолокации
+      buttonText: Продолжить
     requestDeniedPermissionAndBluetoothOn:
       title: Необходимы разрешения
       subtitle: А именно к геолокации и Bluetooth
