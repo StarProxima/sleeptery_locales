@@ -634,7 +634,7 @@ sleep:
     sleepSyncData:
       body:
         skipButton: Пропустить
-        loading: "Получаем\nданные за сон"
+        loading: "Получаем\nданные по сну"
         noData:
           title: "Данных пока нет"
           text: "Пока не увидели данных,\nты точно спал в кольце?"
