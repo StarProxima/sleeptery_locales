@@ -295,7 +295,7 @@ trainings:
           title: Начнем через
           buttonText: Отменить
           startValue: 3
-          endValue: 0
+          endValue: 1
         go:
           title: Вперёд!
         training:
@@ -311,7 +311,7 @@ trainings:
       items:
         steps: Шаги
         distance: Дистанция
-        calories: Калории
+        calories: Ккал
         bpm: Средний пульс
     history:
       appBar: История тренировок
