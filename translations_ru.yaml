@@ -723,7 +723,7 @@ homeV2:
   tabBar:
     headers:
       item1: Ночь
-      item2: Шаги
+      item2: День
     body:
       diary:
         title: Вечерний дневник
