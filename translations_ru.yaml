@@ -2742,10 +2742,44 @@ tournaments:
       12: Спокойную Лигу
       11: Расслабляющую Лигу
       10: Дремотную Лигу
-
+  participantsCounter:
+    participantsFrom:
+      zero: ""
+      one: "из $n участника"
+      few: "из $n участников"
+      other: "из $n участников"
+    text: "получишь, если\nпродержишься"
   screens:
     special:
       body:
+        going:
+          participantsLeft:
+            part1: Сегодня выбыло
+            part2:
+              zero: ""
+              one: "- $n участник"
+              few: "- $n участника"
+              other: "- $n участников"
+          daysLeft: Сегодня $curDay из $maxDay дней
+          conditions:
+            bedWakeGoal: получено с устройства · цель $date
+            bed:
+              title: Отбой по режиму
+            wake:
+              title: Подъём по режиму
+            diary:
+              title: Дневник
+              filled:
+                morning: утром в
+                day: днём в
+                evening: вечером в
+                night: ночью в
+              state:
+                filled: заполнен
+                notFilled: не заполнен
+          bedAt: Засыпание по данным устройства
+          wakeAt: Пробуждение по данным устройства
+          buttonText: Вернуться
         notStarted:
           title: Ты в турнире
           subtitle: До старта ничего заполнять не нужно. sleeptery начнёт учитывать данные автоматически с первой ночи $month.
