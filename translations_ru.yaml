@@ -2751,6 +2751,8 @@ tournaments:
     text: "получишь, если\nпродержишься"
   screens:
     special:
+      sync:
+        btnText: "Круто, идём дальше!"
       body:
         loss:
           daysFrom: День $curDay из $maxDay
