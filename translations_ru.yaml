@@ -2752,6 +2752,12 @@ tournaments:
   screens:
     special:
       body:
+        loss:
+          daysFrom: День $curDay из $maxDay
+          title: Банк лиги закрыт для тебя
+          whatChanges: Что у тебя реально изменилось за $monthName
+          text: "Это остаётся с тобой независимо от банка. В октябре можно попробовать снова — с тем же временем или новым."
+          btnText: Ну ладно, идём дальше!
         going:
           participantsLeft:
             part1: Сегодня выбыло
