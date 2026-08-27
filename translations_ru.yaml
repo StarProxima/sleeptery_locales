@@ -2760,7 +2760,7 @@ tournaments:
               one: "- $n участник"
               few: "- $n участника"
               other: "- $n участников"
-          daysLeft: Сегодня $curDay из $maxDay дней
+          daysLeft: $curDay из $maxDay дней
           conditions:
             bedWakeGoal: получено с устройства · цель $date
             bed:
