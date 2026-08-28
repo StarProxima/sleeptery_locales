@@ -5,6 +5,7 @@ yesterday: вчера
 tomorrow: завтра
 
 appName: sleeptery
+deviationInMinutes: 30
 
 units:
   k: к
@@ -2751,9 +2752,22 @@ tournaments:
     text: "получишь, если\nпродержишься"
   screens:
     special:
+      shared:
+        bedAt: Засыпание по данным устройства
+        wakeAt: Пробуждение по данным устройства
       sync:
         btnText: "Круто, идём дальше!"
       body:
+        end:
+          title: Турнир закончлися
+          subtitle: Банк поделён
+          daysFrom:
+            zero: $days дней из $maxDays - условие выполнено
+            one: $days день из $maxDays - условие выполнено
+            few: $days дня из $maxDays - условие выполнено
+            other: $days дней из $maxDays - условие выполнено
+          cardTitle: Тебе зачислено
+          btnText: "Забрать @:shared.pillows"
         loss:
           daysFrom: День $curDay из $maxDay
           title: Банк лиги закрыт для тебя
@@ -2761,6 +2775,7 @@ tournaments:
           text: "Это остаётся с тобой независимо от банка. В октябре можно попробовать снова — с тем же временем или новым."
           btnText: Ну ладно, идём дальше!
         going:
+          tooltipText: Твой номер $n
           participantsLeft:
             part1: Сегодня выбыло
             part2:
@@ -2785,8 +2800,6 @@ tournaments:
               state:
                 filled: заполнен
                 notFilled: не заполнен
-          bedAt: Засыпание по данным устройства
-          wakeAt: Пробуждение по данным устройства
           buttonText: Вернуться
         notStarted:
           title: Ты в турнире
