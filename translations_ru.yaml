@@ -2763,6 +2763,7 @@ tournaments:
   screens:
     faq:
       appBar: Про турнир и лиги
+      btnText: Все понятно
       items(interface=FaqTournamentSpecialItems, map):
         first:
           title: Что за турнир "Спящий кальмар"?
