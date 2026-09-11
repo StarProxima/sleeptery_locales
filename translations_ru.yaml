@@ -1813,6 +1813,14 @@ sleepStatistics:
         buttonText: Измерить
       measure:
         toasts:
+          notConnectedBeforeReconnect:
+            title: Кольцо ещё не подключено!
+            text: Начинаем переподключение...
+          cantReconnect:
+            title: Кольцо не переподключилось!
+            text: Попробуйте синхронизировать кольцо вручную, или выключить/включить блютуз, или обратитесь в тех. поддержу!
+          reconnected:
+            title: Кольцо подключено успешно!
           cantStopMeasurement:
             title: Не удалось отменить измерение!
             text: Попробуйте ещё раз или дождитесь окончание измерения
