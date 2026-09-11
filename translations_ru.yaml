@@ -269,6 +269,9 @@ trainings:
     cantStop:
       title: Не удалось закончить тренировку!
       text: Попробуйте еще раз или обратитесь в тех. поддержку!
+    tooShort:
+      title: Тренировка слишком короткая
+      text: Кольцо не успело ничего записать
 
   typeName:
     walking: Ходьба
@@ -299,6 +302,7 @@ trainings:
       continue:
         title: Поднажми!
         buttonText: Перейти к тренировке
+        paused: на паузе
   screen:
     ongoing:
       body:
@@ -319,6 +323,11 @@ trainings:
     training:
       buttonText: Готово
       secondaryButtonText: Удалить тренировку
+      noMetrics: Показатели не записались - кольцо не передало данные за эту тренировку
+      error:
+        text: Не удалось загрузить тренировку
+        retryButtonText: Повторить
+        exitButtonText: Закрыть
       items:
         steps: Шаги
         distance: Дистанция
