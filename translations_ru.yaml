@@ -3570,6 +3570,7 @@ bottomSheets:
       fourth: "Работает до 5 дней без зарядки"
       fifth: "Без экрана: ничего не отвлекает"
     buttonText: "Хочу себе такое"
+    haveRingButtonText: "У меня уже есть sleepring"
     secondaryButtonText: "Пока буду без трекера"
   bloodPressureDay:
     title: "Средние показатели артериального давления в течение дня"
