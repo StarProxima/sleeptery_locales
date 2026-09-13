@@ -798,6 +798,7 @@ home:
     sleepStats:
       connectingToSleepring:
         text: Подключаемся к sleepring
+        searchingText: Ищем sleepring
       gauge:
         sleep: за сон
         activity: активности
@@ -1305,6 +1306,7 @@ devices:
       connected: подключено
       notConnected: не подключено
       connecting: подключение
+      searching: поиск
     status(context=DeviceStatus):
       active: Активное устройство
       longTimeNoData: Долгое время без данных
@@ -1349,6 +1351,7 @@ devices:
       connected: подключено
       notConnected: не подключено
       connecting: подключение
+      searching: поиск
       firmwareVersion: Версия $version
       firmwareVersionV2: "Версия прошивки: $version"
       writeAppleHealthButton: "Передавать данные\nв Apple Health"
