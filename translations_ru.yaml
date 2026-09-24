@@ -978,6 +978,9 @@ activities:
       endOfDay:
         text: "Облако устало и хочет спать"
         subtext: "И тебе тоже пора"
+      specialTournament:
+        text: "Спящий кальмар"
+        subtext: "Большой турнир для всееех!"
   list:
     title: Получи еще больше подушек
     buttonText:
