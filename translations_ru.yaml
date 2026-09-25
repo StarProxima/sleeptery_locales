@@ -180,6 +180,9 @@ sleepScoreTypeV3(map):
   100: Супер ночка
 
 shared:
+  sign:
+    centeredDot: "·"
+    plus: +
   fakeAmountPillows: 100
   countWakeUpV2(map):
     0: 1
@@ -254,6 +257,19 @@ shared:
   timeDuration:
     hours: "ч"
     minutes: "мин"
+  monthWhen(map):
+    1: январе
+    2: феврале
+    3: марте
+    4: апреле
+    5: мае
+    6: июне
+    7: июле
+    8: августе
+    9: сентябре
+    10: октябре
+    11: ноябре
+    12: декабре
 
 trainings:
   toasts:
@@ -2817,6 +2833,9 @@ tournaments:
           title: "Что происходит, если я не дошёл до банка?"
           body: "Sleeptery всё равно сохраняет результаты месяца. Вместо фокуса только на проигранном турнире приложение показывает, что реально изменилось за время участия. Например: разброс времени подъёма уменьшился с ±68 до ±34 минут; максимальная серия соблюдения режима составила 9 дней. То есть финансовая награда турнира может быть потеряна, но прогресс сна и накопленные данные остаются."
     special:
+      noData:
+        title: Нет данных, обновите страницу свайпом вниз!
+        btnText: Обновить
       conditions:
         diary: Дневник
         bedtime: Отбой по режиму
@@ -2839,12 +2858,30 @@ tournaments:
             other: $days дней из $maxDays - условие выполнено
           cardTitle: Тебе зачислено
           btnText: "Забрать @:shared.pillows"
+          results:
+            bedTime: Разброс времени засыпания
+            wakeupTime: Разброс времени подъёма
+            diary: Дневников заполнено
         loss:
           daysFrom: День $curDay из $maxDay
           title: Банк лиги закрыт для тебя
           whatChanges: Что у тебя реально изменилось за $monthName
           text: "Это остаётся с тобой независимо от банка. В октябре можно попробовать снова — с тем же временем или новым."
           btnText: Ну ладно, идём дальше!
+          days:
+            title: Выполнено дней
+            text: $passed из $req нужных
+          fee:
+            title: "Взнос @:shared.pillowsAmount"
+            text: остаётся в банке
+          wakeup:
+            title: Разброс подъёма, $monthName
+            text: "±$min мин"
+          bed:
+            title: "Разброс засыпания, $monthName"
+            text: "±$min мин"
+          daysStreak:
+            title: Дней подряд в режиме, макс
         going:
           tooltipText: Твой номер $n
           participantsLeft:
@@ -2881,10 +2918,21 @@ tournaments:
           conditionsTitle: Что будет учитываться
           conditionsText: Засыпание и пробуждение поступают с устройства. Вручную остаётся только дневник.
           btnText: Вернуться на главный экран
+          conditions:
+            subtitle:
+              diary: каждый день
     overview:
       appBarText: Турниры
       weekly: Еженедельный
       special: Особый
+      cards:
+        special:
+          body:
+            loss:
+              subtitle: закончится $n
+              text: Ты выбыл, банк закрыт для тебя
+              footer: приходи на следующий турнир в $nextStartsAt
+
     specialPromo:
       subtitle: "Особый турнир для всееех!"
       startBtn: "Стаааарт!"
@@ -2898,12 +2946,21 @@ tournaments:
       league:
         price: вход $n
         title: Три лиги — три уровня сложности
+        pillowsFrom: от $pillows
       card:
         text: гарантировано в трёх лигах
     specialLeagues:
       appBarText: Выбери лигу
       title: Лигу выбираешь один раз, изменить выбор можно до закрытия регистрации $date
       text: Порог одинаковый — $min из $days дней. Разница между лигами только в количестве ежедневных условий.
+      card:
+        bank: Текущий банк
+        participants:
+          zero: Вошло $n участников
+          one: Вошел $n участник
+          few: Вошло $n участника
+          other: Вошло $n участников
+        enter: Войти
     specialSelectLeague:
       appBarText: Условия
       title: День засчитывается, когда выполнены все условия выбранной лиги. Данные сна sleeptery получает с устройства автоматически.
@@ -2913,6 +2970,12 @@ tournaments:
       conditions:
         btnText: Изменить режим
         label: Изменить режим во время турнира не получится
+        subtitle:
+          diary: каждый день
+        text:
+          wakeup: нужно проснуться по целевому режиму
+          bed: нужно заснуть по целевому режиму
+          diary: нужно заполнить дневник
       diary:
         title: Как заполнять дневник
         first:
