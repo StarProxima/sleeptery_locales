@@ -2911,10 +2911,10 @@ tournaments:
             diary:
               title: Дневник
               filled:
-                morning: утром в
-                day: днём в
-                evening: вечером в
-                night: ночью в
+                morning: утром в $time
+                day: днём в $time
+                evening: вечером в $time
+                night: ночью в $time
               state:
                 filled: заполнен
                 notFilled: не заполнен
