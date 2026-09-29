@@ -2902,9 +2902,16 @@ tournaments:
               one: "- $n участник"
               few: "- $n участника"
               other: "- $n участников"
-          daysLeft: $curDay из $maxDay дней
+          daysLeft:
+            zero: $curDay из $maxDay дней
+            one: $curDay из $maxDay дня
+            few: $curDay из $maxDay дней
+            other: $curDay из $maxDay дней
           conditions:
-            bedWakeGoal: получено с устройства · цель $date
+            bedWakeGoal:
+              noData: нет данных
+              hasData: получено с устройства
+              goal: цель $date
             bed:
               title: Отбой по режиму
             wake:
