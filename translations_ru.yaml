@@ -1373,6 +1373,7 @@ devices:
       firmwareVersionV2: "Версия прошивки: $version"
       writeAppleHealthButton: "Передавать данные\nв Apple Health"
       writeHealthConnectButton: "Передавать данные\nв Health connect"
+      sleepring2Version: "2.0"
       backgroundButton:
         on: Включить сервис
         off: Выключить сервис
