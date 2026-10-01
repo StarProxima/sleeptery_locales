@@ -2856,6 +2856,7 @@ tournaments:
       shared:
         bedAt: Засыпание по данным устройства
         wakeAt: Пробуждение по данным устройства
+        btnText: Вернуться
       sync:
         btnText: "Круто, идём дальше!"
       body:
@@ -2877,7 +2878,9 @@ tournaments:
           daysFrom: День $curDay из $maxDay
           title: Банк лиги закрыт для тебя
           whatChanges: Что у тебя реально изменилось за $monthName
-          text: "Это остаётся с тобой независимо от банка. В октябре можно попробовать снова — с тем же временем или новым."
+          text:
+            firstPart: "Это остаётся с тобой независимо от банка."
+            secondPart: "В $monthName можно попробовать снова — с тем же временем или новым."
           btnText: Ну ладно, идём дальше!
           days:
             title: Выполнено дней
@@ -2951,7 +2954,9 @@ tournaments:
         special:
           body:
             loss:
-              subtitle: закончится $n
+              subtitle:
+                inFuture: закончится $n
+                inPast: закончился $n
               text: Ты выбыл, банк закрыт для тебя
               footer: приходи на следующий турнир в $nextStartsAt
 
