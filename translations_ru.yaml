@@ -2960,6 +2960,8 @@ tournaments:
       cards:
         special:
           body:
+            canParticipate:
+              pendingResult: Узнай результат за прошлый турнир!
             loss:
               subtitle:
                 inFuture: закончится $n
