@@ -152,6 +152,10 @@ errorToast:
   title: Произошла ошибка!
   subtitle: Попробуйте позже или обратитесь в тех. поддержку
 
+refreshErrorToast:
+  title: Ошибка при обновлении!
+  text: Попробуйте ещё раз или обратитесь в тех. поддержку
+
 sleepScoreTypeV2(map):
   0: Подушки не начислены
   9: Кажется, кто-то перепутал ночь с днем
@@ -626,6 +630,9 @@ onboardingV2:
               - Божественно!
               - Огонь!
         sleepPattern:
+          toasts:
+            cantChangePatternWhenParticipateInSpecialTournament:
+              title: Нельзя изменить режим, так как вы участвуете в турнире "Спящий кальмар"!
           title: Выбери идеальный для себя режим сна
           subtitle: а мы поможем сформировать привычку
           rate:
