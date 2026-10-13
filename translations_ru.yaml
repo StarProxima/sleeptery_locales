@@ -528,8 +528,10 @@ onboardingV2:
         initialCount: 9998
         suffix: человек уже
         footer: просыпаются бодрее
-      primaryButton: Показать мне
-      secondaryButton: У меня уже есть аккаунт
+      primaryButton: Зарегистрироваться
+      primaryButtonOld: Показать мне
+      secondaryButton: "⬆️\nПройди процесс регистрации выше"
+      secondaryButtonOld: У меня уже есть аккаунт
     ratings:
       pages:
         cards:
