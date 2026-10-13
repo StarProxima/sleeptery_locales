@@ -530,7 +530,7 @@ onboardingV2:
         footer: просыпаются бодрее
       primaryButton: Зарегистрироваться
       primaryButtonOld: Показать мне
-      secondaryButton: "⬆️\nПройди процесс регистрации выше"
+      secondaryButton: ""
       secondaryButtonOld: У меня уже есть аккаунт
     ratings:
       pages:
