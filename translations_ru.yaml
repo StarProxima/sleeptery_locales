@@ -1110,7 +1110,7 @@ authReg:
     buttonText: Сохранить
   nicknameV2:
     title: Твое имя в sleeptery
-    subtitle: будет отображается в турнирной таблице
+    subtitle: будет отображаться в турнирной таблице
     buttonText: Продолжить
     hint: Введи его здесь
     errors:
