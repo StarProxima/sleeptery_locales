@@ -1327,6 +1327,11 @@ devices:
       normal: "хватит на ~3 дня"
       low: "хватит на ~1-2 дня"
       empty: "пора заряжаться"
+    batteryValueSr2:
+      full: "хватит на ~5-7 дней"
+      normal: "ватит на ~3-4 дня"
+      low: "хватит на ~1-2 дня"
+      empty: "пора заряжаться"
     noActiveDevice: У вас нет активного устройства
     sleepring:
       connected: подключено
