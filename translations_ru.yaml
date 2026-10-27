@@ -1389,11 +1389,17 @@ devices:
       writeHealthConnectButton: "Передавать данные\nв Health connect"
       sleepring2Version: "2.0"
       backgroundButton:
+        error: Не удалось изменить фоновую синхронизацию
         on: Включить сервис
         off: Выключить сервис
         v2:
           on: Включить обработку сна в фоне
           off: Отключить обработку сна в фоне
+      backgroundSync:
+        title: Фоновая синхронизация
+        enabled: Включена
+        disabled: Выключена
+        description: Получаем данные заранее, чтобы сократить ожидание при входе в приложение
 
 pillows:
   overlay:
