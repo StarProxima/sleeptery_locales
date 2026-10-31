@@ -304,6 +304,9 @@ trainings:
     yoga: Йога
     stretching: Растяжка
     strength: Силовые тренировки
+    free: Свободная тренировка
+    crossfit: Кроссфит
+    indoorFitness: Фитнес в зале
     other: Тренировка
   cards:
     history:
