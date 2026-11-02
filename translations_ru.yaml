@@ -2445,7 +2445,7 @@ deviceInstructions:
     appleHealth:
       noAccess:
         title: Не удалось получить доступ
-        text: Попробуйте выдать разрешения в Apple Health ещё раз
+        text: Разрешите Sleeptery записывать данные в приложении «Здоровье».
 
   whyConnectDevice:
     appBar: Зачем подключать трекер?
