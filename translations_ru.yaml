@@ -56,6 +56,16 @@ deviceBrands:
   googleHealthConnect: "Google Health"
   other: "Другое устройство"
 
+local:
+  sleep:
+    toast:
+      onAddNewSleep:
+        title: Невозможно добавить сон!
+        text: Локальные данные нельзя редактировать
+      onEditSleep:
+        title: Невозможно изменить сон!
+        text: Локальные данные нельзя редактировать
+
 sleepteryRing:
   names:
     sleepring1: "sleepring"
