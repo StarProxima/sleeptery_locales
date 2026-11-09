@@ -543,7 +543,7 @@ onboardingV2:
         footer: просыпаются бодрее
       primaryButton: Зарегистрироваться
       primaryButtonOld: Показать мне
-      secondaryButton: ""
+      secondaryButton: У меня уже есть аккаунт
       secondaryButtonOld: У меня уже есть аккаунт
     ratings:
       pages:
