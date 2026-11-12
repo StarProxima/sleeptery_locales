@@ -285,6 +285,14 @@ shared:
     11: ноябре
     12: декабре
 
+appSplash:
+  sleepingSquid:
+    title: "Турнир на 100 000 "
+    name:
+      p1: Спящий
+      p2: кальмар
+    join: Успей вступить до 15 ноября
+
 trainings:
   toasts:
     cantStart:
