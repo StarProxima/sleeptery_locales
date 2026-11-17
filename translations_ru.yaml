@@ -7,6 +7,8 @@ tomorrow: завтра
 appName: sleeptery
 defaultSleepDeviationInMinutes: 30
 
+new: NEW
+
 units:
   k: к
   distance:
@@ -2016,6 +2018,9 @@ raffle:
     subtitle: Посмотреть результат
   screen:
     main:
+      tabs:
+        raffle: Розыгрыши
+        promocodes: Промокоды
       title: Розыгрыши
       rafflesRules: Правила проведения розыгрыша
       goingNow: Проходят сейчас
@@ -3578,6 +3583,10 @@ dialogs:
       buttonText: Поставить 5 звезд →
 
 bottomSheets:
+  raffleInfo:
+    title: Получай подушки за здоровый сон и обменивай их на билеты. Все твои билеты и результаты собраны в разделе «Мои билеты».
+  promocodeInfo:
+    title: Обменивай подушки на скидки. Полученные коды хранятся в разделе «Мои промокоды».
   changeStepGoal:
     title: Новая цель
     buttonText: Изменить
