@@ -2012,6 +2012,19 @@ premium:
       noLink:
         title: Нет ссылки
 
+promocodes:
+  screen:
+    promocodes:
+      title: 'Мои промокоды'
+      noPromocodes: Нет действующих промокодов
+      card:
+        remaining: Успей использовать
+        expired: Срок действия истёк
+        expiresToday: Сегодня последний день!
+        expires: "Истекает $time"
+        validUntil: "Действует @:shared.days"
+
+
 raffle:
   winBanner:
     title: Ты выиграл в розыгрыше!
@@ -3583,6 +3596,12 @@ dialogs:
       buttonText: Поставить 5 звезд →
 
 bottomSheets:
+  promocodeOffer:
+    discount: Скидка $discount
+    buyPromocode: "Получить промокод: -$discount"
+    noPillows: Недостаточно подушек
+    cantBuy: Получение пока недоступно
+    valid: Действует @:shared.days с момента получения
   raffleInfo:
     title: Получай подушки за здоровый сон и обменивай их на билеты. Все твои билеты и результаты собраны в разделе «Мои билеты».
   promocodeInfo:
