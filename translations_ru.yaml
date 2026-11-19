@@ -2021,8 +2021,9 @@ promocodes:
         remaining: Успей использовать
         expired: Срок действия истёк
         expiresToday: Сегодня последний день!
-        expires: "Истекает $time"
+        expires: "Истекает через $time"
         validUntil: "Действует @:shared.days"
+        discount: Скидка $discount%
 
 
 raffle:
