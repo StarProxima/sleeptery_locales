@@ -1743,6 +1743,7 @@ sleepStatistics:
         title: Пробуждение
 
   performancesV2:
+    btnText: Подробнее
     rem: Быстрый
     deep: Глубокий
     light: Легкий
