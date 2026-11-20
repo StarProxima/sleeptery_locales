@@ -744,6 +744,7 @@ sleep:
               onMode: (по режиму $time)
               asleep: Отход ко сну
             buttonText: Забрать подушки
+            detailButtonText: Подробный сон
     sleepIntentWake:
       title: Оцени свое пробуждение
       subtitle: Как прошла ночь, как спалось, как чувствуешь себя сейчас
