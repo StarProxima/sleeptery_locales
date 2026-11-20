@@ -798,6 +798,7 @@ homeV2:
         buttonText: Заполнить дневник
       sleep:
         data:
+          firstDetailSleep: "Нажми на меня,\nпокажу детали сна"
           fakeText: Супер начало!
         loading:
           title: "Нет\nданных"
