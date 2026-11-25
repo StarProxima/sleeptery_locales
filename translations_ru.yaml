@@ -3602,6 +3602,9 @@ dialogs:
 
 bottomSheets:
   promocodeOffer:
+    toasts:
+      copyIsError:
+        title: Не удалось скопировать промокод!
     discount: Скидка $discount
     buyPromocode: "Получить промокод: -$discount"
     noPillows: Недостаточно подушек
