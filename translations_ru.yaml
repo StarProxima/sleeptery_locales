@@ -152,6 +152,7 @@ defaultError: Ошибка
 
 errors:
   noLink: Нет ссылки
+  notValidUrl: Неправильный адрес
 
 fixValidationErrors(param=errorsCount):
   one: Исправьте $errorsCount ошибку
@@ -3606,6 +3607,7 @@ bottomSheets:
     noPillows: Недостаточно подушек
     cantBuy: Получение пока недоступно
     valid: Действует @:shared.days с момента получения
+    more: Подробнее на сайте
   raffleInfo:
     title: Получай подушки за здоровый сон и обменивай их на билеты. Все твои билеты и результаты собраны в разделе «Мои билеты».
   promocodeInfo:
