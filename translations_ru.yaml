@@ -1559,6 +1559,7 @@ pillows:
 
 sleepStatistics:
   naps:
+    appBar: Дневной сон
     headerTitle: "Дневной сон:"
     items:
       title: "Эпизод $n:"
