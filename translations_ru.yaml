@@ -1558,6 +1558,11 @@ pillows:
         debit: списание
 
 sleepStatistics:
+  naps:
+    headerTitle: "Дневной сон:"
+    items:
+      title: "Эпизод $n:"
+
   details:
     chart:
       tooltip:
